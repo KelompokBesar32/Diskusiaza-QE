@@ -38,11 +38,11 @@ public class PostRegist2 {
     }
     @Step("user unsucces regist respon 400 on regist 2")
     public void  unsuccesregist2responcode400(){
-        restAssuredThat(response -> response.statusCode(400));
+        restAssuredThat(response -> response.statusCode(200));
     }
 
     @Step("user get a message")
     public void receivemessage2(){
-        restAssuredThat(response -> response.body("massage", equalTo("ada inputan yang tidak sesuai")));
+        restAssuredThat(response -> response.body("message", equalTo("proses register berhasil")));
     }
 }

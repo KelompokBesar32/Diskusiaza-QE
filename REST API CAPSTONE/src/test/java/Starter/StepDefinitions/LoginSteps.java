@@ -29,10 +29,6 @@ public class LoginSteps {
     public void succesloginresponcode200() {
         post.succesloginresponcode200();
     }
-    @And("user receive valid token")
-    public void receivevalidtoken(){
-        post.receivevalidtoken();
-    }
 
     @Given("user post login endpoints2")
     public void postloginendpoints2(){
@@ -47,7 +43,7 @@ public class LoginSteps {
         post2.unsuccesloginresponcode401();
     }
     @And("user receive message {}")
-    public void receivemessage(){
+    public void receivemessage(String message){
         post2.receivemassage();
     }
 
@@ -64,7 +60,7 @@ public class LoginSteps {
         post3.unsucceslogin2responcode401();
     }
     @And("user receive message2 {}")
-    public void receivemessage2(){
+    public void receivemessage2(String message){
         post3.receivemassage2();
     }
 
@@ -81,7 +77,7 @@ public class LoginSteps {
         post3.unsucceslogin2responcode401();
     }
     @And("user receive message3 {}")
-    public void receivemessage3(){
+    public void receivemessage3(String message){
         post3.receivemassage2();
     }
 }

@@ -23,11 +23,11 @@ public class PostLogin4 {
     }
     @Step("user unsucces login respon 401 on login 4")
     public void  unsucceslogin2responcode401(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(401));
     }
 
     @Step("user receive message email/password salah")
     public void receivemassage2(){
-        restAssuredThat(response -> response.body("message", equalTo("email/password salah")));
+        restAssuredThat(response -> response.body("message", equalTo("email atau password salah")));
     }
 }
