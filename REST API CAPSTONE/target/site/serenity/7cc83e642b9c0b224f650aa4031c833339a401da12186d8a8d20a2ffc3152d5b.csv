@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"As a user on register page","User register but no input firstname","FAILURE","2022-06-19T00:57:46.4413037+07:00[Asia/Bangkok]","0.0","0.81"
-"As a user on register page","User register but no input lastname","FAILURE","2022-06-19T00:57:47.2689167+07:00[Asia/Bangkok]","0.0","1.11"
-"As a user on register page","User register but no input tanggal lahir","FAILURE","2022-06-19T00:57:50.0155396+07:00[Asia/Bangkok]","0.0","0.73"
-"As a user on register page","User register but no input jenis kelamin","FAILURE","2022-06-19T00:57:50.7660445+07:00[Asia/Bangkok]","0.0","0.76"

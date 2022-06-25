@@ -28,8 +28,8 @@ public class PostLogin2 {
         restAssuredThat(response -> response.statusCode(401));
     }
 
-    @Step("user receive message email/password salah")
+    @Step("user receive message email atau password salah")
     public void receivemassage(){
-        restAssuredThat(response -> response.body("message", equalTo("email/password salah")));
+        restAssuredThat(response -> response.body("message", equalTo("email atau password salah")));
     }
 }

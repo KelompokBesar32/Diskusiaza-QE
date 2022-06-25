@@ -1,5 +1,4 @@
 package Starter.StepDefinitions;
-
 import Starter.Login.PostLogin;
 import Starter.Login.PostLogin2;
 import Starter.Login.PostLogin3;
@@ -29,11 +28,6 @@ public class LoginSteps {
     public void succesloginresponcode200() {
         post.succesloginresponcode200();
     }
-    @And("user receive valid token")
-    public void receivevalidtoken(){
-        post.receivevalidtoken();
-    }
-
     @Given("user post login endpoints2")
     public void postloginendpoints2(){
         post2.postloginendpoint2();
@@ -52,7 +46,7 @@ public class LoginSteps {
     }
 
     @Given("user post login endpoints3")
-    public void postloginendpoints3(String massage){
+    public void postloginendpoints3(){
         post3.postloginendpoint3();
     }
     @When("user login with unvalid email and valid password")
