@@ -194,7 +194,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-06-2022 00:29</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-06-2022 00:58</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -209,7 +209,7 @@
                         <td width="375px" valign="top">
                             <div class="test-count-summary">
                                 <div class="test-count-title">
-                                    1 test scenarios 
+                                    4 test scenarios 
                                      |
                                         <a href="90e98ebfeada09e318c1fd95283320fc1ba7232775668dd9e521eda103da4eed.csv" title="Download CSV"> <i class="fa fa-download"
                                                                                         title="Download CSV"></i></a>
@@ -242,10 +242,10 @@
                                                             </div>
                                                             <script>
 
-                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' '];
+                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '75%', ' ', '25%', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 3}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -335,18 +335,18 @@
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
-                                                                        <i
-                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
+                                                                        <a href="7d8990b0380a4bc86947661f001066bff8558fb8d95b877d369799f4c6a81617.html"><i
+                                                                                    class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                     </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                <td class="automated-stats">3</td>
+                                                                <td class="automated-stats">75%</td>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
                                                                         <a href="dcc2496096353ee5ce5fd4cc1a2efb0d12bc17d4c2ed1bb7077d18d43f569dd5.html"><i
                                                                                     class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
                                                                     </td>
                                                                 <td class="automated-stats">1</td>
-                                                                <td class="automated-stats">100%</td>
+                                                                <td class="automated-stats">25%</td>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
                                                                         <i
@@ -357,7 +357,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">1</td>
+                                                                <td class="automated-stats">4</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -379,11 +379,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td>26s</td>
-                                                                <td>0ms</td>
-                                                                <td>26s</td>
-                                                                <td>26s</td>
-                                                                <td>26s</td>
+                                                                <td>11s</td>
+                                                                <td>10s</td>
+                                                                <td>88ms</td>
+                                                                <td>9s</td>
+                                                                <td>2s</td>
                                                             </tr>
                                                             </tbody>
                                                         </table>
@@ -412,7 +412,7 @@
                                                                                 <td>
                                                                                         <a href="90e98ebfeada09e318c1fd95283320fc1ba7232775668dd9e521eda103da4eed.html">As a user on login page</a>
                                                                                 </td>
-                                                                                <td>1</td>
+                                                                                <td>4</td>
                                                                                 <td>0%</td>
                                                                                 <td>
                                                                                         <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
@@ -421,9 +421,17 @@
                                                                                     <div class="progress">
                                                                                             <div class="progress-bar"
                                                                                                  role="progressbar"
-                                                                                                 style="width: 100%; background-color: darkorange"
+                                                                                                 style="width: 75%; background-color: #f8001f"
+                                                                                                 aria-valuenow="3"
+                                                                                                 title="75% failure"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 25%; background-color: darkorange"
                                                                                                  aria-valuenow="1"
-                                                                                                 title="100% error"
+                                                                                                 title="25% error"
                                                                                                  aria-valuemin="0"
                                                                                                  aria-valuemax="100">
                                                                                             </div>
@@ -446,8 +454,16 @@
                                                             <table class="table">
                                                                 <tbody>
                                                                     <tr>
+                                                                        <td class="failure-color top-list-title">
+                                                                            <a href="a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> Assertion error</a>
+                                                                        </td>
+                                                                        <td><span
+                                                                                    class="badge failure-badge">3</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
                                                                         <td class="error-color top-list-title">
-                                                                            <a href="69f15ef35cd2844f506844b842d339d106697e3b74c086c788fc72ef9af93eaa.html"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> Socket timeout exception</a>
+                                                                            <a href="b7463d011b5a520fe15190ff331180689e4b34926fa1928b709fc99321778c54.html"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> Cucumber exception</a>
                                                                         </td>
                                                                         <td><span
                                                                                     class="badge failure-badge">1</span>
@@ -484,7 +500,7 @@
                                                                                 <a href="90e98ebfeada09e318c1fd95283320fc1ba7232775668dd9e521eda103da4eed.html">
                                                                         <span class="badge"
                                                                               style="background-color:darkorange; margin:1em;padding:4px;"><i
-                                                                                    class="fa fa-tag"></i> Api/As A User On Login Page&nbsp;&nbsp;&nbsp;1</span>
+                                                                                    class="fa fa-tag"></i> Api/As A User On Login Page&nbsp;&nbsp;&nbsp;4</span>
                                                                                 </a>
                                                                         </div>
                                                                     </div>
@@ -512,7 +528,7 @@
                                                                 </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                    <tr class="scenario-result ERROR">
+                                                                    <tr class="scenario-result FAILURE">
                                                                         <td>
                                                                                 <a href="90e98ebfeada09e318c1fd95283320fc1ba7232775668dd9e521eda103da4eed.html">As a user on login page</a>
                                                                         </td>
@@ -520,10 +536,52 @@
                                                                             <a href="b5b5431d8b6e20d5cffbcf71ec59506106c6122872620d160bc75c0a719257c6.html">User input valid email and password</a>
                                                                         </td>
                                                                         <td>4</td>
-                                                                        <td>00:28:16</td>
-                                                                        <td>26s 671ms</td>
+                                                                        <td>00:57:32</td>
+                                                                        <td>9s 797ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="90e98ebfeada09e318c1fd95283320fc1ba7232775668dd9e521eda103da4eed.html">As a user on login page</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="66a9e9a62113a9ffd93c83c9820c41dfacef5dc889f9a3d9127b7c685ab2204f.html">User input valid email and unvalid password</a>
+                                                                        </td>
+                                                                        <td>4</td>
+                                                                        <td>00:57:42</td>
+                                                                        <td>767ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result ERROR">
+                                                                        <td>
+                                                                                <a href="90e98ebfeada09e318c1fd95283320fc1ba7232775668dd9e521eda103da4eed.html">As a user on login page</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="631bce4a02f45b704a967ce40e05e23c340ba396a2f7693f0341bd42797d6e1e.html">User input unvalid email and valid password</a>
+                                                                        </td>
+                                                                        <td>4</td>
+                                                                        <td>00:57:43</td>
+                                                                        <td>088ms</td>
                                                                         <td><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
                                                                                     style="display:none">ERROR</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result FAILURE">
+                                                                        <td>
+                                                                                <a href="90e98ebfeada09e318c1fd95283320fc1ba7232775668dd9e521eda103da4eed.html">As a user on login page</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="f19865c149dc716105221c0ddb73fbc96dea530bad4fd722a5fec67d3599d71b.html">User input unvalid email and unvalid password</a>
+                                                                        </td>
+                                                                        <td>4</td>
+                                                                        <td>00:57:43</td>
+                                                                        <td>1s 167ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>

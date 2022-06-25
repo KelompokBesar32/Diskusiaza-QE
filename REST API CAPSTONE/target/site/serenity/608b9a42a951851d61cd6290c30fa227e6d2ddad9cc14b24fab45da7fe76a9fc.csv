@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user on register page","User register with valid data","SUCCESS","2022-06-19T00:57:44.9426958+07:00[Asia/Bangkok]","0.0","1.48"
+"As a user on register page","User register but no input email","SUCCESS","2022-06-19T00:57:48.4008687+07:00[Asia/Bangkok]","0.0","0.67"
+"As a user on register page","User register but no input password","SUCCESS","2022-06-19T00:57:49.0921587+07:00[Asia/Bangkok]","0.0","0.91"

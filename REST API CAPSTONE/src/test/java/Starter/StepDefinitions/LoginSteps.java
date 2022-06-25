@@ -47,12 +47,12 @@ public class LoginSteps {
         post2.unsuccesloginresponcode401();
     }
     @And("user receive message {}")
-    public void receivemessage(){
+    public void receivemessage(String massage){
         post2.receivemassage();
     }
 
     @Given("user post login endpoints3")
-    public void postloginendpoints3(){
+    public void postloginendpoints3(String massage){
         post3.postloginendpoint3();
     }
     @When("user login with unvalid email and valid password")
@@ -64,7 +64,7 @@ public class LoginSteps {
         post3.unsucceslogin2responcode401();
     }
     @And("user receive message2 {}")
-    public void receivemessage2(){
+    public void receivemessage2(String massage){
         post3.receivemassage2();
     }
 
@@ -81,7 +81,7 @@ public class LoginSteps {
         post3.unsucceslogin2responcode401();
     }
     @And("user receive message3 {}")
-    public void receivemessage3(){
+    public void receivemessage3(String massage){
         post3.receivemassage2();
     }
 }

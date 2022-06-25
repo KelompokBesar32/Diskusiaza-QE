@@ -1,8 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: As a user on register page
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 19.761 s <<< FAILURE! - in As a user on register page
-As a user on register page.User register with valid data  Time elapsed: 19.761 s  <<< ERROR!
-java.lang.RuntimeException: Some exception during recording fields
-Caused by: java.net.SocketTimeoutException: Read timed out
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 6.595 s <<< FAILURE! - in As a user on register page
+As a user on register page.User register but no input firstname  Time elapsed: 0.813 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+As a user on register page.User register but no input lastname  Time elapsed: 1.126 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+As a user on register page.User register but no input tanggal lahir  Time elapsed: 0.742 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+
+As a user on register page.User register but no input jenis kelamin  Time elapsed: 0.768 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
 

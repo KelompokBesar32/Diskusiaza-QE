@@ -1,68 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="As a user on login page" skipped="0" tests="1" time="26.67" timestamp="2022-06-15 12:28:16"><testcase name="User input valid email and password"><error message="Read timed out" type="java.net.SocketTimeoutException">Read timed out</error><system-err>Read timed out&#13;
-org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:573)&#13;
-org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:557)&#13;
-org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:414)&#13;
-org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)&#13;
-org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)&#13;
-org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)&#13;
-org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)&#13;
-org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)&#13;
-org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)&#13;
-org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)&#13;
-io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:350)&#13;
-io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1181)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="3" name="As a user on login page" skipped="0" tests="4" time="11.82" timestamp="2022-06-19 12:57:32"><testcase name="User input valid email and password"><failure message="1 expectation failed.&#10;JSON path token doesn't match.&#10;Expected: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJkYXRhIjp7ImVtYWlsIjoiYXJkaGlrYXlvdml5YW50b0BnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBcmRoaWthIFJlc3R1IiwiaWQiOjEsImxhc3RuYW1lIjoiWW92aXlhbnRvIiwicm9sZUlkIjoxfSwiZXhwIjoxNjU1MjI3NDY3fQ.WAy5X6_dPSCjrIUsTpFnIJLNxf_0uTGX0xxCYEtxwaI&#10;  Actual: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJkYXRhIjp7ImVtYWlsIjoiYXJkaGlrYXlvdml5YW50b0BnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBcmRoaWthIFJlc3R1IiwiaWQiOjEsImxhc3RuYW1lIjoiWW92aXlhbnRvIiwicm9sZUlkIjoxfSwiZXhwIjoxNjU1NTc4NTYxfQ.lnwFg9xubxKv-_jeHhUtMZ1Qo7lpp6H5f1Rh5wPCUvE&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path token doesn't match.
+Expected: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJkYXRhIjp7ImVtYWlsIjoiYXJkaGlrYXlvdml5YW50b0BnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBcmRoaWthIFJlc3R1IiwiaWQiOjEsImxhc3RuYW1lIjoiWW92aXlhbnRvIiwicm9sZUlkIjoxfSwiZXhwIjoxNjU1MjI3NDY3fQ.WAy5X6_dPSCjrIUsTpFnIJLNxf_0uTGX0xxCYEtxwaI
+  Actual: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJkYXRhIjp7ImVtYWlsIjoiYXJkaGlrYXlvdml5YW50b0BnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBcmRoaWthIFJlc3R1IiwiaWQiOjEsImxhc3RuYW1lIjoiWW92aXlhbnRvIiwicm9sZUlkIjoxfSwiZXhwIjoxNjU1NTc4NTYxfQ.lnwFg9xubxKv-_jeHhUtMZ1Qo7lpp6H5f1Rh5wPCUvE
+</failure><system-err>1 expectation failed.
+JSON path token doesn't match.
+Expected: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJkYXRhIjp7ImVtYWlsIjoiYXJkaGlrYXlvdml5YW50b0BnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBcmRoaWthIFJlc3R1IiwiaWQiOjEsImxhc3RuYW1lIjoiWW92aXlhbnRvIiwicm9sZUlkIjoxfSwiZXhwIjoxNjU1MjI3NDY3fQ.WAy5X6_dPSCjrIUsTpFnIJLNxf_0uTGX0xxCYEtxwaI
+  Actual: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJkYXRhIjp7ImVtYWlsIjoiYXJkaGlrYXlvdml5YW50b0BnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBcmRoaWthIFJlc3R1IiwiaWQiOjEsImxhc3RuYW1lIjoiWW92aXlhbnRvIiwicm9sZUlkIjoxfSwiZXhwIjoxNjU1NTc4NTYxfQ.lnwFg9xubxKv-_jeHhUtMZ1Qo7lpp6H5f1Rh5wPCUvE
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
 groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
 groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
-groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)&#13;
-groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:818)&#13;
-groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)&#13;
-io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)&#13;
-io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
-io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)&#13;
-io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
-io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:140)&#13;
-net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
-io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
-io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:140)&#13;
-net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
-io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
-io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:140)&#13;
-net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
-io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
-io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:140)&#13;
-net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
-io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
-io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:140)&#13;
-net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
-io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
-io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:140)&#13;
-net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:40)&#13;
-io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
-io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1655)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+rest.api@1.0-SNAPSHOT/Starter.Login.PostLogin.lambda$receivevalidtoken$1(PostLogin.java:31)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+rest.api@1.0-SNAPSHOT/Starter.Login.PostLogin.receivevalidtoken(PostLogin.java:31)&#13;
+rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.LoginSteps.receivevalidtoken(LoginSteps.java:34)&#13;
+✽.user receive valid token(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/Login.feature:7)&#13;
+</system-err></testcase><testcase name="User input valid email and unvalid password"><failure message="1 expectation failed.&#10;JSON path message doesn't match.&#10;Expected: email/password salah&#10;  Actual: email atau password salah&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path message doesn't match.
+Expected: email/password salah
+  Actual: email atau password salah
+</failure><system-err>1 expectation failed.
+JSON path message doesn't match.
+Expected: email/password salah
+  Actual: email atau password salah
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
 groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
 groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
-groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)&#13;
-groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:818)&#13;
-groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)&#13;
-io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661)&#13;
-groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
-groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
-groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)&#13;
-groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:818)&#13;
-groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)&#13;
-io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)&#13;
-net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.executeCall(RequestSpecificationDecorated.java:309)&#13;
-net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.execute(RequestSpecificationDecorated.java:268)&#13;
-net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.post(RequestSpecificationDecorated.java:120)&#13;
-net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.post(RequestSpecificationDecorated.java:38)&#13;
-rest.api@1.0-SNAPSHOT/Starter.Login.PostLogin.loginusingvalidemailandpassword(PostLogin.java:22)&#13;
-rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.LoginSteps.loginusingvalidemailandpassword(LoginSteps.java:20)&#13;
-io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
-io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
-io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
-io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
-io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
-io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+rest.api@1.0-SNAPSHOT/Starter.Login.PostLogin2.lambda$receivemassage$1(PostLogin2.java:33)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+rest.api@1.0-SNAPSHOT/Starter.Login.PostLogin2.receivemassage(PostLogin2.java:33)&#13;
+rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.LoginSteps.receivemessage(LoginSteps.java:51)&#13;
+✽.user receive message email/password salah(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/Login.feature:13)&#13;
+</system-err></testcase><testcase name="User input unvalid email and valid password"><error message="Step [user post login endpoints3] is defined with 1 parameters at 'Starter.StepDefinitions.LoginSteps.postloginendpoints3(java.lang.String)'.&#10;However, the gherkin step has 0 arguments.&#10;Step text: user post login endpoints3" type="io.cucumber.core.exception.CucumberException">Step [user post login endpoints3] is defined with 1 parameters at 'Starter.StepDefinitions.LoginSteps.postloginendpoints3(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: user post login endpoints3</error><system-err>Step [user post login endpoints3] is defined with 1 parameters at 'Starter.StepDefinitions.LoginSteps.postloginendpoints3(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: user post login endpoints3&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)&#13;
 io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
 io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
 io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
@@ -72,4 +60,27 @@ io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
 io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
 io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
 io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+</system-err></testcase><testcase name="User input unvalid email and unvalid password"><failure message="1 expectation failed.&#10;JSON path message doesn't match.&#10;Expected: email/password salah&#10;  Actual: email atau password salah&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path message doesn't match.
+Expected: email/password salah
+  Actual: email atau password salah
+</failure><system-err>1 expectation failed.
+JSON path message doesn't match.
+Expected: email/password salah
+  Actual: email atau password salah
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+rest.api@1.0-SNAPSHOT/Starter.Login.PostLogin3.lambda$receivemassage2$1(PostLogin3.java:31)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+rest.api@1.0-SNAPSHOT/Starter.Login.PostLogin3.receivemassage2(PostLogin3.java:31)&#13;
+rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.LoginSteps.receivemessage3(LoginSteps.java:85)&#13;
+✽.user receive message3 email/password salah(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/Login.feature:25)&#13;
 </system-err></testcase></testsuite>

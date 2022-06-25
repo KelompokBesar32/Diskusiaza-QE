@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user on login page","User input valid email and password","FAILURE","2022-06-19T00:57:32.9939245+07:00[Asia/Bangkok]","0.0","9.8"
+"As a user on login page","User input valid email and unvalid password","FAILURE","2022-06-19T00:57:42.8533323+07:00[Asia/Bangkok]","0.0","0.77"
+"As a user on login page","User input unvalid email and unvalid password","FAILURE","2022-06-19T00:57:43.7529817+07:00[Asia/Bangkok]","0.0","1.17"
+"As a user on register page","User register but no input firstname","FAILURE","2022-06-19T00:57:46.4413037+07:00[Asia/Bangkok]","0.0","0.81"
+"As a user on register page","User register but no input lastname","FAILURE","2022-06-19T00:57:47.2689167+07:00[Asia/Bangkok]","0.0","1.11"
+"As a user on register page","User register but no input tanggal lahir","FAILURE","2022-06-19T00:57:50.0155396+07:00[Asia/Bangkok]","0.0","0.73"
+"As a user on register page","User register but no input jenis kelamin","FAILURE","2022-06-19T00:57:50.7660445+07:00[Asia/Bangkok]","0.0","0.76"

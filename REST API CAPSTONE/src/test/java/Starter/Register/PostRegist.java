@@ -46,6 +46,6 @@ public class PostRegist {
 
     @Step("user get a message proses register berhasil")
     public void receivemessage(){
-        restAssuredThat(response -> response.body("data", equalTo("proses register berhasil")));
+        restAssuredThat(response -> response.body("message", equalTo("proses register berhasil")));
     }
 }

@@ -1,8 +1,34 @@
 -------------------------------------------------------------------------------
 Test set: As a user on login page
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 27.049 s <<< FAILURE! - in As a user on login page
-As a user on login page.User input valid email and password  Time elapsed: 27.049 s  <<< ERROR!
-java.lang.RuntimeException: Some exception during recording fields
-Caused by: java.net.SocketTimeoutException: Read timed out
+Tests run: 4, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 12.432 s <<< FAILURE! - in As a user on login page
+As a user on login page.User input valid email and password  Time elapsed: 10.151 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path token doesn't match.
+Expected: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJkYXRhIjp7ImVtYWlsIjoiYXJkaGlrYXlvdml5YW50b0BnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBcmRoaWthIFJlc3R1IiwiaWQiOjEsImxhc3RuYW1lIjoiWW92aXlhbnRvIiwicm9sZUlkIjoxfSwiZXhwIjoxNjU1MjI3NDY3fQ.WAy5X6_dPSCjrIUsTpFnIJLNxf_0uTGX0xxCYEtxwaI
+  Actual: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJkYXRhIjp7ImVtYWlsIjoiYXJkaGlrYXlvdml5YW50b0BnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBcmRoaWthIFJlc3R1IiwiaWQiOjEsImxhc3RuYW1lIjoiWW92aXlhbnRvIiwicm9sZUlkIjoxfSwiZXhwIjoxNjU1NTc4NTYxfQ.lnwFg9xubxKv-_jeHhUtMZ1Qo7lpp6H5f1Rh5wPCUvE
+
+
+As a user on login page.User input valid email and unvalid password  Time elapsed: 0.8 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path message doesn't match.
+Expected: email/password salah
+  Actual: email atau password salah
+
+
+As a user on login page.User input unvalid email and valid password  Time elapsed: 0.1 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [user post login endpoints3] is defined with 1 parameters at 'Starter.StepDefinitions.LoginSteps.postloginendpoints3(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: user post login endpoints3
+
+As a user on login page.User input unvalid email and unvalid password  Time elapsed: 1.178 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path message doesn't match.
+Expected: email/password salah
+  Actual: email atau password salah
+
 
