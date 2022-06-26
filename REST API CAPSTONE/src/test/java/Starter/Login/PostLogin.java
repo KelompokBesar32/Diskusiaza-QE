@@ -26,4 +26,8 @@ public class PostLogin {
         restAssuredThat(response -> response.statusCode(200));
     }
 
+    @Step("user receive valid token")
+    public void receivevalidtoken(){
+        restAssuredThat(response -> response.body("token", equalTo("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJkYXRhIjp7ImVtYWlsIjoiYXJkaGlrYXlvdml5YW50b0BnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBcmRoaWthIFJlc3R1IiwiaWQiOjEsImxhc3RuYW1lIjoiWW92aXlhbnRvIiwicm9sZUlkIjoxfSwiZXhwIjoxNjU1MjI3NDY3fQ.WAy5X6_dPSCjrIUsTpFnIJLNxf_0uTGX0xxCYEtxwaI")));
+    }
 }

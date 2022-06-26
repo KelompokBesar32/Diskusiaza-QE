@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="As a user on login page" skipped="0" tests="4" time="5.26" timestamp="2022-06-23 04:17:10"><testcase name="User input valid email and password"/><testcase name="User input valid email and unvalid password"/><testcase name="User input unvalid email and valid password"/><testcase name="User input unvalid email and unvalid password"/></testsuite>
+=======
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="As a user on login page" skipped="0" tests="4" time="2.81" timestamp="2022-06-26 12:06:18"><testcase name="User input valid email and password"/><testcase name="User input valid email and unvalid password"/><testcase name="User input unvalid email and valid password"/><testcase name="User input unvalid email and unvalid password"/></testsuite>
+>>>>>>> c9e2314151b6446cc582a6eb16797fac421fefe0

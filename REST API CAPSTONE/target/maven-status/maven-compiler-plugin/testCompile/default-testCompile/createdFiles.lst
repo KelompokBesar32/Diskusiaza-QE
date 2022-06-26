@@ -1,14 +1,32 @@
 Starter\Register\PostRegist7.class
-Starter\Login\PostLogin4.class
 Starter\Register\PostRegist2.class
+<<<<<<< HEAD
 Starter\Register\PostRegist6.class
 Starter\StepDefinitions\RegisSteps.class
 Starter\CucumberTestSuite.class
 Starter\Register\PostRegist.class
+=======
+Starter\Thread\ThreadCategory.class
+>>>>>>> c9e2314151b6446cc582a6eb16797fac421fefe0
 Starter\Register\PostRegist5.class
-Starter\StepDefinitions\LoginSteps.class
-Starter\Register\PostRegist4.class
-Starter\Login\PostLogin2.class
-Starter\Login\PostLogin.class
+Starter\StepDefinitions\LikeThread.class
+Starter\Thread\ThreadById.class
 Starter\Login\PostLogin3.class
 Starter\Register\PostRegist3.class
+<<<<<<< HEAD
+=======
+Starter\LikeThread\DeleteLikeThread.class
+Starter\StepDefinitions\ThreadSteps.class
+Starter\Login\PostLogin4.class
+Starter\Register\PostRegist6.class
+Starter\StepDefinitions\Profile.class
+Starter\StepDefinitions\RegisSteps.class
+Starter\CucumberTestSuite.class
+Starter\Register\PostRegist.class
+Starter\StepDefinitions\LoginSteps.class
+Starter\Thread\Thread.class
+Starter\Register\PostRegist4.class
+Starter\Login\PostLogin2.class
+Starter\LikeThread\PostLikeThread.class
+Starter\Login\PostLogin.class
+>>>>>>> c9e2314151b6446cc582a6eb16797fac421fefe0

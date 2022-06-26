@@ -1,5 +1,4 @@
 package Starter.StepDefinitions;
-
 import Starter.Login.PostLogin;
 import Starter.Login.PostLogin2;
 import Starter.Login.PostLogin3;
@@ -29,7 +28,6 @@ public class LoginSteps {
     public void succesloginresponcode200() {
         post.succesloginresponcode200();
     }
-
     @Given("user post login endpoints2")
     public void postloginendpoints2(){
         post2.postloginendpoint2();
@@ -43,7 +41,7 @@ public class LoginSteps {
         post2.unsuccesloginresponcode401();
     }
     @And("user receive message {}")
-    public void receivemessage(String message){
+    public void receivemessage(String massage){
         post2.receivemassage();
     }
 
@@ -60,7 +58,7 @@ public class LoginSteps {
         post3.unsucceslogin2responcode401();
     }
     @And("user receive message2 {}")
-    public void receivemessage2(String message){
+    public void receivemessage2(String massage){
         post3.receivemassage2();
     }
 
@@ -77,7 +75,7 @@ public class LoginSteps {
         post3.unsucceslogin2responcode401();
     }
     @And("user receive message3 {}")
-    public void receivemessage3(String message){
+    public void receivemessage3(String massage){
         post3.receivemassage2();
     }
 }

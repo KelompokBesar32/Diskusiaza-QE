@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+<<<<<<< HEAD
 "As a user on login page","User input valid email and password","SUCCESS","2022-06-23T16:17:10.3287619+07:00[Asia/Jakarta]","0.0","4.26"
 "As a user on login page","User input valid email and unvalid password","SUCCESS","2022-06-23T16:17:14.6062337+07:00[Asia/Jakarta]","0.0","0.74"
 "As a user on login page","User input unvalid email and valid password","SUCCESS","2022-06-23T16:17:15.3495215+07:00[Asia/Jakarta]","0.0","0.15"
@@ -10,3 +11,16 @@
 "As a user on register page","User register but no input password","SUCCESS","2022-06-23T16:17:17.0379448+07:00[Asia/Jakarta]","0.0","0.2"
 "As a user on register page","User register but no input tanggal lahir","SUCCESS","2022-06-23T16:17:17.2516584+07:00[Asia/Jakarta]","0.0","0.23"
 "As a user on register page","User register but no input jenis kelamin","SUCCESS","2022-06-23T16:17:17.4966468+07:00[Asia/Jakarta]","0.0","0.26"
+=======
+"As a user on login page","User input valid email and password","SUCCESS","2022-06-26T00:06:18.4371293+07:00[Asia/Bangkok]","0.0","0.45"
+"As a user on login page","User input valid email and unvalid password","SUCCESS","2022-06-26T00:06:18.8995226+07:00[Asia/Bangkok]","0.0","1.46"
+"As a user on login page","User input unvalid email and valid password","SUCCESS","2022-06-26T00:06:20.3793446+07:00[Asia/Bangkok]","0.0","0.4"
+"As a user on login page","User input unvalid email and unvalid password","SUCCESS","2022-06-26T00:06:20.7904232+07:00[Asia/Bangkok]","0.0","0.51"
+"As a user on register page","User register with valid data","SUCCESS","2022-06-26T00:06:21.8720503+07:00[Asia/Bangkok]","0.0","1.28"
+"As a user on register page","User register but no input firstname","SUCCESS","2022-06-26T00:06:23.1616093+07:00[Asia/Bangkok]","0.0","0.62"
+"As a user on register page","User register but no input lastname","SUCCESS","2022-06-26T00:06:23.7911791+07:00[Asia/Bangkok]","0.0","0.61"
+"As a user on register page","User register but no input email","SUCCESS","2022-06-26T00:06:24.4061774+07:00[Asia/Bangkok]","0.0","0.53"
+"As a user on register page","User register but no input password","SUCCESS","2022-06-26T00:06:24.9502206+07:00[Asia/Bangkok]","0.0","0.48"
+"As a user on register page","User register but no input tanggal lahir","SUCCESS","2022-06-26T00:06:25.4414658+07:00[Asia/Bangkok]","0.0","0.48"
+"As a user on register page","User register but no input jenis kelamin","SUCCESS","2022-06-26T00:06:25.9315401+07:00[Asia/Bangkok]","0.0","0.57"
+>>>>>>> c9e2314151b6446cc582a6eb16797fac421fefe0

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user on category thread","User get thread category","FAILURE","2022-06-26T00:06:26.5801658+07:00[Asia/Bangkok]","0.0","0.4"
+"As a user on category thread","User get all thread","FAILURE","2022-06-26T00:06:26.9913753+07:00[Asia/Bangkok]","0.0","0.36"
+"As a user on category thread","User get thread by id","FAILURE","2022-06-26T00:06:27.3574047+07:00[Asia/Bangkok]","0.0","0.27"
