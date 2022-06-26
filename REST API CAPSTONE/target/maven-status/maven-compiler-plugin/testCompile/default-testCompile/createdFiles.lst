@@ -2,6 +2,7 @@ Starter\Register\PostRegist7.class
 Starter\Login\PostLogin4.class
 Starter\Register\PostRegist2.class
 Starter\Register\PostRegist6.class
+Starter\StepDefinitions\RegisSteps.class
 Starter\CucumberTestSuite.class
 Starter\Register\PostRegist.class
 Starter\Register\PostRegist5.class
@@ -11,4 +12,3 @@ Starter\Login\PostLogin2.class
 Starter\Login\PostLogin.class
 Starter\Login\PostLogin3.class
 Starter\Register\PostRegist3.class
-Starter\StepDefinitions\RegisStep.class
