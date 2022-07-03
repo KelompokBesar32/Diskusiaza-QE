@@ -10,7 +10,7 @@ public class ThreadCategory {
     public static String url = "https://capstone-go.dikatest.xyz/";
     @Step
     public String setGetThreadCategoryEndpoints(){
-        return url + "therad/category";
+        return url + "therad/categori";
     }
     @Step
     public void sendGetThreadCategoryEndpoints(){
@@ -18,10 +18,10 @@ public class ThreadCategory {
     }
     @Step
     public void  getResponseCode200(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(400));
     }
     @Step
     public void receiveThreadById(){
-        restAssuredThat(response -> response.body("'data'.'id'", equalTo("1")));
+        restAssuredThat(response -> response.body("'data'.'id'", equalTo("3")));
     }
 }

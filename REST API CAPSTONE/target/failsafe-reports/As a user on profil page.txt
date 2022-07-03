@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: As a user on profil page
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.541 s <<< FAILURE! - in As a user on profil page
-As a user on profil page.User get data profile  Time elapsed: 0.334 s  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.083 s <<< FAILURE! - in As a user on profil page
+As a user on profil page.User get data profile  Time elapsed: 0.053 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'user get profile endpoints' and 3 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
@@ -29,7 +29,7 @@ public void user_get_valid_data_profile() {
 }
 
 
-As a user on profil page.User update data profile  Time elapsed: 0.191 s  <<< ERROR!
+As a user on profil page.User update data profile  Time elapsed: 0.028 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'user put profile endpoints' and 3 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:

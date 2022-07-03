@@ -1,12 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-<<<<<<< HEAD
-"As a user on login page","User input valid email and password","SUCCESS","2022-06-23T16:17:10.3287619+07:00[Asia/Jakarta]","0.0","4.26"
-"As a user on login page","User input valid email and unvalid password","SUCCESS","2022-06-23T16:17:14.6062337+07:00[Asia/Jakarta]","0.0","0.74"
-"As a user on login page","User input unvalid email and valid password","SUCCESS","2022-06-23T16:17:15.3495215+07:00[Asia/Jakarta]","0.0","0.15"
-"As a user on login page","User input unvalid email and unvalid password","SUCCESS","2022-06-23T16:17:15.5018129+07:00[Asia/Jakarta]","0.0","0.12"
-=======
-"As a user on login page","User input valid email and password","SUCCESS","2022-06-26T00:06:18.4371293+07:00[Asia/Bangkok]","0.0","0.45"
-"As a user on login page","User input valid email and unvalid password","SUCCESS","2022-06-26T00:06:18.8995226+07:00[Asia/Bangkok]","0.0","1.46"
-"As a user on login page","User input unvalid email and valid password","SUCCESS","2022-06-26T00:06:20.3793446+07:00[Asia/Bangkok]","0.0","0.4"
-"As a user on login page","User input unvalid email and unvalid password","SUCCESS","2022-06-26T00:06:20.7904232+07:00[Asia/Bangkok]","0.0","0.51"
->>>>>>> c9e2314151b6446cc582a6eb16797fac421fefe0
+"As a user on login page","User input valid email and password","SUCCESS","2022-07-03T22:26:41.5375871+07:00[Asia/Jakarta]","0.0","0.37"
+"As a user on login page","User input valid email and unvalid password","SUCCESS","2022-07-03T22:26:41.913937+07:00[Asia/Jakarta]","0.0","0.8"
+"As a user on login page","User input unvalid email and valid password","SUCCESS","2022-07-03T22:26:42.7231184+07:00[Asia/Jakarta]","0.0","0.17"
+"As a user on login page","User input unvalid email and unvalid password","SUCCESS","2022-07-03T22:26:42.9020105+07:00[Asia/Jakarta]","0.0","0.16"

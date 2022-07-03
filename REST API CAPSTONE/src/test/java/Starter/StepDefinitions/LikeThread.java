@@ -25,8 +25,8 @@ public class LikeThread {
     public void succesLikeResponseCode() {
         likeThread.getResponseCode200();
     }
-    @And("user got massage {}")
-    public void gotMessage1() {
+    @And("user got message {}")
+    public void gotMessage1(String message) {
         likeThread.receiveMassageLikeSucces();
     }
 
@@ -43,7 +43,7 @@ public class LikeThread {
         unlikeThread.getHttpsResponseCode200();
     }
     @And("user got massage2 {}")
-    public void gotMassage() {
+    public void gotMassage(String message) {
         unlikeThread.receiveMassageUnlikeSucces();
     }
 }

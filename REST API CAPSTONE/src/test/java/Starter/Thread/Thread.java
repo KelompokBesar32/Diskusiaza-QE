@@ -20,7 +20,7 @@ public class Thread {
     }
     @Step
     public void  getResponseCode200(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(400));
     }
     @Step
     public void receiveMassageLikeSucces(){

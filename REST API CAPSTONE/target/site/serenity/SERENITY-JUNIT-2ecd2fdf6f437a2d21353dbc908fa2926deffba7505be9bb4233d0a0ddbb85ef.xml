@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="As a user i can like or unlike thread" skipped="0" tests="2" time="8.96" timestamp="2022-06-26 12:06:09"><testcase name="User like a thread"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;400&gt;.
-</failure><system-err>1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;400&gt;.
-&#13;
-io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
-io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
-io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
-io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
-io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
-groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
-groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
-io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
-io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
-rest.api@1.0-SNAPSHOT/Starter.LikeThread.PostLikeThread.lambda$getResponseCode200$0(PostLikeThread.java:27)&#13;
-net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
-rest.api@1.0-SNAPSHOT/Starter.LikeThread.PostLikeThread.getResponseCode200(PostLikeThread.java:27)&#13;
-rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.LikeThread.succesLikeResponseCode(LikeThread.java:26)&#13;
-✽.user succes like thread with respon code 200(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/LikeThread.feature:7)&#13;
-</system-err></testcase><testcase name="User unlike a thread"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="As a user i can like or unlike thread" skipped="1" tests="2" time="3.93" timestamp="2022-07-03 10:26:37"><testcase name="User like a thread"><skipped/></testcase><testcase name="User unlike a thread"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
@@ -35,5 +16,5 @@ rest.api@1.0-SNAPSHOT/Starter.LikeThread.DeleteLikeThread.lambda$getHttpsRespons
 net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
 rest.api@1.0-SNAPSHOT/Starter.LikeThread.DeleteLikeThread.getHttpsResponseCode200(DeleteLikeThread.java:26)&#13;
 rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.LikeThread.getResponseCode(LikeThread.java:43)&#13;
-✽.user succes unlike thread with respon code 200(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/LikeThread.feature:13)&#13;
+✽.user succes unlike thread with respon code 200(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/LikeThread.feature:13)&#13;
 </system-err></testcase></testsuite>

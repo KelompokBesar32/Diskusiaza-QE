@@ -1,22 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: As a user on category thread
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.128 s <<< FAILURE! - in As a user on category thread
-As a user on category thread.User get thread category  Time elapsed: 0.481 s  <<< FAILURE!
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.72 s <<< FAILURE! - in As a user on category thread
+As a user on category thread.User get thread category  Time elapsed: 0.342 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
-Expected status code <200> but was <400>.
+JSON path 'data'.'id' doesn't match.
+Expected: 3
+  Actual: null
 
 
-As a user on category thread.User get all thread  Time elapsed: 0.361 s  <<< FAILURE!
+As a user on category thread.User get all thread  Time elapsed: 0.148 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
-Expected status code <200> but was <400>.
+JSON path 'data'.'id' doesn't match.
+Expected: 1
+  Actual: null
 
 
-As a user on category thread.User get thread by id  Time elapsed: 0.279 s  <<< FAILURE!
+As a user on category thread.User get thread by id  Time elapsed: 0.226 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
-Expected status code <200> but was <400>.
+JSON path 'data'.'id' doesn't match.
+Expected: 1
+  Actual: null
 
 

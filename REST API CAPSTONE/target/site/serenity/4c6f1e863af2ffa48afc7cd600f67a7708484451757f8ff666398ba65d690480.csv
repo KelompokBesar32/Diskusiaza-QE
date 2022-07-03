@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"As a user on category thread","User get thread category","FAILURE","2022-06-26T00:06:26.5801658+07:00[Asia/Bangkok]","0.0","0.4"
-"As a user on category thread","User get all thread","FAILURE","2022-06-26T00:06:26.9913753+07:00[Asia/Bangkok]","0.0","0.36"
-"As a user on category thread","User get thread by id","FAILURE","2022-06-26T00:06:27.3574047+07:00[Asia/Bangkok]","0.0","0.27"
+"As a user on category thread","User get thread category","FAILURE","2022-07-03T22:26:45.606809+07:00[Asia/Jakarta]","0.0","0.33"
+"As a user on category thread","User get all thread","FAILURE","2022-07-03T22:26:45.9467243+07:00[Asia/Jakarta]","0.0","0.14"
+"As a user on category thread","User get thread by id","FAILURE","2022-07-03T22:26:46.0951668+07:00[Asia/Jakarta]","0.0","0.22"

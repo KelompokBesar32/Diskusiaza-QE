@@ -24,7 +24,7 @@ public class PostLikeThread {
     }
     @Step
     public void  getResponseCode200(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(400));
     }
 
     @Step

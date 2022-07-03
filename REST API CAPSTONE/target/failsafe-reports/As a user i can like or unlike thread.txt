@@ -1,14 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: As a user i can like or unlike thread
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 9.46 s <<< FAILURE! - in As a user i can like or unlike thread
-As a user i can like or unlike thread.User like a thread  Time elapsed: 8.871 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <400>.
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 4.187 s <<< FAILURE! - in As a user i can like or unlike thread
+As a user i can like or unlike thread.User like a thread  Time elapsed: 3.94 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user got massage "anda berhasil menyukai therad ini"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("user got massage {string}")
+public void user_got_massage(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
 
 
-As a user i can like or unlike thread.User unlike a thread  Time elapsed: 0.455 s  <<< FAILURE!
+As a user i can like or unlike thread.User unlike a thread  Time elapsed: 0.24 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.

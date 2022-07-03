@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"As a user i can like or unlike thread","User like a thread","FAILURE","2022-06-26T00:06:09.3985448+07:00[Asia/Bangkok]","0.0","8.54"
-"As a user i can like or unlike thread","User unlike a thread","FAILURE","2022-06-26T00:06:17.9970396+07:00[Asia/Bangkok]","0.0","0.42"
+"As a user i can like or unlike thread","User unlike a thread","FAILURE","2022-07-03T22:26:41.1973502+07:00[Asia/Jakarta]","0.0","0.33"

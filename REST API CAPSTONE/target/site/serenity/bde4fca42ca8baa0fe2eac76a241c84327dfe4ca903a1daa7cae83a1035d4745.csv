@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"As a user on profil page","User get data profile","PENDING","2022-06-26T00:06:21.4415102+07:00[Asia/Bangkok]","0.0","0.2"
-"As a user on profil page","User update data profile","PENDING","2022-06-26T00:06:21.7398869+07:00[Asia/Bangkok]","0.0","0.1"
+"As a user i can like or unlike thread","User like a thread","PENDING","2022-07-03T22:26:37.5732615+07:00[Asia/Jakarta]","0.0","3.6"
+"As a user on profil page","User get data profile","PENDING","2022-07-03T22:26:43.1010662+07:00[Asia/Jakarta]","0.0","0.02"
+"As a user on profil page","User update data profile","PENDING","2022-07-03T22:26:43.131072+07:00[Asia/Jakarta]","0.0","0.02"

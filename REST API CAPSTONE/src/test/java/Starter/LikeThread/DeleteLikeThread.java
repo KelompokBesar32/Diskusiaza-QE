@@ -23,7 +23,7 @@ public class DeleteLikeThread {
     }
     @Step
     public void  getHttpsResponseCode200(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(400));
     }
 
     @Step

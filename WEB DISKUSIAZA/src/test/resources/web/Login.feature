@@ -6,20 +6,20 @@ Feature: User on login page
     And user click button login
     Then user success to landing page
 
-  Scenario: user input valid email and unvalid password
-    Given user on login page 2
-    When user input valid email and unvalid password
+  Scenario: user input valid email and invalid password
+    Given user on login page
+    When user input valid email and invalid password
     And user click button login2
-    Then got massage email or password wrong
+    Then got massage2 email or password wrong
 
-  Scenario: user input unvalid email and valid password
-    Given user on login page 3
-    When user input unvalid email and valid password
+  Scenario: user input invalid email and valid password
+    Given user on login page
+    When user input invalid email and valid password
     And user click button login3
-    Then got massage email or password wrong2
+    Then got massage3 email or password wrong
 
-  Scenario: user input unvalid email and unvalid password
-    Given user on login page 4
-    When user input unvalid email and unvalid password
+  Scenario: user input invalid email and invalid password
+    Given user on login page
+    When user input invalid email and invalid password
     And user click button login4
-    Then got massage email or password wrong3
+    Then got massage4 email or password wrong
