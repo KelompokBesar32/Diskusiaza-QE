@@ -6,6 +6,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
+import org.apache.xpath.operations.String;
 
 public class LoginSteps {
     @Steps
@@ -15,33 +16,35 @@ public class LoginSteps {
 
     @Given("user on login page")
     public void onLoginPage(){
-        login. ;
+        login.openPage();
     }
 
-    @When("user input valid email and valid password")
-    public void inputValidEmailandValidPassword(){
-        login.;
+    @When("user input valid email {} and valid password {}")
+    public void inputValidEmailandValidPassword(String email, String password){
+        login.inputEmail(email);
+        login.inputPassword(password);
     }
 
     @And("user click button login")
     public void clickLoginButton(){
-        login.;
+        login.clickLoginButton();
     }
 
     @Then("user success to landing page")
     public void successLogin(){
-        login.;
+        login.validationOnHomepage();
     }
 
     //scenario 2 unsuccess invalid password
-    @When("user input valid email and invalid password")
-    public void inputInvalidPassword(){
-        login.;
+    @When("user input valid email {} and invalid password {}")
+    public void inputInvalidPassword(String email, String password){
+        login.inputEmail(email);
+        login.inputPassword(password);
     }
 
     @And("user click button login2")
     public void clickLoginButton2(){
-        login.;
+        login.clickLoginButton();
     }
 
     @Then("got massage2 {}")

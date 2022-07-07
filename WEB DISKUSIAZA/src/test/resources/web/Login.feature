@@ -2,7 +2,7 @@ Feature: User on login page
 
   Scenario: User input valid email and password
     Given user on login page
-    When user input valid email and valid password
+    When user input valid email ii@gmail.com and valid password 123
     And user click button login
     Then user success to landing page
 
