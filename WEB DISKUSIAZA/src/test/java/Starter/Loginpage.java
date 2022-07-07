@@ -3,23 +3,19 @@ package Starter;
 import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.By;
 
+import static jnr.unixsocket.UnixServerSocketChannel.open;
+
 public class Loginpage {
-    package Starter.Login;
-
-import net.thucydides.core.annotations.Step;
-import org.openqa.selenium.By;
-
-    public class LoginPage {
         private By emailField(){
-            return By.xpath("//label[contains(text(),'Email')]/following-sibling::input");
+            return By.id("email");
         }
 
         private By passwordField(){
-            return By.xpath("//label[contains(text(),'Password')]/following-sibling::input");
+            return By.id("password");
         }
 
         private By loginButton(){
-            return By.xpath("(//span[@class='v-btn__content'])[3]");
+            return By.xpath("//div//form/button");
         }
 
         //function
