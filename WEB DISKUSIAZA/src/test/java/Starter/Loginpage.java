@@ -2,10 +2,10 @@ package Starter;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Step;
-import org.apache.xpath.operations.String;
+
 import org.openqa.selenium.By;
 
-public class Loginpage extends PageObject{
+public class Loginpage extends PageObject {
         private By emailField(){
             return By.id("email");
         }
@@ -25,7 +25,7 @@ public class Loginpage extends PageObject{
         }
 
         @Step
-        public void inputEmail(String email){$(emailField()).sendKeys(email);}
+        public void inputEmail(String email){$(emailField()).type(email);}
 
         @Step
         public void inputPassword(String password){
