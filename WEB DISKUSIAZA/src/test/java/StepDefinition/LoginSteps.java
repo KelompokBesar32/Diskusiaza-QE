@@ -5,6 +5,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import jnr.ffi.Struct;
 import net.thucydides.core.annotations.Steps;
 import org.apache.xpath.operations.String;
 
@@ -19,9 +20,12 @@ public class LoginSteps {
         login.openPage();
     }
 
-    @When("user input valid email {} and valid password {}")
-    public void inputValidEmailandValidPassword(String email, String password){
+    @When("user input valid email {}")
+    public void inputValidEmail(String email){
         login.inputEmail(email);
+    }
+    @And("user input valid password {}")
+    public void inputPassword(String password){
         login.inputPassword(password);
     }
 

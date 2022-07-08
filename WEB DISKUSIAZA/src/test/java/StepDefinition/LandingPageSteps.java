@@ -15,147 +15,147 @@ public class LandingPageSteps {
 
     @Given("user on landing page")
     public void onLandingPage(){
-        landing. ;
+        landing.onLandingPage();
     }
 
     @When("user klik 'tanya' button")
     public void tanyaButton(){
-        landing. ;
+        landing.clickTanyaButton();
     }
 
     @Then("user sukses ke halaman tambah pertanyaan")
     public void succesKeHalTambahPertanyaan(){
-        landing. ;
+        landing.validateOnTanyaPage();
     }
 
     //scenario 2 success ke halaman tulis
     @When("user klik 'tulis' button")
     public void tulisButton(){
-        landing. ;
+        landing.clickTulisButton();
     }
 
     @Then("user sukses ke halaman tulis")
     public void successKeHalTulis(){
-        landing. ;
+        landing.validateOnTulisPage();
     }
 
     //scenario 3 success ke halaman notifikasi
 
     @When("user klik sidebar notifikasi")
     public void klikSidebarNotifikasi() {
-        landing. ;
+        landing.clickNotifikasiButton();
     }
 
     @Then("user sukses ke halaman notifikasi")
     public void successKeHalamanNotifikasi() {
-        landing. ;
+        landing.validateOnNotifikasiPage();
     }
 
     //scenario 4 user on search page
 
     @When("user klik search field")
     public void klikSearchField(){
-        landing. ;
+        landing.clickSearchButton();
     }
 
     @Then("user on search page")
     public void onSearchPage() {
-        landing. ;
+
     }
 
     //scenario 5 user on explore page
 
     @When("user klik sidebar explore")
     public void klikSidebarexplore(){
-        landing. ;
+
     }
 
     @Then("user on explore page")
     public void onExplorePage() {
-        landing. ;
+
     }
 
     //scenario 6 user on trending page
 
     @When("user klik sidebar trending")
     public void klikSidebarTrending(){
-        landing. ;
+        landing.clickTrendingButton();
     }
 
     @Then("user on trending page")
     public void onTrendingPage() {
-        landing. ;
+        landing.validateOnTrendingPage();
     }
 
     //scenario 7 user on message page
 
     @When("user klik sidebar massage")
     public void klikSidebarMassage(){
-        landing. ;
+        landing.clickMassageButton();
     }
 
     @Then("user on massage page")
     public void onMassagePage() {
-        landing. ;
+        landing.validateOnMassagePage();
     }
 
     //scenario 8 user on bookmark page
 
     @When("user klik sidebar Bookmark")
     public void klikSidebarBookmark(){
-        landing. ;
+        landing.clickBookmarkButton();
     }
 
     @Then("user on bookmarks page")
     public void onBookmarksPage() {
-        landing. ;
+        landing.validateOnBookmarkPage();
     }
 
     //scenario 9 user on jawab page
 
     @When("user klik sidebar jawab")
     public void klikSidebarJawab(){
-        landing. ;
+        landing.clickJawabButton();
     }
 
     @Then("user on jawab page")
     public void onJawabPage() {
-        landing. ;
+        landing.validateOnJawabPage();
     }
 
     //scenario 10 user on ruang page
 
     @When("user klik sidebar ruang")
     public void klikSidebarRuang(){
-        landing. ;
+
     }
 
     @Then("user on ruang page")
     public void onRuangPage() {
-        landing. ;
+
     }
 
     //scenario 11 user on profil page
 
     @When("user klik sidebar profile")
     public void klikSidebarProfil(){
-        landing. ;
+        landing.clickProfileButton();
     }
 
     @Then("user on Profil Page")
     public void onProfilPage() {
-        landing. ;
+        landing.validateOnProfilePage();
     }
 
     //scenario 12 user on thread page
 
     @When("user klik Buat Thread")
     public void klikBuatThread(){
-        landing. ;
+        landing.clickThreadButton();
     }
 
     @Then("user on thread page")
     public void onThreadPage() {
-        landing. ;
+        landing.validateOnThreadPage();
     }
 }

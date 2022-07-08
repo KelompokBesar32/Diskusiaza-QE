@@ -5,8 +5,6 @@ import net.thucydides.core.annotations.Step;
 import org.apache.xpath.operations.String;
 import org.openqa.selenium.By;
 
-import static jnr.unixsocket.UnixServerSocketChannel.open;
-
 public class Loginpage extends PageObject{
         private By emailField(){
             return By.id("email");
@@ -27,9 +25,7 @@ public class Loginpage extends PageObject{
         }
 
         @Step
-        public void inputEmail(String email){
-            $(emailField()).type(email);
-        }
+        public void inputEmail(String email){$(emailField()).sendKeys(email);}
 
         @Step
         public void inputPassword(String password){
@@ -49,4 +45,4 @@ public class Loginpage extends PageObject{
     }
 
 
-}
+
