@@ -8,7 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class DeleteLikeThread {
-    public static String url = "https://capstone-go.dikatest.xyz/";
+    public static String url = "https://capstone-go.dikatest.xyz/t/";
     @Step
     public String deleteLikeThreadEndpoints(){
         return url + "therad/like";
@@ -17,13 +17,13 @@ public class DeleteLikeThread {
     @Step
     public void unlikeUsingThreadId(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("therad_id", "3");
+        requestBody.put("therad_id", "7");
 
         SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString()).delete(deleteLikeThreadEndpoints());
     }
     @Step
     public void  getHttpsResponseCode200(){
-        restAssuredThat(response -> response.statusCode(400));
+        restAssuredThat(response -> response.statusCode(200));
     }
 
     @Step

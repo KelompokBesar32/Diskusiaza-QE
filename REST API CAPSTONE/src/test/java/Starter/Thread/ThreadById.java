@@ -5,7 +5,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class ThreadById {
-    public static String url = "https://capstone-go.dikatest.xyz/";
+    public static String url = "https://capstone-go.dikatest.xyz/t/";
     @Step
     public String setGetThreadCategoryEndpoints(){
         return url + "therad/1";
@@ -16,10 +16,10 @@ public class ThreadById {
     }
     @Step
     public void  getResponseCode200(){
-        restAssuredThat(response -> response.statusCode(400));
+        restAssuredThat(response -> response.statusCode(200));
     }
     @Step
     public void receiveMassageLikeSucces(){
-        restAssuredThat(response -> response.body("'data'.'id'", equalTo("1")));
+        restAssuredThat(response -> response.body("'data','id''", equalTo("3")));
     }
 }

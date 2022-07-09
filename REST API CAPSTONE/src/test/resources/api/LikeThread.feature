@@ -5,7 +5,7 @@ Feature: As a user i can like or unlike thread
     Given user post like thread endpoints
     When user input thread id
     Then user succes like thread with respon code 200
-    And user got massage "anda berhasil menyukai therad ini"
+    And user got message "anda berhasil menyukai therad ini"
 
   Scenario: User unlike a thread
     Given user delete like thread endpoints

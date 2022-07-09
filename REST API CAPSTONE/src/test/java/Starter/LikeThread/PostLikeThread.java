@@ -8,7 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class PostLikeThread {
-    public static String url = "https://capstone-go.dikatest.xyz/";
+    public static String url = "https://capstone-go.dikatest.xyz/t/";
 
     @Step
     public String postLikeThreadEndpoints(){
@@ -18,13 +18,13 @@ public class PostLikeThread {
     @Step
     public void likeUsingThreadId(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("therad_id", "3");
+        requestBody.put("therad_id", "4");
 
         SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString()).post(postLikeThreadEndpoints());
     }
     @Step
     public void  getResponseCode200(){
-        restAssuredThat(response -> response.statusCode(400));
+        restAssuredThat(response -> response.statusCode(200));
     }
 
     @Step

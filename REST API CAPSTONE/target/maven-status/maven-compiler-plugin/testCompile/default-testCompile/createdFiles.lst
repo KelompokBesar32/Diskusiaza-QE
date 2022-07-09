@@ -1,6 +1,10 @@
+Starter\ThreadAll\GetThreadByUser.class
+Starter\Profile\GetProfile.class
 Starter\Register\PostRegist7.class
+Starter\ThreadAll\PostCreateThread.class
 Starter\Register\PostRegist2.class
 Starter\Thread\ThreadCategory.class
+Starter\ThreadAll\PutUpdateThread.class
 Starter\Register\PostRegist5.class
 Starter\StepDefinitions\LikeThread.class
 Starter\Thread\ThreadById.class
@@ -18,5 +22,7 @@ Starter\StepDefinitions\LoginSteps.class
 Starter\Thread\Thread.class
 Starter\Register\PostRegist4.class
 Starter\Login\PostLogin2.class
+Starter\Profile\PutProfile.class
+Starter\ThreadAll\DeleteThread.class
 Starter\LikeThread\PostLikeThread.class
 Starter\Login\PostLogin.class
