@@ -22,12 +22,12 @@ public class PostLogin4 {
         SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString()).post(postloginendpoint4());
     }
     @Step("user unsucces login respon 401 on login 4")
-    public void  unsucceslogin2responcode401(){
+    public void  unsucceslogin3responcode401(){
         restAssuredThat(response -> response.statusCode(401));
     }
 
     @Step("user receive message email/password salah")
-    public void receivemassage2(){
+    public void receivemassage3(){
         restAssuredThat(response -> response.body("message", equalTo("email atau password salah")));
     }
 }

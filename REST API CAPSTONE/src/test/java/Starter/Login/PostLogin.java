@@ -16,8 +16,8 @@ public class PostLogin {
     @Step("user login with valid email and valid password")
     public void loginusingvalidemailandpassword(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "ardhikayoviyanto@gmail.com");
-        requestBody.put("password", "123");
+        requestBody.put("email", "hening@gmail.com");
+        requestBody.put("password", "aiueo");
 
         SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString()).post(postloginendpoint());
     }
@@ -28,6 +28,6 @@ public class PostLogin {
 
     @Step("user receive valid token")
     public void receivevalidtoken(){
-        restAssuredThat(response -> response.body("token", equalTo("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJkYXRhIjp7ImVtYWlsIjoiYXJkaGlrYXlvdml5YW50b0BnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBcmRoaWthIFJlc3R1IiwiaWQiOjEsImxhc3RuYW1lIjoiWW92aXlhbnRvIiwicm9sZUlkIjoxfSwiZXhwIjoxNjU1MjI3NDY3fQ.WAy5X6_dPSCjrIUsTpFnIJLNxf_0uTGX0xxCYEtxwaI")));
+        restAssuredThat(response -> response.body("token", equalTo("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJkYXRhIjp7ImVtYWlsIjoiaGVuaW5nQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6InNpdGkiLCJpZCI6ODEsImxhc3RuYW1lIjoiRGkgbXV0ZSIsInJvbGVJZCI6MX0sImV4cCI6MTY1NzMwMTE3NH0.tILEdjUaxM5tedIyuUJz0KHQSP3O7GcCJUxHoZjVj_o")));
     }
 }

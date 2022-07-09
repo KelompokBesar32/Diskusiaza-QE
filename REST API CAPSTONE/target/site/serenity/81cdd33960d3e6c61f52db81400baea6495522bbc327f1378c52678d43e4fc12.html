@@ -194,7 +194,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-07-2022 22:26</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-07-2022 18:22</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -242,10 +242,10 @@
                                                             </div>
                                                             <script>
 
-                                                                var labels = [' ', ' ', '50%', ' ', ' ', ' ', ' ', ' ', '50%', ' ', ' ', ' ', ' ', ' '];
+                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 1}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 2}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -307,12 +307,11 @@
                                                                 <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="90fdae884576ac2019087f164c1ab105bc331f5387bbd7ba5edc1576fc316308.html"><i
-                                                                                    class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                                class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending
                                                                     </td>
-                                                                <td class="automated-stats">1</td>
-                                                                <td class="automated-stats">50%</td>
+                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats"> </td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -339,8 +338,8 @@
                                                                         <a href="6c347cc86c48c06df884863eda4d848faf5b9727509da0ebd6e384632135c34f.html"><i
                                                                                     class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
                                                                     </td>
-                                                                <td class="automated-stats">1</td>
-                                                                <td class="automated-stats">50%</td>
+                                                                <td class="automated-stats">2</td>
+                                                                <td class="automated-stats">100%</td>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
                                                                         <i
@@ -382,7 +381,7 @@
                                                             <tr>
                                                                 <td>3s</td>
                                                                 <td>3s</td>
-                                                                <td>329ms</td>
+                                                                <td>333ms</td>
                                                                 <td>3s</td>
                                                                 <td>1s</td>
                                                             </tr>
@@ -422,17 +421,9 @@
                                                                                     <div class="progress">
                                                                                             <div class="progress-bar"
                                                                                                  role="progressbar"
-                                                                                                 style="width: 50%; background-color: #A2C4EC"
-                                                                                                 aria-valuenow="1"
-                                                                                                 title="50% pending"
-                                                                                                 aria-valuemin="0"
-                                                                                                 aria-valuemax="100">
-                                                                                            </div>
-                                                                                            <div class="progress-bar"
-                                                                                                 role="progressbar"
-                                                                                                 style="width: 50%; background-color: #f8001f"
-                                                                                                 aria-valuenow="1"
-                                                                                                 title="50% failure"
+                                                                                                 style="width: 100%; background-color: #f8001f"
+                                                                                                 aria-valuenow="2"
+                                                                                                 title="100% failure"
                                                                                                  aria-valuemin="0"
                                                                                                  aria-valuemax="100">
                                                                                             </div>
@@ -459,7 +450,7 @@
                                                                             <a href="a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> Assertion error</a>
                                                                         </td>
                                                                         <td><span
-                                                                                    class="badge failure-badge">1</span>
+                                                                                    class="badge failure-badge">2</span>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
@@ -474,7 +465,7 @@
                                                                                     href="#">As a user i can like or unlike thread</a>
                                                                         </td>
                                                                         <td><span
-                                                                                    class="badge failure-badge">50%</span>
+                                                                                    class="badge failure-badge">100%</span>
                                                                         </td>
                                                                     </tr>
                                                                 </tbody>
@@ -532,7 +523,7 @@
                                                                 </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                    <tr class="scenario-result PENDING">
+                                                                    <tr class="scenario-result FAILURE">
                                                                         <td>
                                                                                 <a href="dbe42faa7ff432bbcd561563e9b4c8bf2f36a7cc73f1329c717dfbbc1cf84863.html">As a user i can like or unlike thread</a>
                                                                         </td>
@@ -540,10 +531,10 @@
                                                                             <a href="2ecd2fdf6f437a2d21353dbc908fa2926deffba7505be9bb4233d0a0ddbb85ef.html">User like a thread</a>
                                                                         </td>
                                                                         <td>4</td>
-                                                                        <td>22:26:37</td>
-                                                                        <td>3s 601ms</td>
-                                                                        <td><a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a> <span
-                                                                                    style="display:none">PENDING</span>
+                                                                        <td>18:22:10</td>
+                                                                        <td>3s 197ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                                                    style="display:none">FAILURE</span>
                                                                         </td>
                                                                     </tr>
                                                                     <tr class="scenario-result FAILURE">
@@ -554,8 +545,8 @@
                                                                             <a href="efaaaa5f4749f5cb131646c316e4c68496899ace8c84b349c9a0cd47361ef782.html">User unlike a thread</a>
                                                                         </td>
                                                                         <td>4</td>
-                                                                        <td>22:26:41</td>
-                                                                        <td>329ms</td>
+                                                                        <td>18:22:13</td>
+                                                                        <td>333ms</td>
                                                                         <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
                                                                                     style="display:none">FAILURE</span>
                                                                         </td>
