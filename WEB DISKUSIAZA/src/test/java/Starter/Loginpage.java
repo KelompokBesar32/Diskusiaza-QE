@@ -1,43 +1,31 @@
 package Starter;
 
+import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Step;
+
 import org.openqa.selenium.By;
 
-public class Loginpage {
-    package Starter.Login;
-
-import net.thucydides.core.annotations.Step;
-import org.openqa.selenium.By;
-
-    public class LoginPage {
+public class Loginpage extends PageObject {
         private By emailField(){
-            return By.xpath("//label[contains(text(),'Email')]/following-sibling::input");
+            return By.id("email");
         }
 
         private By passwordField(){
-            return By.xpath("//label[contains(text(),'Password')]/following-sibling::input");
+            return By.id("password");
         }
 
         private By loginButton(){
-            return By.xpath("(//span[@class='v-btn__content'])[3]");
+            return By.xpath("//div//form/button");
         }
-
-        //function
-
+        private By homepage(){return By.id("mid");}
+        private By errorMassage(){return By.id("");}
         @Step
         public void openPage(){
             open();
         }
 
         @Step
-        public void clickLoginIcon(){
-            $(loginIcon()).click();
-        }
-
-        @Step
-        public void inputEmail(String email){
-            $(emailField()).type(email);
-        }
+        public void inputEmail(String email){$(emailField()).type(email);}
 
         @Step
         public void inputPassword(String password){
@@ -50,12 +38,11 @@ import org.openqa.selenium.By;
         }
 
         @Step
-        public boolean validationOnHomepage(){
-            return $(onHomePage()).isDisplayed();
+        public void validationOnHomepage(){$(homepage()).isDisplayed();
         }
 
 
     }
 
 
-}
+

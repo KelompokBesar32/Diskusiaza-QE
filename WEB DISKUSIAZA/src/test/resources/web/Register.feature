@@ -7,7 +7,7 @@ Feature: user on register page
     And user input valid email
     And user input valid password
     And user input confirm password
-    And user input valid tanggal lahir
+    And user input valid tanggal lahir 01, 12, 2001
     And user pilih jenis kelamin
     And user klik Daftar button
     Then User on Login Page
