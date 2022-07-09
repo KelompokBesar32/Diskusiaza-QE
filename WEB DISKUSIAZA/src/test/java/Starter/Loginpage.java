@@ -7,11 +7,11 @@ import org.openqa.selenium.By;
 
 public class Loginpage extends PageObject {
         private By emailField(){
-            return By.id("email");
+            return By.xpath("//div/*[@id=\"email\"]");
         }
 
         private By passwordField(){
-            return By.id("password");
+            return By.xpath("//div/*[@id=\"password\"]");
         }
 
         private By loginButton(){
@@ -21,7 +21,7 @@ public class Loginpage extends PageObject {
         private By errorMassage(){return By.id("");}
         @Step
         public void openPage(){
-            open();
+            openAt("/login");
         }
 
         @Step

@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User on landing page","User membuka search field","FAILURE","2022-07-10T03:17:58.3587088+07:00[Asia/Bangkok]","0.0","14.18"
+"user on page jawaban","User menjawab pertanyaan","FAILURE","2022-07-10T03:19:54.2848348+07:00[Asia/Bangkok]","0.0","9.8"
+"user on register page","user tidak memasukkan email","FAILURE","2022-07-10T03:20:30.8323769+07:00[Asia/Bangkok]","0.0","12.59"
+"user on register page","user tidak memasukan nama depan","FAILURE","2022-07-10T03:20:44.269354+07:00[Asia/Bangkok]","0.0","13.48"
+"user on register page","user tidak memasukkan nama belakang","FAILURE","2022-07-10T03:21:13.5374148+07:00[Asia/Bangkok]","0.0","12.78"
+"user on register page","user tidak memasukkan jenis kelamin","FAILURE","2022-07-10T03:21:27.2148872+07:00[Asia/Bangkok]","0.0","17.52"
+"user on register page","user tidak mengisi confirm password","FAILURE","2022-07-10T03:21:45.6277191+07:00[Asia/Bangkok]","0.0","16.73"

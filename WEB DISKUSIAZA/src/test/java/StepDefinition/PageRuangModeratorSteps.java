@@ -12,18 +12,18 @@ public class PageRuangModeratorSteps {
 
     //scenario 1 success
 
-    @Given("user on landing page")
+    @Given("user on homepage")
     public void onlandingpage(){
-        rModerator. ;
+
     }
 
     @When("user klik ruang")
     public void klikruang(){
-        rModerator. ;
+
     }
 
     @Then("user berada di ruang moderator")
     public void PageRuangModerator(){
-        rModerator. ;
+
     }
 }

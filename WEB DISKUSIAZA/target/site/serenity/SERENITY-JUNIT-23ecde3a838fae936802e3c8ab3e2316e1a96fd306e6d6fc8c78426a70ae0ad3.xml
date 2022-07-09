@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="User on landing page" skipped="0" tests="12" time="119.76" timestamp="2022-07-10 03:17:13"><testcase name="User membuka page pertanyaan"/><testcase name="User membuka tulis jawaban"/><testcase name="user membuka notifikasi"/><testcase name="User membuka search field"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: unknown&#13;
+rest.api@1.0-SNAPSHOT/Starter.LandingPage.clickSearchButton(LandingPage.java:49)&#13;
+rest.api@1.0-SNAPSHOT/StepDefinition.LandingPageSteps.klikSearchField(LandingPageSteps.java:64)&#13;
+✽.user klik search field(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/LandingPage.feature:20)&#13;
+</system-err></testcase><testcase name="User membuka Explore"/><testcase name="User membuka Trending"/><testcase name="User membuka message"/><testcase name="User membuka Bookmarks"/><testcase name="User membuka Jawab"/><testcase name="User membuka Ruang"/><testcase name="User membuka Profil"/><testcase name="User membuat Thread"/></testsuite>

@@ -29,9 +29,10 @@ public class LandingPage extends PageObject {
     private By textTulis(){return By.xpath("");}
 
 
-
     @Step
-    public void onLandingPage(){open();}
+    public void openPage(){open();}
+    @Step
+    public void onLandingpage(){$(barlandingpage()).isDisplayed();}
     @Step
     public void clickJawabButton(){$(jawab()).click();}
     @Step

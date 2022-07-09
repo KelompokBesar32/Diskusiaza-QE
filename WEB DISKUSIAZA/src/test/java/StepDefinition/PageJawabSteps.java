@@ -15,31 +15,31 @@ public class PageJawabSteps {
 
     @Given("user on page jawaban")
     public void onPageJawab(){
-        jawab. ;
+        jawab.onHomePage();
     }
 
     @When("user memilih pertanyaan")
     public void pilihPertanyaan(){
-        jawab. ;
+        jawab.clickJawabButton();
     }
 
     @And("user klik jawab button")
     public void jawabButton(){
-        jawab. ;
+        jawab.validateOnJawabPage();
     }
 
     @And("user menulis jawaban")
     public void tulisJawaban(){
-        jawab. ;
+
     }
 
     @And("user klik kirim button")
     public void kirimButton(){
-        jawab. ;
+
     }
 
     @Then("user sukses menjawab pertanyaan")
     public void successMenjawabPertanyaan(){
-        jawab. ;
+
     }
 }

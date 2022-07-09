@@ -14,18 +14,18 @@ public class PageRuangUserSteps {
 
     //scenario 1 success
 
-    @Given("user on landing page")
+    @Given("user on hmpage")
     public void onlandingpage(){
-        rUser. ;
+
     }
 
     @When("user klik salah satu ruang")
     public void kliksalahsaturuang(){
-        rUser. ;
+
     }
 
     @Then("user berada di ruang diskusi")
     public void PageRuangDiskusi(){
-        rUser. ;
+
     }
 }

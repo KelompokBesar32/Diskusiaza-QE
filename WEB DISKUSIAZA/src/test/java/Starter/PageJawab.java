@@ -2,7 +2,6 @@ package Starter;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Step;
-import org.apache.xpath.operations.String;
 import org.openqa.selenium.By;
 
 public class PageJawab extends PageObject {
@@ -13,8 +12,8 @@ public class PageJawab extends PageObject {
     @Step
     public void onHomePage(){open();}
     @Step
-    public void clickJawabButton(){}
+    public void clickJawabButton(){$(textJawab()).click();}
     @Step
-    public void validateOnJawabPage(){}
+    public void validateOnJawabPage(){$(barJawab()).isDisplayed();}
 
 }

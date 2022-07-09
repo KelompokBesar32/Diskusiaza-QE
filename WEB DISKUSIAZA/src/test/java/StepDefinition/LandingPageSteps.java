@@ -1,6 +1,7 @@
 package StepDefinition;
 
 import Starter.LandingPage;
+import Starter.Loginpage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -10,12 +11,17 @@ import net.thucydides.core.annotations.Steps;
 public class LandingPageSteps {
     @Steps
     LandingPage landing;
+    Loginpage login;
 
     //scenario 1 success ke halaman tambah pertanyaan
 
-    @Given("user on landing page")
-    public void onLandingPage(){
-        landing.onLandingPage();
+    @Given("user login with email {} and password {} and user on landing page")
+    public void onLandingPage(String email, String password){
+        landing.openPage();
+        login.inputEmail(email);
+        login.inputPassword(password);
+        login.clickLoginButton();
+        landing.onLandingpage();
     }
 
     @When("user klik 'tanya' button")

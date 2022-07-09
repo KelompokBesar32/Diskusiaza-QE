@@ -15,22 +15,22 @@ public class PagePertanyaanSteps {
 
         @Given("user on page pertanyaan")
         public void onPagePertanyaan(){
-            pertanyaan. ;
+
         }
 
         @When("user menulis pertanyaan")
         public void tulisPertanyaan(){
-            pertanyaan. ;
+
         }
 
         @And("user memilih privasi pertanyaan")
         public void pilihPrivasiPertanyaan(){
-            pertanyaan. ;
+
         }
 
         @Then("user sukses mengirim pertanyaan")
         public void successMengirimPertanyaan(){
-            pertanyaan. ;
+
         }
 
 }

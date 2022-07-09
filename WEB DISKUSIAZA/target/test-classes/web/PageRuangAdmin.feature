@@ -1,7 +1,7 @@
 Feature: user on page ruang admin
 
   Scenario: User membuat ruang
-    Given user on landing page
+    Given user on home page
     When user klik buat ruang
     And user input nama ruang
     And user input deskripsi
