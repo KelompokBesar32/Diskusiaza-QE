@@ -19,10 +19,10 @@ public class AndroidDriverPool {
         String appiumUrl = "http://127.0.0.1:4723/wd/hub/";
 
         caps.setCapability(AndroidMobileCapabilityType.PLATFORM_NAME, "Android");
-        caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8");
+        caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         caps.setCapability(MobileCapabilityType.NO_RESET, true);
-        caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + File.separator + "app/alta-online-shop.apk");
+        caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + File.separator + "app/app-release.apk");
 
         try {
             driver = new AndroidDriver<AndroidElement>(new URL(appiumUrl), caps);
