@@ -1,0 +1,5 @@
+CucumberTestSuite.class
+test\automation\Pages\LoginScreen.class
+test\automation\stepdefinitions\LoginSteps.class
+test\automation\Pages\RegisterScreen.class
+test\automation\stepdefinitions\RegisterSteps.class

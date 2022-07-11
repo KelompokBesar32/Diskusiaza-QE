@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="As a user on register page" skipped="0" tests="1" time="67.87" timestamp="2022-07-11 11:53:47"><testcase name="User input valid data"><error message="Expected condition failed: waiting for element to be clickable: By.AccessibilityId: Woman (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for element to be clickable: By.AccessibilityId: Woman (tried for 10 second(s) with 500 milliseconds interval)</error><system-err>Expected condition failed: waiting for element to be clickable: By.AccessibilityId: Woman (tried for 10 second(s) with 500 milliseconds interval)&#13;
+test.automation.pageobject.BasePageObject.waitUntilClickable(BasePageObject.java:27)&#13;
+test.automation.pageobject.BasePageObject.onClick(BasePageObject.java:39)&#13;
+test.automation.Pages.RegisterScreen.tapJenisKelamin(RegisterScreen.java:46)&#13;
+test.automation.stepdefinitions.RegisterSteps.inputValidKelamin(RegisterSteps.java:65)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+</system-err></testcase></testsuite>

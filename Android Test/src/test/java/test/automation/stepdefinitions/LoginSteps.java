@@ -4,20 +4,33 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import net.thucydides.core.annotations.Steps;
+import test.automation.Pages.LoginScreen;
 
 public class LoginSteps {
+    @Steps
+    LoginScreen login;
     @Given("user on login page")
-    public void onLoginPage(){}
+    public void onLoginPage(){
+        login.onHomepage();
+    }
 
-    @When("user input valid email and valid password")
-    public void inputValidEmailandValidPassword(){}
+    @When("user input valid email {} and valid password {}")
+    public void inputValidEmailandValidPassword(String email, String password){
+        login.tapEmail();
+        login.typeEmail(email);
+        login.tapPassword();
+        login.typePassword(password);
+    }
 
     @And("user click button login")
-    public void clickLoginButton() {}
-
+    public void clickLoginButton() {
+        login.tapLoginButton();
+    }
 
     @Then("user success to landing page")
-    public void successLogin{}
+    public void successLogin(){
+    }
 
     //scenario 2 unsuccess invalid password
     @When("user input valid email and invalid password")
