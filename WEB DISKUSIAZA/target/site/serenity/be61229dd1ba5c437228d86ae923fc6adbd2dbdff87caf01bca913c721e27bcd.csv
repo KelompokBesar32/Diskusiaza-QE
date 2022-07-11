@@ -1,5 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"User on login page","User input valid email and password","SUCCESS","2022-07-10T03:19:26.4798826+07:00[Asia/Bangkok]","0.0","6.61"
-"User on login page","user input valid email and invalid password","SUCCESS","2022-07-10T03:19:34.1423692+07:00[Asia/Bangkok]","0.0","5.74"
-"User on login page","user input invalid email and valid password","SUCCESS","2022-07-10T03:19:40.7264443+07:00[Asia/Bangkok]","0.0","5.67"
-"User on login page","user input invalid email and invalid password","SUCCESS","2022-07-10T03:19:47.3083505+07:00[Asia/Bangkok]","0.0","5.51"
+"User on login page","user input valid email and invalid password","SUCCESS","2022-07-11T14:26:34.8608036+07:00[Asia/Bangkok]","0.0","12.8"
+"User on login page","user input invalid email and valid password","SUCCESS","2022-07-11T14:26:48.5218388+07:00[Asia/Bangkok]","0.0","24.28"
+"User on login page","user input invalid email and invalid password","SUCCESS","2022-07-11T14:27:13.6797752+07:00[Asia/Bangkok]","0.0","33.62"

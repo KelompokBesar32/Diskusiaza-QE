@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"user on register page","User input valid data","PENDING","2022-07-10T03:20:06.4050058+07:00[Asia/Bangkok]","0.0","12.3"
-"user on register page","user input email tanpa menggunakan '@'","PENDING","2022-07-10T03:20:20.41715+07:00[Asia/Bangkok]","0.0","9.36"
-"user on register page","user tidak memasukkan password","PENDING","2022-07-10T03:20:58.6901445+07:00[Asia/Bangkok]","0.0","13.93"

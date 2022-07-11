@@ -151,7 +151,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-07-2022 03:20</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-07-2022 14:28</span>
     <br style="clear:left"/>
 </div>
 
@@ -178,6 +178,12 @@
 
                         </td>
                         <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e03a067e2b5fc68f6bffffd00b843c6d2ab69a8a38d4201f01b209e4ad548e57.html">Nyoba
+                                    (tag)</a>
+                                </span>
+                            </p>
                         </td>
                     </tr>
                 </table>
@@ -186,9 +192,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='far fa-stop-circle pending-icon fa-2x' title='PENDING'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="pending-color">user input email tanpa menggunakan '@'
+                                <span class="failing-color">user input email tanpa menggunakan '@'
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -205,28 +211,67 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabledBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>Starter.RegisterPage.clickTanggal(RegisterPage.java:46)<br />StepDefinition.RegisterSteps.inputValidTanggalLahir(RegisterSteps.java:54)<br />✽.user input valid tanggal lahir(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:23)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource257769902025489627.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="f85dffa8b601583a0e2142bf5b67a83a6d5423edd063e65715b4acb56e319093.png" title=" Given user on register page" width="1554"/>
-                <img src="f85dffa8b601583a0e2142bf5b67a83a6d5423edd063e65715b4acb56e319093.png" title=" On register page" width="1554"/>
-                <img src="f85dffa8b601583a0e2142bf5b67a83a6d5423edd063e65715b4acb56e319093.png" title=" Given user on register page (completed)" width="1554"/>
-                <img src="86d2c2a8c82b2b2087f67c5bb0ac792d76b221a9666a6458a43a445bc42e0223.png" title=" When user input valid nama depan" width="1554"/>
-                <img src="86d2c2a8c82b2b2087f67c5bb0ac792d76b221a9666a6458a43a445bc42e0223.png" title=" Type first name: Jake" width="1554"/>
-                <img src="59a37305e72987861cc29ed38a7a4698a49ae13c8b838ca3b8a3ab41d12ec327.png" title=" Type first name: Jake (completed)" width="1554"/>
-                <img src="59a37305e72987861cc29ed38a7a4698a49ae13c8b838ca3b8a3ab41d12ec327.png" title=" When user input valid nama depan (completed)" width="1554"/>
-                <img src="536b403297c5390ddba968b618afd19119eb5da29a7901ab2e8cb04299167220.png" title=" And user input valid nama belakang" width="1554"/>
-                <img src="536b403297c5390ddba968b618afd19119eb5da29a7901ab2e8cb04299167220.png" title=" Type last name: Ziemann" width="1554"/>
-                <img src="536b403297c5390ddba968b618afd19119eb5da29a7901ab2e8cb04299167220.png" title=" And user input valid nama belakang (completed)" width="1554"/>
-                <img src="c91fdcbda46309cd7f702d3aa3bde80ac721e4824506fc88018f47c0001401b4.png" title=" And user input email iimail" width="1554"/>
-                <img src="c91fdcbda46309cd7f702d3aa3bde80ac721e4824506fc88018f47c0001401b4.png" title=" Type email: iimail" width="1554"/>
-                <img src="c91fdcbda46309cd7f702d3aa3bde80ac721e4824506fc88018f47c0001401b4.png" title=" And user input email iimail (completed)" width="1554"/>
-                <img src="623281bfa9814f524e51c2b9a666aa618e025ba04bc68d4962bda1d7fbcea4e9.png" title=" And user input valid password katasandi" width="1554"/>
-                <img src="623281bfa9814f524e51c2b9a666aa618e025ba04bc68d4962bda1d7fbcea4e9.png" title=" Type password: katasandi" width="1554"/>
-                <img src="623281bfa9814f524e51c2b9a666aa618e025ba04bc68d4962bda1d7fbcea4e9.png" title=" And user input valid password katasandi (completed)" width="1554"/>
-                <img src="0d375b75a29a68b5bd51624ee1992ff8423fc7969b8b824a2e1aa64647f6726d.png" title=" And user input confirm password katasandi" width="1554"/>
-                <img src="0d375b75a29a68b5bd51624ee1992ff8423fc7969b8b824a2e1aa64647f6726d.png" title=" Type confirm password: katasandi" width="1554"/>
-                <img src="0d375b75a29a68b5bd51624ee1992ff8423fc7969b8b824a2e1aa64647f6726d.png" title=" And user input confirm password katasandi (completed)" width="1554"/>
-                <img src="0d375b75a29a68b5bd51624ee1992ff8423fc7969b8b824a2e1aa64647f6726d.png" title=" And user input valid tanggal lahir 01, 12, 2001: <span class='pending-color'>PENDING</span>" width="1554"/>
+                <img src="86d2c2a8c82b2b2087f67c5bb0ac792d76b221a9666a6458a43a445bc42e0223.png" title=" Given user on register page" width="1554"/>
+                <img src="86d2c2a8c82b2b2087f67c5bb0ac792d76b221a9666a6458a43a445bc42e0223.png" title=" On register page" width="1554"/>
+                <img src="86d2c2a8c82b2b2087f67c5bb0ac792d76b221a9666a6458a43a445bc42e0223.png" title=" Given user on register page (completed)" width="1554"/>
+                <img src="153a6e05360f496dc426e9dc38972eb73480611b72c174441092756be0400a23.png" title=" When user input valid nama depan" width="1554"/>
+                <img src="153a6e05360f496dc426e9dc38972eb73480611b72c174441092756be0400a23.png" title=" Type first name: Ada" width="1554"/>
+                <img src="153a6e05360f496dc426e9dc38972eb73480611b72c174441092756be0400a23.png" title=" When user input valid nama depan (completed)" width="1554"/>
+                <img src="85cd15c4f22c26e1a71808c525f5700e693b90948d691c2dca1205524df03992.png" title=" And user input valid nama belakang" width="1554"/>
+                <img src="85cd15c4f22c26e1a71808c525f5700e693b90948d691c2dca1205524df03992.png" title=" Type last name: Wuckert" width="1554"/>
+                <img src="85cd15c4f22c26e1a71808c525f5700e693b90948d691c2dca1205524df03992.png" title=" And user input valid nama belakang (completed)" width="1554"/>
+                <img src="f151227c7436fa286078135b04703a01f2d8398c4ff7436b23daab2dd8f562c8.png" title=" And user input email iimail" width="1554"/>
+                <img src="f151227c7436fa286078135b04703a01f2d8398c4ff7436b23daab2dd8f562c8.png" title=" Type email: iimail" width="1554"/>
+                <img src="f151227c7436fa286078135b04703a01f2d8398c4ff7436b23daab2dd8f562c8.png" title=" And user input email iimail (completed)" width="1554"/>
+                <img src="bc68c7d04e5bcaff4d7b9f888af24e59ca23df093f3c5aa7c7fc128d3afad69a.png" title=" And user input valid password katasandi" width="1554"/>
+                <img src="bc68c7d04e5bcaff4d7b9f888af24e59ca23df093f3c5aa7c7fc128d3afad69a.png" title=" Type password: katasandi" width="1554"/>
+                <img src="bc68c7d04e5bcaff4d7b9f888af24e59ca23df093f3c5aa7c7fc128d3afad69a.png" title=" And user input valid password katasandi (completed)" width="1554"/>
+                <img src="863b136a13c24f4c24c44923c8fbc03d7db1f101e1d099e45a8a194ef006c96e.png" title=" And user input confirm password katasandi" width="1554"/>
+                <img src="863b136a13c24f4c24c44923c8fbc03d7db1f101e1d099e45a8a194ef006c96e.png" title=" Type confirm password: katasandi" width="1554"/>
+                <img src="863b136a13c24f4c24c44923c8fbc03d7db1f101e1d099e45a8a194ef006c96e.png" title=" And user input confirm password katasandi (completed)" width="1554"/>
+                <img src="863b136a13c24f4c24c44923c8fbc03d7db1f101e1d099e45a8a194ef006c96e.png" title=" And user input valid tanggal lahir" width="1554"/>
+                <img src="863b136a13c24f4c24c44923c8fbc03d7db1f101e1d099e45a8a194ef006c96e.png" title=" Click tanggal: <span class='failing-color'>FAILURE</span>" width="1554"/>
             </div>
         </div>
 

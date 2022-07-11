@@ -1,51 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="5" name="user on register page" skipped="3" tests="8" time="108.69" timestamp="2022-07-10 03:20:06"><testcase name="User input valid data"><skipped/></testcase><testcase name="user input email tanpa menggunakan '@'"><skipped/></testcase><testcase name="user tidak memasukkan email"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="8" name="user on register page" skipped="0" tests="8" time="225.16" timestamp="2022-07-11 02:28:11"><testcase name="User input valid data"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: driver.version: unknown&#13;
-rest.api@1.0-SNAPSHOT/Starter.RegisterPage.clickTanggal(RegisterPage.java:37)&#13;
+rest.api@1.0-SNAPSHOT/Starter.RegisterPage.clickTanggal(RegisterPage.java:46)&#13;
+rest.api@1.0-SNAPSHOT/StepDefinition.RegisterSteps.inputValidTanggalLahir(RegisterSteps.java:54)&#13;
+✽.user input valid tanggal lahir(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:11)&#13;
+</system-err></testcase><testcase name="user input email tanpa menggunakan '@'"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: unknown&#13;
+rest.api@1.0-SNAPSHOT/Starter.RegisterPage.clickTanggal(RegisterPage.java:46)&#13;
+rest.api@1.0-SNAPSHOT/StepDefinition.RegisterSteps.inputValidTanggalLahir(RegisterSteps.java:54)&#13;
+✽.user input valid tanggal lahir(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:23)&#13;
+</system-err></testcase><testcase name="user tidak memasukkan email"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: unknown&#13;
+rest.api@1.0-SNAPSHOT/Starter.RegisterPage.clickTanggal(RegisterPage.java:46)&#13;
 rest.api@1.0-SNAPSHOT/StepDefinition.RegisterSteps.inputValidTanggalLahir3(RegisterSteps.java:115)&#13;
-✽.user input valid tanggal lahir3 01, 12, 2001(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:33)&#13;
-</system-err></testcase><testcase name="user tidak memasukan nama depan"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+✽.user input valid tanggal lahir3(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:34)&#13;
+</system-err></testcase><testcase name="user tidak memasukan nama depan"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: driver.version: unknown&#13;
-rest.api@1.0-SNAPSHOT/Starter.RegisterPage.clickTanggal(RegisterPage.java:37)&#13;
+rest.api@1.0-SNAPSHOT/Starter.RegisterPage.clickTanggal(RegisterPage.java:46)&#13;
 rest.api@1.0-SNAPSHOT/StepDefinition.RegisterSteps.inputValidTanggalLahir4(RegisterSteps.java:164)&#13;
-✽.user input valid tanggal lahir4 01, 12, 2001(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:44)&#13;
-</system-err></testcase><testcase name="user tidak memasukkan password"><skipped/></testcase><testcase name="user tidak memasukkan nama belakang"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+✽.user input valid tanggal lahir4(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:45)&#13;
+</system-err></testcase><testcase name="user tidak memasukkan password"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: driver.version: unknown&#13;
-rest.api@1.0-SNAPSHOT/Starter.RegisterPage.clickTanggal(RegisterPage.java:37)&#13;
-rest.api@1.0-SNAPSHOT/StepDefinition.RegisterSteps.inputValidTanggalLahir6(RegisterSteps.java:263)&#13;
-✽.user input valid tanggal lahir6 01, 12, 2001(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:66)&#13;
-</system-err></testcase><testcase name="user tidak memasukkan jenis kelamin"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+rest.api@1.0-SNAPSHOT/Starter.RegisterPage.clickTanggal(RegisterPage.java:46)&#13;
+rest.api@1.0-SNAPSHOT/StepDefinition.RegisterSteps.inputValidTanggalLahir5(RegisterSteps.java:215)&#13;
+✽.user input valid tanggal lahir5(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:56)&#13;
+</system-err></testcase><testcase name="user tidak memasukkan nama belakang"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: driver.version: unknown&#13;
-rest.api@1.0-SNAPSHOT/Starter.RegisterPage.clickTanggal(RegisterPage.java:37)&#13;
-rest.api@1.0-SNAPSHOT/StepDefinition.RegisterSteps.inputValidTanggalLahir7(RegisterSteps.java:318)&#13;
-✽.user input valid tanggal lahir7 01, 12, 2001(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:78)&#13;
-</system-err></testcase><testcase name="user tidak mengisi confirm password"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+rest.api@1.0-SNAPSHOT/Starter.RegisterPage.clickTanggal(RegisterPage.java:46)&#13;
+rest.api@1.0-SNAPSHOT/StepDefinition.RegisterSteps.inputValidTanggalLahir6(RegisterSteps.java:265)&#13;
+✽.user input valid tanggal lahir6(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:67)&#13;
+</system-err></testcase><testcase name="user tidak memasukkan jenis kelamin"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.84.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: driver.version: unknown&#13;
-rest.api@1.0-SNAPSHOT/Starter.RegisterPage.clickTanggal(RegisterPage.java:37)&#13;
-rest.api@1.0-SNAPSHOT/StepDefinition.RegisterSteps.inputValidTanggalLahir8(RegisterSteps.java:362)&#13;
-✽.user input valid tanggal lahir8 01, 12, 2001(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:89)&#13;
+rest.api@1.0-SNAPSHOT/Starter.RegisterPage.clickTanggal(RegisterPage.java:46)&#13;
+rest.api@1.0-SNAPSHOT/StepDefinition.RegisterSteps.inputValidTanggalLahir7(RegisterSteps.java:321)&#13;
+✽.user input valid tanggal lahir7(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:79)&#13;
+</system-err></testcase><testcase name="user tidak mengisi confirm password"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.175.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: unknown&#13;
+rest.api@1.0-SNAPSHOT/Starter.RegisterPage.typeJenisKelamin(RegisterPage.java:36)&#13;
+rest.api@1.0-SNAPSHOT/StepDefinition.RegisterSteps.inputJenisKelamin8(RegisterSteps.java:376)&#13;
+✽.user input jenis kelamin8(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature:89)&#13;
 </system-err></testcase></testsuite>

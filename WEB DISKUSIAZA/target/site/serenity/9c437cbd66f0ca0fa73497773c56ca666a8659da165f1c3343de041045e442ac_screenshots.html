@@ -151,7 +151,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-07-2022 03:19</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-07-2022 14:26</span>
     <br style="clear:left"/>
 </div>
 
@@ -186,9 +186,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">User input valid email and password
+                                <span class="error-color">User input valid email and password
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -205,22 +205,60 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">No such element exception: no such element: Unable to locate element: {'method':'css selector','selector':'#mid'}</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>Starter.Loginpage.validationOnHomepage(Loginpage.java:41)<br />StepDefinition.LoginSteps.successLogin(LoginSteps.java:35)<br />✽.user success to landing page(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature:7)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource3040574650777950080.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="7556db4df44ebef8b767b3aa270c932b8cf2f9f4aff9dd178fa3083dd115384d.png" title=" Given user on login page" width="1554"/>
-                <img src="7556db4df44ebef8b767b3aa270c932b8cf2f9f4aff9dd178fa3083dd115384d.png" title=" Open page" width="1554"/>
-                <img src="7556db4df44ebef8b767b3aa270c932b8cf2f9f4aff9dd178fa3083dd115384d.png" title=" Given user on login page (completed)" width="1554"/>
-                <img src="00c29540f202c1942a591118191d21505873b3ff47ad5b7340126355966841d6.png" title=" When user input valid email ii@gmail.com and valid password 123" width="1554"/>
-                <img src="00c29540f202c1942a591118191d21505873b3ff47ad5b7340126355966841d6.png" title=" Input email: ii@gmail.com" width="1554"/>
-                <img src="00c29540f202c1942a591118191d21505873b3ff47ad5b7340126355966841d6.png" title=" Input password: 123" width="1554"/>
+                <img src="1fe04e747527d3f0152f2d95e529d928587ba2ebcad15fb6c0ce25e359dd6b05.png" title=" Given user on login page" width="1554"/>
+                <img src="1fe04e747527d3f0152f2d95e529d928587ba2ebcad15fb6c0ce25e359dd6b05.png" title=" Open page" width="1554"/>
+                <img src="1fe04e747527d3f0152f2d95e529d928587ba2ebcad15fb6c0ce25e359dd6b05.png" title=" Given user on login page (completed)" width="1554"/>
+                <img src="f1e023ebd3ec2eb693b46d96dc725ac2a7b8c06fe3deb6d9ad1f4c659b49dbf1.png" title=" When user input valid email ii@gmail.com and valid password 123" width="1554"/>
+                <img src="f1e023ebd3ec2eb693b46d96dc725ac2a7b8c06fe3deb6d9ad1f4c659b49dbf1.png" title=" Input email: ii@gmail.com" width="1554"/>
+                <img src="f1e023ebd3ec2eb693b46d96dc725ac2a7b8c06fe3deb6d9ad1f4c659b49dbf1.png" title=" Input password: 123" width="1554"/>
                 <img src="720e1c9e328f1a7525375e1f312e577cdce08799fd7fcf32620f811049b27cc9.png" title=" Input password: 123 (completed)" width="1554"/>
                 <img src="720e1c9e328f1a7525375e1f312e577cdce08799fd7fcf32620f811049b27cc9.png" title=" When user input valid email ii@gmail.com and valid password 123 (completed)" width="1554"/>
-                <img src="ced43dbd28111affbb0d5bdcb2174a4f9ebd25ea5cf1be4d7c98d1bdee5e7c6c.png" title=" And user click button login" width="1554"/>
-                <img src="ced43dbd28111affbb0d5bdcb2174a4f9ebd25ea5cf1be4d7c98d1bdee5e7c6c.png" title=" Click login button" width="1554"/>
-                <img src="ced43dbd28111affbb0d5bdcb2174a4f9ebd25ea5cf1be4d7c98d1bdee5e7c6c.png" title=" And user click button login (completed)" width="1554"/>
-                <img src="c7edd8d797da9464233d8e006a8f69b4885ca5e7bc2327918a30ae8511f61166.png" title=" Then user success to landing page" width="1554"/>
-                <img src="c7edd8d797da9464233d8e006a8f69b4885ca5e7bc2327918a30ae8511f61166.png" title=" Validation on homepage" width="1554"/>
-                <img src="c7edd8d797da9464233d8e006a8f69b4885ca5e7bc2327918a30ae8511f61166.png" title=" Then user success to landing page (completed): <span class='success-color'>SUCCESS</span>" width="1554"/>
+                <img src="c91153d5ef0ebc60389fadb93a228050654adddb14a6eb5b403c493cc653da78.png" title=" And user click button login" width="1554"/>
+                <img src="c91153d5ef0ebc60389fadb93a228050654adddb14a6eb5b403c493cc653da78.png" title=" Click login button" width="1554"/>
+                <img src="c91153d5ef0ebc60389fadb93a228050654adddb14a6eb5b403c493cc653da78.png" title=" And user click button login (completed)" width="1554"/>
+                <img src="c91153d5ef0ebc60389fadb93a228050654adddb14a6eb5b403c493cc653da78.png" title=" Then user success to landing page" width="1554"/>
+                <img src="b9be3d0decb0bbc761796547b2111388faa119b3b24ecee82a72335e29b8b347.png" title=" Validation on homepage: <span class='error-color'>ERROR</span>" width="1554"/>
             </div>
         </div>
 

@@ -52,11 +52,11 @@ public class RegisterSteps {
     @And("user input valid tanggal lahir")
     public void inputValidTanggalLahir(){
         regist.clickTanggal();
-
+        regist.pilihTanggal();
         regist.clickBulan();
-
+        regist.pilihBulan();
         regist.clickTahun();
-
+        regist.pilihTahun();
     }
 
     @And("user pilih jenis kelamin")
@@ -110,14 +110,14 @@ public class RegisterSteps {
         regist.typeConfirmPassword(c_password);
     }
 
-    @And("user input valid tanggal lahir3 {}, {}, {}")
-    public void inputValidTanggalLahir3(String tanggal, String bulan, String tahun){
+    @And("user input valid tanggal lahir3")
+    public void inputValidTanggalLahir3(){
         regist.clickTanggal();
-
+        regist.pilihTanggal();
         regist.clickBulan();
-
+        regist.pilihBulan();
         regist.clickTahun();
-
+        regist.pilihTahun();
     }
 
     @And("user pilih jenis kelamin3")
@@ -159,13 +159,14 @@ public class RegisterSteps {
         regist.typeConfirmPassword(c_password);
     }
 
-    @And("user input valid tanggal lahir4 {}, {}, {}")
-    public void inputValidTanggalLahir4(String tanggal, String bulan, String tahun){
+    @And("user input valid tanggal lahir4")
+    public void inputValidTanggalLahir4(){
         regist.clickTanggal();
-
+        regist.pilihTanggal();
         regist.clickBulan();
-
+        regist.pilihBulan();
         regist.clickTahun();
+        regist.pilihTahun();
 
     }
 
@@ -212,10 +213,11 @@ public class RegisterSteps {
     @And("user input valid tanggal lahir5")
     public void inputValidTanggalLahir5(){
         regist.clickTanggal();
-
+        regist.pilihTanggal();
         regist.clickBulan();
-
+        regist.pilihBulan();
         regist.clickTahun();
+        regist.pilihTahun();
 
     }
 
@@ -258,13 +260,14 @@ public class RegisterSteps {
         regist.typeConfirmPassword(c_password);
     }
 
-    @And("user input valid tanggal lahir6 {}, {}, {}")
-    public void inputValidTanggalLahir6(String tanggal, String bulan, String tahun){
+    @And("user input valid tanggal lahir6")
+    public void inputValidTanggalLahir6(){
         regist.clickTanggal();
-
+        regist.pilihTanggal();
         regist.clickBulan();
-
+        regist.pilihBulan();
         regist.clickTahun();
+        regist.pilihTahun();
 
     }
 
@@ -313,13 +316,14 @@ public class RegisterSteps {
         regist.typeConfirmPassword(c_password);
     }
 
-    @And("user input valid tanggal lahir7 {}, {}, {}")
-    public void inputValidTanggalLahir7(String tanggal, String bulan, String tahun){
+    @And("user input valid tanggal lahir7")
+    public void inputValidTanggalLahir7(){
         regist.clickTanggal();
-
+        regist.pilihTanggal();
         regist.clickBulan();
-
+        regist.pilihBulan();
         regist.clickTahun();
+        regist.pilihTahun();
 
     }
 
@@ -357,14 +361,14 @@ public class RegisterSteps {
         regist.typePassword(password);
     }
 
-    @And("user input valid tanggal lahir8 {}, {}, {}")
-    public void inputValidTanggalLahir8(String tanggal, String bulan, String tahun){
+    @And("user input valid tanggal lahir8")
+    public void inputValidTanggalLahir8(){
         regist.clickTanggal();
-
+        regist.pilihTanggal();
         regist.clickBulan();
-
+        regist.pilihBulan();
         regist.clickTahun();
-
+        regist.pilihTahun();
     }
 
     @And("user input jenis kelamin8")
