@@ -1,5 +1,7 @@
+test\automation\pages\LandingPageScreen.class
 CucumberTestSuite.class
-test\automation\Pages\LoginScreen.class
+test\automation\pages\RegisterScreen.class
 test\automation\stepdefinitions\LoginSteps.class
-test\automation\Pages\RegisterScreen.class
+test\automation\stepdefinitions\LandingPageSteps.class
+test\automation\pages\LoginScreen.class
 test\automation\stepdefinitions\RegisterSteps.class

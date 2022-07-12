@@ -1,7 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-<<<<<<< HEAD:WEB DISKUSIAZA/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv
-"User on landing page","User membuka tulis jawaban","ERROR","2022-07-11T14:23:09.4902133+07:00[Asia/Bangkok]","0.0","18.53"
-"User on login page","User input valid email and password","ERROR","2022-07-11T14:26:13.6782039+07:00[Asia/Bangkok]","0.0","20.17"
-=======
-"As a user on register page","User input valid data","ERROR","2022-07-11T23:53:47.7188622+07:00[Asia/Jakarta]","0.0","67.87"
->>>>>>> ec00173f1be344fad7b067c8e6d3be22bcadee4f:Android Test/target/site/serenity/c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.csv

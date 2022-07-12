@@ -5,8 +5,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
-import test.automation.Pages.LoginScreen;
-import test.automation.Pages.RegisterScreen;
+import test.automation.pages.LoginScreen;
+import test.automation.pages.RegisterScreen;
 
 public class RegisterSteps {
     @Steps

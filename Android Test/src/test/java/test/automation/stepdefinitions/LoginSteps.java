@@ -5,7 +5,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
-import test.automation.Pages.LoginScreen;
+import test.automation.pages.LoginScreen;
 
 public class LoginSteps {
     @Steps
@@ -33,7 +33,7 @@ public class LoginSteps {
     }
 
     //scenario 2 unsuccess invalid password
-    @When("user input valid email and invalid password")
+    @When("user input email {} and invalid password {}")
     public void inputInvalidPassword(){
 
     }
@@ -50,7 +50,7 @@ public class LoginSteps {
 
     //scenario 3 unsuccess invalid email
 
-    @When("user input invalid email and valid password")
+    @When("user input invalid email and password")
     public void iInputInvalidEmail() {
 
     }

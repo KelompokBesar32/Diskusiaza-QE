@@ -1,4 +1,4 @@
-package test.automation.Pages;
+package test.automation.pages;
 
 import io.appium.java_client.MobileBy;
 import net.thucydides.core.annotations.Step;
