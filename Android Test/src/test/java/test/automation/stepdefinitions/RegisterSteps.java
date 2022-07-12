@@ -16,7 +16,7 @@ public class RegisterSteps {
     LoginScreen loginn;
 
     @Given("user on login page 5")
-    public void onLoginPage(){
+    public void onLoginPage1(){
         loginn.onHomepage();
     }
 
@@ -56,8 +56,11 @@ public class RegisterSteps {
     }
 
     @And("user input valid tanggal lahir")
-    public void inputValidTanggal() {
+    public void inputValidTanggal(String Tanggal) {
         regist.tapTanggalLahir();
+        regist.tapTanggal();
+        regist.TypeTanggal(Tanggal);
+        regist.tapButtonOK();
     }
 
     @And("user pilih jenis kelamin")

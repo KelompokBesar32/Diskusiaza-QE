@@ -30,56 +30,64 @@ public class LoginSteps {
 
     @Then("user success to landing page")
     public void successLogin(){
+        login.tapLoginButton();
     }
 
     //scenario 2 unsuccess invalid password
-    @When("user input valid email and invalid password")
-    public void inputInvalidPassword(){
-
+    @When("user input valid email {} and invalid password {}")
+    public void inputInvalidPassword(String emaill, String passwordd){
+        login.tapEmail();
+        login.typeEmail(emaill);
+        login.tapPassword();
+        login.typePassword(passwordd);
     }
 
     @And("user click button login2")
     public void clickLoginButton2(){
-
+        login.tapLoginButton();
     }
 
     @Then("got massage2 {}")
     public void iFailedToLoginAndGetErrorMessage2(String message) {
-
     }
 
     //scenario 3 unsuccess invalid email
 
-    @When("user input invalid email and valid password")
-    public void iInputInvalidEmail() {
+    @When("user input invalid email {} and valid password {}")
+    public void iInputInvalidEmail(String emailll, String passworddd) {
+        login.tapEmail();
+        login.typeEmail(emailll);
+        login.tapPassword();
+        login.typePassword(passworddd);
 
     }
 
     @And("user click button login3")
     public void clickLoginButton3(){
-
+        login.tapLoginButton();
     }
 
     @Then("got massage3 {}")
     public void iFailToLoginAndGetErrorMessage(String message) {
-
     }
 
     //scenario 4 unsuccess invalid email and password
 
-    @When("user input invalid email and invalid password")
-    public void notInputUsernamePassword4(){
-
+    @When("user input invalid email {} and invalid password {}")
+    public void notInputUsernamePassword4(String eemail, String ppassword){
+        login.tapEmail();
+        login.typeEmail(eemail);
+        login.tapPassword();
+        login.typePassword(ppassword);
     }
 
     @And("user click button login4")
     public void clickLoginButton4(){
-
+        login.tapLoginButton();
     }
 
     @Then("got massage4 {}")
     public void iGetErrorMessage(String message) {
-
     }
 
 }

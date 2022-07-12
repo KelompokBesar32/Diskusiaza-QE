@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberTestSuite" time="77.701" tests="12" errors="2" skipped="2" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberTestSuite" time="20.441" tests="32" errors="10" skipped="22" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
@@ -35,7 +35,6 @@
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="C:\apache-maven-3.8.5\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\LENOVO-PC"/>
-    <property name="tags" value="@Regist"/>
     <property name="user.timezone" value="Asia/Jakarta"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="17"/>
@@ -43,7 +42,7 @@
     <property name="java.class.path" value="C:\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -D tags=@Regist"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,116 +60,93 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="user on login page 5" classname="User input valid data" time="15.005"/>
-  <testcase name="user click sign up1" classname="User input valid data" time="12.841"/>
-  <testcase name="user input valid nama depan siti" classname="User input valid data" time="1.66"/>
-  <testcase name="user input valid nama belakang mutee" classname="User input valid data" time="1.282"/>
-  <testcase name="user input valid email sitimutee@gmail.com" classname="User input valid data" time="2.202"/>
-  <testcase name="user input valid password susah" classname="User input valid data" time="1.27"/>
-  <testcase name="user input valid confirm password susah" classname="User input valid data" time="1.267"/>
-  <testcase name="user input valid tanggal lahir" classname="User input valid data" time="1.424"/>
-  <testcase name="user pilih jenis kelamin" classname="User input valid data" time="30.489">
-    <error message="Expected condition failed: waiting for element to be clickable: By.AccessibilityId: Woman (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.AccessibilityId: Woman (tried for 10 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+  <testcase name="user on login page" classname="User input valid email and password" time="1.733">
+    <error message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '172.20.10.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\LENOVO-PC\OneDrive..., appPackage: com.example.diskusiaza_mobile, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO-PC\OneDrive..., automationName: UiAutomator2, noReset: true, platformName: android, platformVersion: 12}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: eae9c3c2-8714-4347-a402-d402bc4e2f03
-*** Element info: {Using=accessibility id, value=Woman}
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
 </error>
-    <system-out><![CDATA[  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser input valid tanggal lahir&amp#27;[0m             &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.inputValidTanggal()&amp#27;[0m
+    <system-out><![CDATA[
+@cb
+Scenario: User input valid email and password                     &amp#27;[90m# src/test/resources/features/Login.feature:3&amp#27;[0m
 ]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature
+[main] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+[main] INFO  - Test Suite Started: User on login page
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Register.feature
+[main] INFO  - Test Suite Started: As a user on register page
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature
+[main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+User input valid email and password(user-on-login-page;user-input-valid-email-and-password)
+--------------------------------------------------------------------------------
+]]></system-err>
   </testcase>
-  <testcase name="user klik Daftar button" classname="User input valid data" time="0">
+  <testcase name="user input valid email ii@gmail.com and valid password 123" classname="User input valid email and password" time="0">
     <skipped/>
-    <system-out><![CDATA[  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31muser pilih jenis kelamin&amp#27;[0m                   &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.inputValidKelamin()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.AccessibilityId: Woman (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at test.automation.pageobject.BasePageObject.waitUntilClickable(BasePageObject.java:27)
-	at test.automation.Pages.RegisterScreen$ByteBuddy$RDZvlw5b.waitUntilClickable$accessor$7ZlIDQs5(Unknown Source)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at test.automation.Pages.RegisterScreen$ByteBuddy$RDZvlw5b.waitUntilClickable(Unknown Source)
-	at test.automation.pageobject.BasePageObject.onClick(BasePageObject.java:39)
-	at test.automation.Pages.RegisterScreen$ByteBuddy$RDZvlw5b.onClick$accessor$7ZlIDQs5(Unknown Source)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at test.automation.Pages.RegisterScreen$ByteBuddy$RDZvlw5b.onClick(Unknown Source)
-	at test.automation.Pages.RegisterScreen.tapJenisKelamin(RegisterScreen.java:46)
-	at test.automation.Pages.RegisterScreen$ByteBuddy$RDZvlw5b.tapJenisKelamin$accessor$7ZlIDQs5(Unknown Source)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
-	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at test.automation.Pages.RegisterScreen$ByteBuddy$RDZvlw5b.tapJenisKelamin(Unknown Source)
-	at test.automation.stepdefinitions.RegisterSteps.inputValidKelamin(RegisterSteps.java:65)
-	at âœ½.user pilih jenis kelamin(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Register.feature:13)
-Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+    <system-out><![CDATA[  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser on login page&amp#27;[0m                                        &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.onLoginPage()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '172.20.10.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\LENOVO-PC\OneDrive..., appPackage: com.example.diskusiaza_mobile, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO-PC\OneDrive..., automationName: UiAutomator2, noReset: true, platformName: android, platformVersion: 12}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: eae9c3c2-8714-4347-a402-d402bc4e2f03
-*** Element info: {Using=accessibility id, value=Woman}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:216)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
 	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
-	at io.appium.java_client.MobileBy$ByAccessibilityId.findElement(MobileBy.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at test.automation.pageobject.BasePageObject.waitUntilClickable(BasePageObject.java:27)
-	at test.automation.Pages.RegisterScreen$ByteBuddy$RDZvlw5b.waitUntilClickable$accessor$7ZlIDQs5(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver$accessor$YOzpmpDk(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -181,9 +157,9 @@ Session ID: eae9c3c2-8714-4347-a402-d402bc4e2f03
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
 	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at test.automation.Pages.RegisterScreen$ByteBuddy$RDZvlw5b.waitUntilClickable(Unknown Source)
-	at test.automation.pageobject.BasePageObject.onClick(BasePageObject.java:39)
-	at test.automation.Pages.RegisterScreen$ByteBuddy$RDZvlw5b.onClick$accessor$7ZlIDQs5(Unknown Source)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait$accessor$YOzpmpDk(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -194,9 +170,22 @@ Session ID: eae9c3c2-8714-4347-a402-d402bc4e2f03
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
 	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at test.automation.Pages.RegisterScreen$ByteBuddy$RDZvlw5b.onClick(Unknown Source)
-	at test.automation.Pages.RegisterScreen.tapJenisKelamin(RegisterScreen.java:46)
-	at test.automation.Pages.RegisterScreen$ByteBuddy$RDZvlw5b.tapJenisKelamin$accessor$7ZlIDQs5(Unknown Source)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence(Unknown Source)
+	at test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage$accessor$YOzpmpDk(Unknown Source)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -208,8 +197,83 @@ Session ID: eae9c3c2-8714-4347-a402-d402bc4e2f03
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
 	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
-	at test.automation.Pages.RegisterScreen$ByteBuddy$RDZvlw5b.tapJenisKelamin(Unknown Source)
-	at test.automation.stepdefinitions.RegisterSteps.inputValidKelamin(RegisterSteps.java:65)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:15)
+	at âœ½.user on login page(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature:4)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence(Unknown Source)
+	at test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:15)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -253,7 +317,1314 @@ Session ID: eae9c3c2-8714-4347-a402-d402bc4e2f03
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 116 more
 &amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user click button login" classname="User input valid email and password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser input valid email ii@gmail.com and valid password 123&amp#27;[0m &amp#27;[90m# null&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user success to landing page" classname="User input valid email and password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click button login&amp#27;[0m                                     &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.clickLoginButton()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User input valid email and password" classname="User input valid email and password" time="0.007">
+    <error message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+</error>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser success to landing page&amp#27;[0m                               &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.successLogin()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user on login page" classname="user input valid email and invalid password" time="0">
+    <error message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+</error>
+    <system-out><![CDATA[
+Scenario: user input valid email and invalid password                &amp#27;[90m# src/test/resources/features/Login.feature:9&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR  - 
+  _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+ |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+   | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+   |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+
+User input valid email and password
+---------------------------------------------------------------
+[main] ERROR  -     Test failed at step: Given user on login page
+[main] ERROR  -     Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature
+[main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+user input valid email and invalid password(user-on-login-page;user-input-valid-email-and-invalid-password)
+--------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="user input valid email ii@gmail.com and invalid password 1234" classname="user input valid email and invalid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser on login page&amp#27;[0m                                           &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.onLoginPage()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:216)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence(Unknown Source)
+	at test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:15)
+	at âœ½.user on login page(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature:10)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence(Unknown Source)
+	at test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:110)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:286)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 116 more
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user click button login2" classname="user input valid email and invalid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser input valid email ii@gmail.com and invalid password 1234&amp#27;[0m &amp#27;[90m# null&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="got massage2 email or password wrong" classname="user input valid email and invalid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click button login2&amp#27;[0m                                       &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.clickLoginButton2()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user input valid email and invalid password" classname="user input valid email and invalid password" time="0.012">
+    <error message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+</error>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mgot massage2 &amp#27;[0m&amp#27;[36m&amp#27;[1memail or password wrong&amp#27;[0m                          &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.iFailedToLoginAndGetErrorMessage2(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user on login page" classname="user input invalid email and valid password" time="0.031">
+    <error message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+</error>
+    <system-out><![CDATA[
+Scenario: user input invalid email and valid password                &amp#27;[90m# src/test/resources/features/Login.feature:15&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR  - 
+  _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+ |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+   | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+   |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+
+user input valid email and invalid password
+---------------------------------------------------------------
+[main] ERROR  -     Test failed at step: Given user on login page
+[main] ERROR  -     Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature
+[main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+user input invalid email and valid password(user-on-login-page;user-input-invalid-email-and-valid-password)
+--------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="user input invalid email iii@gmail.com and valid password 123" classname="user input invalid email and valid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser on login page&amp#27;[0m                                           &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.onLoginPage()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:216)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence(Unknown Source)
+	at test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:15)
+	at âœ½.user on login page(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature:16)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence(Unknown Source)
+	at test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:110)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:286)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 116 more
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user click button login3" classname="user input invalid email and valid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser input invalid email &amp#27;[0m&amp#27;[36m&amp#27;[1miii@gmail.com&amp#27;[0m&amp#27;[36m and valid password &amp#27;[0m&amp#27;[36m&amp#27;[1m123&amp#27;[0m &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.iInputInvalidEmail(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="got massage3 email or password wrong" classname="user input invalid email and valid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click button login3&amp#27;[0m                                       &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.clickLoginButton3()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user input invalid email and valid password" classname="user input invalid email and valid password" time="0.009">
+    <error message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+</error>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mgot massage3 &amp#27;[0m&amp#27;[36m&amp#27;[1memail or password wrong&amp#27;[0m                          &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.iFailToLoginAndGetErrorMessage(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user on login page" classname="user input invalid email and invalid password" time="0.008">
+    <error message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+</error>
+    <system-out><![CDATA[
+Scenario: user input invalid email and invalid password                 &amp#27;[90m# src/test/resources/features/Login.feature:21&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR  - 
+  _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+ |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+   | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+   |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+
+user input invalid email and valid password
+---------------------------------------------------------------
+[main] ERROR  -     Test failed at step: Given user on login page
+[main] ERROR  -     Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature
+[main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+user input invalid email and invalid password(user-on-login-page;user-input-invalid-email-and-invalid-password)
+--------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="user input invalid email iii@gmail.com and invalid password 1234" classname="user input invalid email and invalid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser on login page&amp#27;[0m                                              &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.onLoginPage()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:216)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence(Unknown Source)
+	at test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:15)
+	at âœ½.user on login page(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature:22)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence(Unknown Source)
+	at test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:110)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:286)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 116 more
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user click button login4" classname="user input invalid email and invalid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser input invalid email &amp#27;[0m&amp#27;[36m&amp#27;[1miii@gmail.com&amp#27;[0m&amp#27;[36m and invalid password &amp#27;[0m&amp#27;[36m&amp#27;[1m1234&amp#27;[0m &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.notInputUsernamePassword4(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="got massage4 email or password wrong" classname="user input invalid email and invalid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click button login4&amp#27;[0m                                          &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.clickLoginButton4()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user input invalid email and invalid password" classname="user input invalid email and invalid password" time="0.003">
+    <error message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+</error>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mgot massage4 &amp#27;[0m&amp#27;[36m&amp#27;[1memail or password wrong&amp#27;[0m                             &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.iGetErrorMessage(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user on login page 5" classname="User input valid data" time="0">
+    <error message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+</error>
+    <system-out><![CDATA[
+@Regist
+Scenario: User input valid data                  &amp#27;[90m# src/test/resources/features/Register.feature:4&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR  - 
+  _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+ |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+   | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+   |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+
+user input invalid email and invalid password
+---------------------------------------------------------------
+[main] ERROR  -     Test failed at step: Given user on login page
+[main] ERROR  -     Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Register.feature
+[main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+User input valid data(as-a-user-on-register-page;user-input-valid-data)
+--------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="user click sign up1" classname="User input valid data" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser on login page 5&amp#27;[0m                     &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.onLoginPage1()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:216)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence(Unknown Source)
+	at test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.RegisterSteps.onLoginPage1(RegisterSteps.java:20)
+	at âœ½.user on login page 5(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Register.feature:5)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.waitUntilPresence(Unknown Source)
+	at test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage$accessor$YOzpmpDk(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.Pages.LoginScreen$ByteBuddy$51kaLDba.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.RegisterSteps.onLoginPage1(RegisterSteps.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:110)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:286)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 116 more
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user input valid nama depan siti" classname="User input valid data" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click sign up1&amp#27;[0m                        &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.clicksignupicon()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user input valid nama belakang mutee" classname="User input valid data" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser input valid nama depan &amp#27;[0m&amp#27;[36m&amp#27;[1msiti&amp#27;[0m          &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.inputValidNamaDepan(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user input valid email sitimutee@gmail.com" classname="User input valid data" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser input valid nama belakang &amp#27;[0m&amp#27;[36m&amp#27;[1mmutee&amp#27;[0m       &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.inputValidNamaBelakang(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user input valid password susah" classname="User input valid data" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser input valid email &amp#27;[0m&amp#27;[36m&amp#27;[1msitimutee@gmail.com&amp#27;[0m &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.inputValidEmail(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user input valid confirm password susah" classname="User input valid data" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser input valid password &amp#27;[0m&amp#27;[36m&amp#27;[1msusah&amp#27;[0m            &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.inputValidPassword(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user input valid tanggal lahir" classname="User input valid data" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser input valid confirm password &amp#27;[0m&amp#27;[36m&amp#27;[1msusah&amp#27;[0m    &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.inputValidConfirmPassword(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user pilih jenis kelamin" classname="User input valid data" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser input valid tanggal lahir&amp#27;[0m             &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.inputValidTanggal(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user klik Daftar button" classname="User input valid data" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser pilih jenis kelamin&amp#27;[0m                   &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.inputValidKelamin()&amp#27;[0m
 ]]></system-out>
   </testcase>
   <testcase name="user sign up to login page" classname="User input valid data" time="0">
@@ -261,17 +1632,27 @@ Session ID: eae9c3c2-8714-4347-a402-d402bc4e2f03
     <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser klik Daftar button&amp#27;[0m                    &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.DaftarButton()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="User input valid data" classname="User input valid data" time="0.001">
-    <error message="Expected condition failed: waiting for element to be clickable: By.AccessibilityId: Woman (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.AccessibilityId: Woman (tried for 10 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+  <testcase name="User input valid data" classname="User input valid data" time="0.003">
+    <error message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &apos;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&apos; does not exist or is not accessible&#10;    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MUTHIA17&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '172.20.10.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\LENOVO-PC\OneDrive..., appPackage: com.example.diskusiaza_mobile, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO-PC\OneDrive..., automationName: UiAutomator2, noReset: true, platformName: android, platformVersion: 12}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: eae9c3c2-8714-4347-a402-d402bc4e2f03
-*** Element info: {Using=accessibility id, value=Woman}
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
 </error>
     <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser sign up to login page&amp#27;[0m                &amp#27;[90m# test.automation.stepdefinitions.RegisterSteps.successToLoginPage()&amp#27;[0m
 ]]></system-out>
