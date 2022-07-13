@@ -1,5 +1,6 @@
+@login
 Feature: User on login page
-  @cb
+
   Scenario: User input valid email and password
     Given user on login page
     When user input valid email ii@gmail.com and valid password 123

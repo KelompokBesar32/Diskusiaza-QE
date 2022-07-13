@@ -1,224 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 32, Failures: 0, Errors: 10, Skipped: 22, Time elapsed: 20.441 sec <<< FAILURE! - in CucumberTestSuite
-user on login page(User input valid email and password)  Time elapsed: 1.733 sec  <<< ERROR!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Tests run: 20, Failures: 0, Errors: 8, Skipped: 12, Time elapsed: 16.481 sec <<< FAILURE! - in CucumberTestSuite
+user on login page(User input valid email and password)  Time elapsed: 0.831 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
 
-User input valid email and password  Time elapsed: 0.007 sec  <<< ERROR!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+User input valid email and password  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
 
 user on login page(user input valid email and invalid password)  Time elapsed: 0 sec  <<< ERROR!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
 
-user input valid email and invalid password  Time elapsed: 0.012 sec  <<< ERROR!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+user input valid email and invalid password  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
 
-user on login page(user input invalid email and valid password)  Time elapsed: 0.031 sec  <<< ERROR!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+user on login page(user input invalid email and valid password)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
 
-user input invalid email and valid password  Time elapsed: 0.009 sec  <<< ERROR!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+user input invalid email and valid password  Time elapsed: 0.475 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
 
-user on login page(user input invalid email and invalid password)  Time elapsed: 0.008 sec  <<< ERROR!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+user on login page(user input invalid email and invalid password)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
 
-user input invalid email and invalid password  Time elapsed: 0.003 sec  <<< ERROR!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-
-user on login page 5(User input valid data)  Time elapsed: 0 sec  <<< ERROR!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-
-User input valid data  Time elapsed: 0.003 sec  <<< ERROR!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk' does not exist or is not accessible
-    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
-    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+user input invalid email and invalid password  Time elapsed: 0.044 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
 

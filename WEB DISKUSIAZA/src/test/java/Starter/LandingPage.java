@@ -13,7 +13,7 @@ public class LandingPage extends PageObject {
     private By message(){return By.xpath("//*[@id=\"button-sidebar\"][5]");}
     private By trending(){return By.xpath("//*[@id=\"button-sidebar\"][3]");}
     private By notif(){return By.xpath("//*[@id=\"button-sidebar\"][4]");}
-    private By search(){return By.xpath("");}
+    private By search(){return By.xpath("//*[@id=\"right\"]/div/div[1]/div/div/span");}
     private By profile(){return By.xpath("//*[@id=\"button-sidebar\"][9]");}
     private By bookmark(){return By.xpath("//*[@id=\"button-sidebar\"][6]");}
     private By tulis(){return By.xpath("//*[@id=\"profile\"]//div/button[3]");}

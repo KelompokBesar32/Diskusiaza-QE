@@ -11,10 +11,13 @@ public class RegisterPage extends PageObject {
     private By email(){return By.xpath("//div/div/div/*[@id=\"email\"]");}
     private By password(){return By.xpath("//div/div/div/*[@id=\"password\"]");}
     private By confirmPassword(){return By.xpath("//div/div/div/*[@id=\"confirm_password\"]");}
-    private By tanggalLahir(){return By.xpath("//*[@id=\"__BVID__54\"]/option[15]");}
-    private By bulanLahir(){return By.xpath("//*[@id=\"__BVID__55\"]/option[13]");}
-    private By tahunLahir(){return By.xpath("//*[@id=\"__BVID__56\"]/option[4]");}
-    private By jenisKelamin(){return By.xpath("//*[@id=\"__BVID__28\"]/div[2]/label");}
+    private By tanggal(){return By.id("__BVID__31");}
+    private By bulan(){return By.id("__BVID__32");}
+    private By tahun(){return By.id("__BVID__33");}
+    private By tanggalLahir(){return By.xpath("//*[@id=\"__BVID__31\"]/option[15]");}
+    private By bulanLahir(){return By.xpath("//*[@id=\"__BVID__32\"]/option[13]");}
+    private By tahunLahir(){return By.xpath("//*[@id=\"__BVID__33\"]/option[4]");}
+    private By jenisKelamin(){return By.xpath("//*[@id=\"__BVID__34\"]/div[2]/label");}
     private By RegisterButton(){return By.xpath("//div/form/button");}
     private By gotErrorMassage(){return By.className("");}
     @Step
@@ -34,11 +37,17 @@ public class RegisterPage extends PageObject {
     @Step
     public void clickRegisterButton(){$(RegisterButton()).click();}
     @Step
-    public void clickTanggal(){$(tanggalLahir()).click();}
+    public void pilihTanggal(){$(tanggalLahir()).click();}
     @Step
-    public void clickBulan(){$(bulanLahir()).click();}
+    public void pilihBulan(){$(bulanLahir()).click();}
     @Step
-    public void clickTahun(){$(tahunLahir()).click();}
+    public void pilihTahun(){$(tahunLahir()).click();}
+    @Step
+    public void clickTanggal(){$(tanggal()).click();}
+    @Step
+    public void clickBulan(){$(bulan()).click();}
+    @Step
+    public void clickTahun(){$(tahun()).click();}
     @Step
     public void gotErrorMessage(){$(gotErrorMassage()).isDisplayed();}
 

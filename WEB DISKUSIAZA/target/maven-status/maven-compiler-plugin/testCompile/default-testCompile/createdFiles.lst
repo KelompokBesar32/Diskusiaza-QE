@@ -1,0 +1,17 @@
+Starter\PageRuangModerator.class
+StepDefinition\LoginSteps.class
+Starter\LandingPage.class
+StepDefinition\RegisterSteps.class
+CucumberTestSuite.class
+StepDefinition\PageRuangAdminSteps.class
+Starter\PagePertanyaan.class
+Starter\PageRuangAdmin.class
+StepDefinition\PageJawabSteps.class
+StepDefinition\PageRuangUserSteps.class
+Starter\RegisterPage.class
+StepDefinition\PagePertanyaanSteps.class
+Starter\PageRuangUser.class
+Starter\Loginpage.class
+StepDefinition\LandingPageSteps.class
+Starter\PageJawab.class
+StepDefinition\PageRuangModeratorSteps.class

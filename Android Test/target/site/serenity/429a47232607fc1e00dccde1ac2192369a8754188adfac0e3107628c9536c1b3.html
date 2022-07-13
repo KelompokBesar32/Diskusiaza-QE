@@ -141,7 +141,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 12-07-2022 21:06</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 13-07-2022 00:24</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -163,6 +163,13 @@
 
                         </td>
                         <td valign="top">
+                                <p class="tag">
+                                    <span class="badge tag-badge" style="background:default;">
+                                    <i class="bi bi-tag"></i>&nbsp;<a class="tagLink" style="background:default;"
+                                                                      href="c721517496ffad35fe9a5d73f07a9bd15eb22da3cff8328e1d9f7ec70655c6b0.html">Login
+                                    (tag)</a>
+                                </span>
+                                </p>
                         </td>
                     </tr>
                 </table>
@@ -237,7 +244,7 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">089ms</span></td>
+                    <td width="100"><span class="top-level-step">040ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -267,7 +274,7 @@
                     </td>
 
                     <td width="130"><span class="nested-step">ERROR</span></td>
-                    <td width="100"><span class="nested-step">080ms</span></td>
+                    <td width="100"><span class="nested-step">018ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -303,7 +310,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &#39;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&#39; does not exist or is not accessible<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;MUTHIA17&#39;, ip: &#39;192.168.1.20&#39;, os.name: &#39;Windows 11&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;17.0.2&#39;<br>Driver info: driver.version: AndroidDriver<br>remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &#39;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&#39; does not exist or is not accessible<br>    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)<br>    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;MUTHIA17&#39;, ip: &#39;192.168.1.20&#39;, os.name: &#39;Windows 11&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;17.0.2&#39;<br>Driver info: driver.version: AndroidDriver</span>
+                    <span class="error-message error-message-title">java.lang.NullPointerException: Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-3"
@@ -319,19 +326,13 @@
         <div class="collapse multi-collapse" id="stacktraceModal-3">
             <div class="card">
                 <div class="card-header">
-                    <h4>org.openqa.selenium.SessionNotCreatedException </h4>
+                    <h4>java.lang.NullPointerException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)<br />io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)<br />io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)<br />io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)<br />test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)<br />test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)<br />test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)<br />test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)<br />test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)<br />test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:15)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br /></pre>
+                        <pre>test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:20)<br />test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:19)<br />test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:25)<br />test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:33)<br />test.automation.pages.LoginScreen.onHomepage(LoginScreen.java:17)<br />test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:20)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br /></pre>
                     </div>
 
-                    <h4>
-                        Caused by: java.lang.reflect.InvocationTargetException
-                    </h4>
-                    <div>
-                        <pre>io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java :225)<br />io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java :250)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java :41)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java :1)<br />io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java :1)<br />io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java :363)<br />io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java :37)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java :89)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java :99)<br />io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java :97)<br />test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java :28)<br />test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java :17)<br />test.automation.pageobject.BasePageObject.onWait(BasePageObject.java :23)<br />test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java :31)<br />test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java :17)<br />test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java :15)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :57)<br /></pre>
-                    </div>
                 </div>
             </div>
         </div>
@@ -358,7 +359,7 @@
                     </td>
 
                     <td width="130"><span class="nested-group-step">ERROR</span></td>
-                    <td width="100"><span class="nested-group-step">016ms</span></td>
+                    <td width="100"><span class="nested-group-step">002ms</span></td>
                 </tr>
                     <tr class="test-ERROR">
                         <td width="40">&nbsp</td>
@@ -369,7 +370,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &#39;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&#39; does not exist or is not accessible<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;MUTHIA17&#39;, ip: &#39;192.168.1.20&#39;, os.name: &#39;Windows 11&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;17.0.2&#39;<br>Driver info: driver.version: AndroidDriver<br>remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &#39;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&#39; does not exist or is not accessible<br>    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)<br>    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;MUTHIA17&#39;, ip: &#39;192.168.1.20&#39;, os.name: &#39;Windows 11&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;17.0.2&#39;<br>Driver info: driver.version: AndroidDriver</span>
+                    <span class="error-message error-message-title">java.lang.NullPointerException: Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-4"
@@ -385,19 +386,13 @@
         <div class="collapse multi-collapse" id="stacktraceModal-4">
             <div class="card">
                 <div class="card-header">
-                    <h4>org.openqa.selenium.SessionNotCreatedException </h4>
+                    <h4>java.lang.NullPointerException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)<br />io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)<br />io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)<br />io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)<br />test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)<br />test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)<br />test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)<br />test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)<br />test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)<br />test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:15)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br /></pre>
+                        <pre>test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:20)<br />test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:19)<br />test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:25)<br />test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:33)<br />test.automation.pages.LoginScreen.onHomepage(LoginScreen.java:17)<br />test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:20)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br /></pre>
                     </div>
 
-                    <h4>
-                        Caused by: java.lang.reflect.InvocationTargetException
-                    </h4>
-                    <div>
-                        <pre>io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java :225)<br />io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java :250)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java :41)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java :1)<br />io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java :1)<br />io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java :363)<br />io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java :37)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java :89)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java :99)<br />io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java :97)<br />test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java :28)<br />test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java :17)<br />test.automation.pageobject.BasePageObject.onWait(BasePageObject.java :23)<br />test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java :31)<br />test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java :17)<br />test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java :15)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :57)<br /></pre>
-                    </div>
                 </div>
             </div>
         </div>
@@ -424,7 +419,7 @@
                     </td>
 
                     <td width="130"><span class="nested-group-step">ERROR</span></td>
-                    <td width="100"><span class="nested-group-step">001ms</span></td>
+                    <td width="100"><span class="nested-group-step">003ms</span></td>
                 </tr>
                     <tr class="test-ERROR">
                         <td width="40">&nbsp</td>
@@ -435,7 +430,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at &#39;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&#39; does not exist or is not accessible<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;MUTHIA17&#39;, ip: &#39;192.168.1.20&#39;, os.name: &#39;Windows 11&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;17.0.2&#39;<br>Driver info: driver.version: AndroidDriver<br>remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at &#39;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test\app/app-release.apk&#39; does not exist or is not accessible<br>    at getResponseForW3CError (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)<br>    at asyncHandler (C:\Users\LENOVO-PC\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;MUTHIA17&#39;, ip: &#39;192.168.1.20&#39;, os.name: &#39;Windows 11&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;10.0&#39;, java.version: &#39;17.0.2&#39;<br>Driver info: driver.version: AndroidDriver</span>
+                    <span class="error-message error-message-title">java.lang.NullPointerException: Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-5"
@@ -451,19 +446,13 @@
         <div class="collapse multi-collapse" id="stacktraceModal-5">
             <div class="card">
                 <div class="card-header">
-                    <h4>org.openqa.selenium.SessionNotCreatedException </h4>
+                    <h4>java.lang.NullPointerException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)<br />io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)<br />io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)<br />io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)<br />test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)<br />test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)<br />test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)<br />test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)<br />test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)<br />test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:15)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br /></pre>
+                        <pre>test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:20)<br />test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:19)<br />test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:25)<br />test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:33)<br />test.automation.pages.LoginScreen.onHomepage(LoginScreen.java:17)<br />test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:20)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br /></pre>
                     </div>
 
-                    <h4>
-                        Caused by: java.lang.reflect.InvocationTargetException
-                    </h4>
-                    <div>
-                        <pre>io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java :225)<br />io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java :250)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java :41)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java :1)<br />io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java :1)<br />io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java :363)<br />io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java :37)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java :89)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java :99)<br />io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java :97)<br />test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java :28)<br />test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java :17)<br />test.automation.pageobject.BasePageObject.onWait(BasePageObject.java :23)<br />test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java :31)<br />test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java :17)<br />test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java :15)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :57)<br /></pre>
-                    </div>
                 </div>
             </div>
         </div>
@@ -498,7 +487,7 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">006ms</span></td>
+                    <td width="100"><span class="top-level-step">005ms</span></td>
                 </tr>
                     <tr class="test-ERROR">
                         <td width="40">&nbsp</td>
@@ -509,7 +498,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.reflect.InvocationTargetException</span>
+                    <span class="error-message error-message-title">java.lang.NullPointerException: Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-6"
@@ -525,20 +514,13 @@
         <div class="collapse multi-collapse" id="stacktraceModal-6">
             <div class="card">
                 <div class="card-header">
-                    <h4>java.lang.reflect.InvocationTargetException </h4>
+                    <h4>java.lang.NullPointerException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)<br />io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)<br />io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)<br />io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)<br />test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:28)<br />test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:17)<br />test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:23)<br />test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:31)<br />test.automation.Pages.LoginScreen.onHomepage(LoginScreen.java:17)<br />test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:15)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br /></pre>
+                        <pre>test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:20)<br />test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:19)<br />test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:25)<br />test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:33)<br />test.automation.pages.LoginScreen.onHomepage(LoginScreen.java:17)<br />test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:20)<br />✽.user on login page(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature:17)<br /></pre>
                     </div>
 
-                    <h4>
-                        Caused by: java.lang.AssertionError
-                    </h4>
-                    <div>
-                            <pre>null</pre>
-                        <pre>io.cucumber.core.plugin.SerenityReporter.failed(SerenityReporter.java :858)<br />io.cucumber.core.plugin.SerenityReporter.recordStepResult(SerenityReporter.java :806)<br />io.cucumber.core.plugin.SerenityReporter.handleResult(SerenityReporter.java :793)<br />io.cucumber.core.plugin.SerenityReporter.handleTestStepFinished(SerenityReporter.java :363)<br />io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java :51)<br />io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java :12)<br />io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java :47)<br />io.cucumber.core.runner.TestStep.emitTestStepFinished(TestStep.java :124)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :74)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :57)<br /></pre>
-                    </div>
                 </div>
             </div>
         </div>
@@ -587,7 +569,7 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">004ms</span></td>
+                    <td width="100"><span class="top-level-step">006ms</span></td>
                 </tr>
                 <tr class="test-SKIPPED">
 
@@ -609,12 +591,12 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">SKIPPED</span></td>
-                    <td width="100"><span class="top-level-step">005ms</span></td>
+                    <td width="100"><span class="top-level-step">002ms</span></td>
                 </tr>
             <tr class="test-ERROR">
                     <td colspan="2"></td>
                 <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
-                <td width="100"><span class="top-level-step"><em>0.14s</em></span></td>
+                <td width="100"><span class="top-level-step"><em>0.09s</em></span></td>
             </tr>
 
         </table>
