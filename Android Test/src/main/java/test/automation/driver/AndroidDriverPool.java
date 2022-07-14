@@ -21,15 +21,20 @@ public class AndroidDriverPool {
         caps.setCapability(AndroidMobileCapabilityType.PLATFORM_NAME, "Android");
         caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-        caps.setCapability(MobileCapabilityType.NO_RESET, true);
+        caps.setCapability(MobileCapabilityType.NO_RESET, false);
         caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + File.separator + "app/app-release.apk");
-
+        caps.setCapability("unicodeKeyboard",true);
+        caps.setCapability("resetKeyboard",true);
+        caps.setCapability("connectHardwareKeyboard", false);
         try {
             driver = new AndroidDriver<AndroidElement>(new URL(appiumUrl), caps);
             driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+            driver.hideKeyboard();
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
+
         return driver;
     }
+
 }

@@ -11,13 +11,13 @@ public class RegisterPage extends PageObject {
     private By email(){return By.xpath("//div/div/div/*[@id=\"email\"]");}
     private By password(){return By.xpath("//div/div/div/*[@id=\"password\"]");}
     private By confirmPassword(){return By.xpath("//div/div/div/*[@id=\"confirm_password\"]");}
-    private By tanggal(){return By.id("__BVID__31");}
-    private By bulan(){return By.id("__BVID__32");}
-    private By tahun(){return By.id("__BVID__33");}
-    private By tanggalLahir(){return By.xpath("//*[@id=\"__BVID__31\"]/option[15]");}
-    private By bulanLahir(){return By.xpath("//*[@id=\"__BVID__32\"]/option[13]");}
-    private By tahunLahir(){return By.xpath("//*[@id=\"__BVID__33\"]/option[4]");}
-    private By jenisKelamin(){return By.xpath("//*[@id=\"__BVID__34\"]/div[2]/label");}
+    private By tanggal(){return By.xpath("//form/div[4]/div[1]");}
+    private By bulan(){return By.xpath("//form/div[4]/div[2]");}
+    private By tahun(){return By.xpath("//form/div[4]/div[3]");}
+    private By tanggalLahir(){return By.xpath("//form/div[4]/div[1]//option[15]");}
+    private By bulanLahir(){return By.xpath("//form/div[4]/div[2]//option[13]");}
+    private By tahunLahir(){return By.xpath("//form/div[4]/div[3]//option[2]");}
+    private By jenisKelamin(){return By.xpath("///form/div[5]/div[2]");}
     private By RegisterButton(){return By.xpath("//div/form/button");}
     private By gotErrorMassage(){return By.className("");}
     @Step

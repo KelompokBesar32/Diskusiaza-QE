@@ -1,5 +1,6 @@
 package test.automation.stepdefinitions;
 
+import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -13,11 +14,11 @@ public class RegisterSteps {
     RegisterScreen regist;
 
     @Steps
-    LoginScreen loginn;
+    LoginScreen login;
 
     @Given("user on login page 5")
     public void onLoginPage(){
-        loginn.onHomepage();
+        login.onHomepage();
     }
 
     @And("user click sign up1")
@@ -37,10 +38,11 @@ public class RegisterSteps {
         regist.typeNamaBelakang(namabelakang);
     }
 
-    @And("user input valid email {}")
-    public void inputValidEmail(String email) {
+    @And("user input valid email")
+    public void inputValidEmail() {
+        Faker faker=new Faker();
         regist.tapEmail();
-        regist.typeEmail(email);
+        regist.typeEmail(faker.internet().emailAddress());
     }
 
     @And("user input valid password {}")
@@ -58,6 +60,9 @@ public class RegisterSteps {
     @And("user input valid tanggal lahir")
     public void inputValidTanggal() {
         regist.tapTanggalLahir();
+        regist.switchToManual();
+        regist.inputTtl("07/09/2000");
+        regist.clickOK();
     }
 
     @And("user pilih jenis kelamin")
@@ -72,6 +77,6 @@ public class RegisterSteps {
 
     @Then("user sign up to login page")
     public void successToLoginPage(){
-        loginn.onHomepage();
+        regist.onLoginpage();
     }
 }

@@ -1,28 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 4, Skipped: 4, Time elapsed: 100.132 sec <<< FAILURE! - in CucumberTestSuite
-user input valid email ii@gmail.com and valid password 123(User input valid email and password)  Time elapsed: 0.025 sec  <<< ERROR!
-io.cucumber.core.runner.AmbiguousStepDefinitionsException: 
-"user input valid email ii@gmail.com and valid password 123" matches more than one step definition:
-  "user input valid email {}" in test.automation.stepdefinitions.RegisterSteps.inputValidEmail(java.lang.String)
-  "user input valid email {} and valid password {}" in test.automation.stepdefinitions.LoginSteps.inputValidEmailandValidPassword(java.lang.String,java.lang.String)
-
-User input valid email and password  Time elapsed: 0.023 sec  <<< ERROR!
-io.cucumber.core.runner.AmbiguousStepDefinitionsException: 
-"user input valid email ii@gmail.com and valid password 123" matches more than one step definition:
-  "user input valid email {}" in test.automation.stepdefinitions.RegisterSteps.inputValidEmail(java.lang.String)
-  "user input valid email {} and valid password {}" in test.automation.stepdefinitions.LoginSteps.inputValidEmailandValidPassword(java.lang.String,java.lang.String)
-
-user input valid email ii@gmail.com and invalid password 123(user input valid email and invalid password)  Time elapsed: 0.013 sec  <<< ERROR!
-io.cucumber.core.runner.AmbiguousStepDefinitionsException: 
-"user input valid email ii@gmail.com and invalid password 123" matches more than one step definition:
-  "user input valid email {}" in test.automation.stepdefinitions.RegisterSteps.inputValidEmail(java.lang.String)
-  "user input valid email {} and invalid password {}" in test.automation.stepdefinitions.LoginSteps.inputInvalidPassword()
-
-user input valid email and invalid password  Time elapsed: 0.015 sec  <<< ERROR!
-io.cucumber.core.runner.AmbiguousStepDefinitionsException: 
-"user input valid email ii@gmail.com and invalid password 123" matches more than one step definition:
-  "user input valid email {}" in test.automation.stepdefinitions.RegisterSteps.inputValidEmail(java.lang.String)
-  "user input valid email {} and invalid password {}" in test.automation.stepdefinitions.LoginSteps.inputInvalidPassword()
-
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.034 sec - in CucumberTestSuite

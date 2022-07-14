@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 public class PostLikeThread {
     public static String url = "https://capstone-go.dikatest.xyz/t/";
-
+    protected static String=
     @Step
     public String postLikeThreadEndpoints(){
         return url + "therad/like";
@@ -19,7 +19,7 @@ public class PostLikeThread {
     public void likeUsingThreadId(){
         JSONObject requestBody = new JSONObject();
         requestBody.put("therad_id", "4");
-
+        SerenityRest.given().header("Authorization", "Bearer "+token)
         SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString()).post(postLikeThreadEndpoints());
     }
     @Step

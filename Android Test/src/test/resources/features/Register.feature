@@ -6,7 +6,7 @@ Feature: As a user on register page
     And user click sign up1
     When user input valid nama depan siti
     And user input valid nama belakang mutee
-    And user input valid email sitimutee@gmail.com
+    And user input valid email
     And user input valid password susah
     And user input valid confirm password susah
     And user input valid tanggal lahir

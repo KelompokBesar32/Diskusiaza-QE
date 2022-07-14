@@ -1,20 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: As a user on category thread
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.976 s <<< FAILURE! - in As a user on category thread
-As a user on category thread.User get thread category  Time elapsed: 0.358 s  <<< FAILURE!
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.536 s <<< FAILURE! - in As a user on category thread
+As a user on category thread.User get thread category  Time elapsed: 0.728 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
 
-As a user on category thread.User get all thread  Time elapsed: 0.338 s  <<< FAILURE!
+As a user on category thread.User get all thread  Time elapsed: 0.407 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.
 
 
-As a user on category thread.User get thread by id  Time elapsed: 0.276 s  <<< FAILURE!
+As a user on category thread.User get thread by id  Time elapsed: 0.388 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <400>.

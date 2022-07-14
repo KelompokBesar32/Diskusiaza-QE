@@ -15,7 +15,7 @@ public class LoginSteps {
         login.onHomepage();
     }
 
-    @When("user input valid email {} and valid password {}")
+    @When("user type valid email {} and valid password {}")
     public void inputValidEmailandValidPassword(String email, String password){
         login.tapEmail();
         login.typeEmail(email);
@@ -33,14 +33,17 @@ public class LoginSteps {
     }
 
     //scenario 2 unsuccess invalid password
-    @When("user input email {} and invalid password {}")
+    @When("user input valid email and invalid password")
     public void inputInvalidPassword(){
-
+        login.tapEmail();
+        login.typeEmail("ii@gmail.com");
+        login.tapPassword();
+        login.typePassword("abd");
     }
 
     @And("user click button login2")
     public void clickLoginButton2(){
-
+        login.tapLoginButton();
     }
 
     @Then("got massage2 {}")
@@ -50,14 +53,17 @@ public class LoginSteps {
 
     //scenario 3 unsuccess invalid email
 
-    @When("user input invalid email and password")
+    @When("user input invalid email and valid password")
     public void iInputInvalidEmail() {
-
+        login.tapEmail();
+        login.typeEmail("iigmail");
+        login.tapPassword();
+        login.typePassword("123");
     }
 
     @And("user click button login3")
     public void clickLoginButton3(){
-
+        login.tapLoginButton();
     }
 
     @Then("got massage3 {}")

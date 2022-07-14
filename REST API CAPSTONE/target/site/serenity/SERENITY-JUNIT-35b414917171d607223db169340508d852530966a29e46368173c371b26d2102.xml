@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="As a user on profil page" skipped="0" tests="2" time="0.67" timestamp="2022-07-09 06:22:15"><testcase name="User get data profile"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="As a user on profil page" skipped="0" tests="2" time="1.76" timestamp="2022-07-13 02:58:56"><testcase name="User get data profile"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
@@ -16,7 +16,7 @@ rest.api@1.0-SNAPSHOT/Starter.Profile.GetProfile.lambda$getprofileResponseCode20
 net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
 rest.api@1.0-SNAPSHOT/Starter.Profile.GetProfile.getprofileResponseCode200(GetProfile.java:21)&#13;
 rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.Profile.succesgetresponcode200(Profile.java:26)&#13;
-✽.user get response code 200(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature:6)&#13;
+✽.user get response code 200(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature:6)&#13;
 </system-err></testcase><testcase name="User update data profile"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
 </failure><system-err>1 expectation failed.
@@ -35,5 +35,5 @@ rest.api@1.0-SNAPSHOT/Starter.Profile.PutProfile.lambda$getValidResponseCode200$
 net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
 rest.api@1.0-SNAPSHOT/Starter.Profile.PutProfile.getValidResponseCode200(PutProfile.java:24)&#13;
 rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.Profile.succesgetvalidresponcode200(Profile.java:43)&#13;
-✽.user get valid response code 200(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature:12)&#13;
+✽.user get valid response code 200(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature:12)&#13;
 </system-err></testcase></testsuite>
