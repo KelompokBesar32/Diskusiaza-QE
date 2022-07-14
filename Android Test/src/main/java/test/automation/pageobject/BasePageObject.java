@@ -8,6 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import test.automation.driver.AndroidDriverPool;
 import test.automation.driver.DriverPool;
 
+import javax.swing.text.View;
+
 public class BasePageObject {
     public DriverPool driver = new DriverPool();
     public AndroidDriverPool androidDriverPool = new AndroidDriverPool();

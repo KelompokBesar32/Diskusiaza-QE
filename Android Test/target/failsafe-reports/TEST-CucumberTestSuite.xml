@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberTestSuite" time="51.034" tests="12" errors="0" skipped="0" failures="0">
+=======
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberTestSuite" time="16.481" tests="20" errors="8" skipped="12" failures="0">
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\CAPSTONE PROJECT KELOMPOK 32\Android Test"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
@@ -15,56 +19,66 @@
     <property name="user.country" value="ID"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\CAPSTONE PROJECT KELOMPOK 32\Android Test"/>
+    <property name="user.dir" value="C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\Android Test"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\SITINU~1\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.5\bin\m2.conf"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.8.5\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\Siti Nurlatipah\webdriver;C:\Program Files\nodejs\;C:\Users\Siti Nurlatipah\AppData\Local\Android\Sdk\platform-tools;C:\Users\Siti Nurlatipah\AppData\Local\Android\Sdk\emulator;C:\Users\Siti Nurlatipah\AppData\Local\Microsoft\WindowsApps;C:\Users\Siti Nurlatipah\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11.0.14;C:\Users\Siti Nurlatipah\AppData\Roaming\npm;C:\Users\Siti Nurlatipah\AppData\Local\Android\Sdk\emulator;C:\Users\Siti Nurlatipah\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-11.0.14\bin;C:\Program Files\apache-maven-3.8.5\bin;;."/>
-    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.5/conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2017a\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\apache-maven-3.8.5\bin;%ANDROID_HOME;C:\Users\LENOVO-PC\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Users\LENOVO-PC\AppData\Local\Microsoft\WindowsApps;C:\Users\LENOVO-PC\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.5/conf"/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
+    <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
+<<<<<<< HEAD
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.5\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\Siti Nurlatipah"/>
     <property name="tags" value="@Regist"/>
     <property name="user.timezone" value="Asia/Bangkok"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+=======
+    <property name="library.jansi.path" value="C:\apache-maven-3.8.5\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\LENOVO-PC"/>
+    <property name="tags" value="@login"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
     <property name="file.encoding" value="Cp1252"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="user.name" value="Siti Nurlatipah"/>
-    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="LENOVO-PC"/>
+    <property name="java.class.path" value="C:\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
+<<<<<<< HEAD
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dtags=@Regist"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.14"/>
+=======
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -D tags=@login"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="11.0.14"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.5"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.5"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2022-01-18"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="18.9"/>
     <property name="sun.stdout.encoding" value="cp437"/>
-    <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="user on login page 5" classname="User input valid data" time="15.548"/>
   <testcase name="user click sign up1" classname="User input valid data" time="13.135"/>
   <testcase name="user input valid nama depan siti" classname="User input valid data" time="2.208"/>
@@ -77,4 +91,446 @@
   <testcase name="user klik Daftar button" classname="User input valid data" time="1.028"/>
   <testcase name="user sign up to login page" classname="User input valid data" time="0.109"/>
   <testcase name="User input valid data" classname="User input valid data" time="0.123"/>
+=======
+  <testcase name="user on login page" classname="User input valid email and password" time="0.831">
+    <error message="Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+</error>
+    <system-out><![CDATA[
+@login
+Scenario: User input valid email and password                     &amp#27;[90m# src/test/resources/features/Login.feature:4&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/LandingPage.feature
+[main] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+[main] INFO  - Test Suite Started: User on landing page
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature
+[main] INFO  - Test Suite Started: User on login page
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Register.feature
+[main] INFO  - Test Suite Started: As a user on register page
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature
+[main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+User input valid email and password(user-on-login-page;user-input-valid-email-and-password)
+--------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="user input valid email ii@gmail.com and valid password 123" classname="User input valid email and password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser on login page&amp#27;[0m                                        &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.onLoginPage()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:20)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:19)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.getDriver$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:25)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onWait$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:33)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.waitUntilPresence$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.waitUntilPresence(Unknown Source)
+	at test.automation.pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onHomepage$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:20)
+	at âœ½.user on login page(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature:5)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user click button login" classname="User input valid email and password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser input valid email ii@gmail.com and valid password 123&amp#27;[0m &amp#27;[90m# null&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user success to landing page" classname="User input valid email and password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click button login&amp#27;[0m                                     &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.clickLoginButton()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User input valid email and password" classname="User input valid email and password" time="0.002">
+    <error message="Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+</error>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser success to landing page&amp#27;[0m                               &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.successLogin()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user on login page" classname="user input valid email and invalid password" time="0">
+    <error message="Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+</error>
+    <system-out><![CDATA[
+@login
+Scenario: user input valid email and invalid password                &amp#27;[90m# src/test/resources/features/Login.feature:10&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR  - 
+  _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+ |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+   | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+   |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+
+User input valid email and password
+---------------------------------------------------------------
+[main] ERROR  -     Test failed at step: Given user on login page
+[main] ERROR  -     Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature
+[main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+user input valid email and invalid password(user-on-login-page;user-input-valid-email-and-invalid-password)
+--------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="user input valid email ii@gmail.com and invalid password 1234" classname="user input valid email and invalid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser on login page&amp#27;[0m                                           &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.onLoginPage()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:20)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:19)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.getDriver$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:25)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onWait$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:33)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.waitUntilPresence$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.waitUntilPresence(Unknown Source)
+	at test.automation.pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onHomepage$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:20)
+	at âœ½.user on login page(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature:11)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user click button login2" classname="user input valid email and invalid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser input valid email ii@gmail.com and invalid password 1234&amp#27;[0m &amp#27;[90m# null&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="got massage2 email or password wrong" classname="user input valid email and invalid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click button login2&amp#27;[0m                                       &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.clickLoginButton2()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user input valid email and invalid password" classname="user input valid email and invalid password" time="0.001">
+    <error message="Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+</error>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mgot massage2 &amp#27;[0m&amp#27;[36m&amp#27;[1memail or password wrong&amp#27;[0m                          &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.iFailedToLoginAndGetErrorMessage2(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user on login page" classname="user input invalid email and valid password" time="0">
+    <error message="Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+</error>
+    <system-out><![CDATA[
+@login
+Scenario: user input invalid email and valid password                &amp#27;[90m# src/test/resources/features/Login.feature:16&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR  - 
+  _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+ |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+   | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+   |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+
+user input valid email and invalid password
+---------------------------------------------------------------
+[main] ERROR  -     Test failed at step: Given user on login page
+[main] ERROR  -     Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature
+[main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+user input invalid email and valid password(user-on-login-page;user-input-invalid-email-and-valid-password)
+--------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="user input invalid email iii@gmail.com and valid password 123" classname="user input invalid email and valid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser on login page&amp#27;[0m                                           &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.onLoginPage()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:20)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:19)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.getDriver$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:25)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onWait$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:33)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.waitUntilPresence$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.waitUntilPresence(Unknown Source)
+	at test.automation.pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onHomepage$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:20)
+	at âœ½.user on login page(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature:17)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user click button login3" classname="user input invalid email and valid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser input invalid email &amp#27;[0m&amp#27;[36m&amp#27;[1miii@gmail.com&amp#27;[0m&amp#27;[36m and valid password &amp#27;[0m&amp#27;[36m&amp#27;[1m123&amp#27;[0m &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.iInputInvalidEmail(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="got massage3 email or password wrong" classname="user input invalid email and valid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click button login3&amp#27;[0m                                       &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.clickLoginButton3()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user input invalid email and valid password" classname="user input invalid email and valid password" time="0.475">
+    <error message="Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+</error>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mgot massage3 &amp#27;[0m&amp#27;[36m&amp#27;[1memail or password wrong&amp#27;[0m                          &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.iFailToLoginAndGetErrorMessage3(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user on login page" classname="user input invalid email and invalid password" time="0">
+    <error message="Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+</error>
+    <system-out><![CDATA[
+@login
+Scenario: user input invalid email and invalid password                 &amp#27;[90m# src/test/resources/features/Login.feature:22&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[main] ERROR  - 
+  _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+ |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+   | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+   |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+
+user input invalid email and valid password
+---------------------------------------------------------------
+[main] ERROR  -     Test failed at step: Given user on login page
+[main] ERROR  -     Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature
+[main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+user input invalid email and invalid password(user-on-login-page;user-input-invalid-email-and-invalid-password)
+--------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="user input invalid email iii@gmail.com and invalid password 1234" classname="user input invalid email and invalid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser on login page&amp#27;[0m                                              &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.onLoginPage()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+	at test.automation.driver.AndroidDriverPool.create(AndroidDriverPool.java:20)
+	at test.automation.pageobject.BasePageObject.getDriver(BasePageObject.java:19)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.getDriver$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.getDriver(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onWait(BasePageObject.java:25)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onWait$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onWait(Unknown Source)
+	at test.automation.pageobject.BasePageObject.waitUntilPresence(BasePageObject.java:33)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.waitUntilPresence$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.waitUntilPresence(Unknown Source)
+	at test.automation.pages.LoginScreen.onHomepage(LoginScreen.java:17)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onHomepage$accessor$xjBrC6wi(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.LoginScreen$ByteBuddy$bAodKZn9.onHomepage(Unknown Source)
+	at test.automation.stepdefinitions.LoginSteps.onLoginPage(LoginSteps.java:20)
+	at âœ½.user on login page(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Login.feature:23)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user click button login4" classname="user input invalid email and invalid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser input invalid email &amp#27;[0m&amp#27;[36m&amp#27;[1miii@gmail.com&amp#27;[0m&amp#27;[36m and invalid password &amp#27;[0m&amp#27;[36m&amp#27;[1m1234&amp#27;[0m &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.notInputUsernamePassword4(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="got massage4 email or password wrong" classname="user input invalid email and invalid password" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click button login4&amp#27;[0m                                          &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.clickLoginButton4()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user input invalid email and invalid password" classname="user input invalid email and invalid password" time="0.044">
+    <error message="Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+</error>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mgot massage4 &amp#27;[0m&amp#27;[36m&amp#27;[1memail or password wrong&amp#27;[0m                             &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.iGetErrorMessage(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
 </testsuite>

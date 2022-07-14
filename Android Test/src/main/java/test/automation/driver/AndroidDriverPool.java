@@ -1,5 +1,6 @@
 package test.automation.driver;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
@@ -15,12 +16,12 @@ public class AndroidDriverPool {
     public static AndroidDriver create() {
         AndroidDriver<AndroidElement> driver = null;
         DesiredCapabilities caps = new DesiredCapabilities();
-
         String appiumUrl = "http://127.0.0.1:4723/wd/hub/";
 
         caps.setCapability(AndroidMobileCapabilityType.PLATFORM_NAME, "Android");
         caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
+<<<<<<< HEAD
         caps.setCapability(MobileCapabilityType.NO_RESET, false);
         caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + File.separator + "app/app-release.apk");
         caps.setCapability("unicodeKeyboard",true);
@@ -31,7 +32,18 @@ public class AndroidDriverPool {
             driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
             driver.hideKeyboard();
         } catch (MalformedURLException e) {
+=======
+        caps.setCapability(MobileCapabilityType.NO_RESET, true);
+        caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + File.separator + "app/diskus.apk");
+
+        try {
+            driver = new AndroidDriver<AndroidElement>(new URL(appiumUrl), caps);
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        }
+        catch (MalformedURLException e) {
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
             e.printStackTrace();
+
         }
 
         return driver;

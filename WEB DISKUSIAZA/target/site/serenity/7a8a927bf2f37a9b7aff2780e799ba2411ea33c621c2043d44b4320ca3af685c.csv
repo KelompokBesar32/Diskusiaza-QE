@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+<<<<<<< HEAD
 "user on register page","User input valid data","FAILURE","2022-07-14T14:42:44.2607778+07:00[Asia/Bangkok]","0.0","35.39"
 "user on register page","user input email tanpa menggunakan '@'","FAILURE","2022-07-14T14:43:21.1606394+07:00[Asia/Bangkok]","0.0","20.89"
 "user on register page","user tidak memasukkan email","FAILURE","2022-07-14T14:43:43.2972041+07:00[Asia/Bangkok]","0.0","25.2"
@@ -7,3 +8,13 @@
 "user on register page","user tidak memasukkan nama belakang","FAILURE","2022-07-14T14:44:54.0798441+07:00[Asia/Bangkok]","0.0","17.67"
 "user on register page","user tidak memasukkan jenis kelamin","SUCCESS","2022-07-14T14:45:12.7837422+07:00[Asia/Bangkok]","0.0","12.51"
 "user on register page","user tidak mengisi confirm password","FAILURE","2022-07-14T14:45:26.6758495+07:00[Asia/Bangkok]","0.0","22.48"
+=======
+"user on register page","User input valid data","FAILURE","2022-07-13T01:06:04.6430651+07:00[Asia/Jakarta]","0.0","14.92"
+"user on register page","user input email tanpa menggunakan '@'","FAILURE","2022-07-13T01:06:20.0730474+07:00[Asia/Jakarta]","0.0","12.42"
+"user on register page","user tidak memasukkan email","FAILURE","2022-07-13T01:06:33.1288551+07:00[Asia/Jakarta]","0.0","12.73"
+"user on register page","user tidak memasukan nama depan","FAILURE","2022-07-13T01:06:46.3605783+07:00[Asia/Jakarta]","0.0","13.22"
+"user on register page","user tidak memasukkan password","FAILURE","2022-07-13T01:07:00.5421572+07:00[Asia/Jakarta]","0.0","13.27"
+"user on register page","user tidak memasukkan nama belakang","FAILURE","2022-07-13T01:07:14.4140655+07:00[Asia/Jakarta]","0.0","12.23"
+"user on register page","user tidak memasukkan jenis kelamin","FAILURE","2022-07-13T01:07:27.1768969+07:00[Asia/Jakarta]","0.0","12.88"
+"user on register page","user tidak mengisi confirm password","FAILURE","2022-07-13T01:07:40.633165+07:00[Asia/Jakarta]","0.0","12.6"
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615

@@ -11,8 +11,10 @@ import test.automation.pages.LandingPageScreen;
 public class LandingPageSteps {
     @Steps
     LoginScreen login;
+
     @Steps
     LandingPageScreen landing;
+
     //profile
     @Given("user login with email {} and password {}")
     public void login(String email, String password){
@@ -57,7 +59,7 @@ public class LandingPageSteps {
     }
 
     //thread
-    @Given("user login email ii@gmail.com and password 123")
+    @Given("user login email {} and password {}")
     public void loginUser(String email, String password){
         login.onHomepage();
         login.tapEmail();
