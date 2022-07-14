@@ -1,3 +1,4 @@
+@login
 Feature: User on login page
 
   Scenario: User input valid email and password

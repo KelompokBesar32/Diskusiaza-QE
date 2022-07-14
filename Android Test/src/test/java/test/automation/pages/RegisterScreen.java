@@ -6,16 +6,13 @@ import org.openqa.selenium.By;
 import test.automation.pageobject.BasePageObject;
 
 public class RegisterScreen extends BasePageObject {
-    private By RegisterIcon() {return MobileBy.AccessibilityId("Sign Up");}
+    private By RegisterIcon() {return MobileBy.xpath("//android.view.View[@content-desc=\"Sign Up\"]");}
     private By emailField(){return MobileBy.xpath("//android.view.View/android.widget.EditText[3]");}
     private By namaDepan(){return MobileBy.xpath("//android.view.View/android.widget.EditText[1]");}
     private By namaBelakang(){return MobileBy.xpath("//android.view.View//android.widget.EditText[2]");}
-    private By passwordField(){return MobileBy.xpath("//android.view.View//android.widget.EditText[4]");}
-    private By confirmPassword(){return MobileBy.xpath("//android.view.View//android.widget.EditText[5]");}
+    private By passwordField(){return MobileBy.xpath("//android.view.View/android.widget.EditText[4]");}
+    private By confirmPassword(){return MobileBy.xpath("//android.view.View/android.widget.EditText[5]");}
     private By tanggalLahir(){return MobileBy.xpath("//android.view.View[4]");}
-    private By InputTanggal(){return MobileBy.xpath("//android.widget.Button[@content-desc=\"Switch to input\"]");}
-    private By IsiTanggal(){return MobileBy.xpath("//android.widget.EditText");}
-    private By DoneButtonTanggal(){return MobileBy.xpath("//android.widget.Button[@content-desc=\"OK\"]\n");}
     private By JenisKelamin(){return MobileBy.AccessibilityId("Woman");}
     private By RegisterButton(){return MobileBy.AccessibilityId("Sign Up");}
     private By inputManual(){return MobileBy.AccessibilityId("Switch to input");}
@@ -50,12 +47,6 @@ public class RegisterScreen extends BasePageObject {
     @Step
     public void tapTanggalLahir(){onClick(tanggalLahir());}
     @Step
-    public void tapTanggal(){onClick(InputTanggal());}
-    @Step
-    public void TypeTanggal(String Tanggal){onType(IsiTanggal(),Tanggal);}
-    @Step
-    public void tapButtonOK(){onClick(DoneButtonTanggal());}
-    @Step
     public void tapJenisKelamin(){onClick(JenisKelamin());}
     @Step
     public void tapSignUpButton(){onClick(RegisterButton());}
@@ -69,5 +60,4 @@ public class RegisterScreen extends BasePageObject {
     public boolean onLoginpage() {
         return waitUntilPresence(loginButton()).isDisplayed();
     }
-
 }
