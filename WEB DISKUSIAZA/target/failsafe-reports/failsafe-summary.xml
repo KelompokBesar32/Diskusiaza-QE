@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<failsafe-summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/failsafe-summary.xsd" result="255" timeout="false">
-<<<<<<< HEAD
-    <completed>8</completed>
-    <errors>7</errors>
-=======
-    <completed>29</completed>
-    <errors>10</errors>
->>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
+<failsafe-summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/failsafe-summary.xsd" result="null" timeout="false">
+    <completed>4</completed>
+    <errors>0</errors>
     <failures>0</failures>
     <skipped>0</skipped>
     <failureMessage xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>

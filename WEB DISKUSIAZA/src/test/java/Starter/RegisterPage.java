@@ -17,7 +17,7 @@ public class RegisterPage extends PageObject {
     private By tanggalLahir(){return By.xpath("//form/div[4]/div[1]//option[15]");}
     private By bulanLahir(){return By.xpath("//form/div[4]/div[2]//option[13]");}
     private By tahunLahir(){return By.xpath("//form/div[4]/div[3]//option[2]");}
-    private By jenisKelamin(){return By.xpath("///form/div[5]/div[2]");}
+    private By jenisKelamin(){return By.xpath("//form/div[5]/div[2]");}
     private By RegisterButton(){return By.xpath("//div/form/button");}
     private By gotErrorMassage(){return By.className("");}
     @Step

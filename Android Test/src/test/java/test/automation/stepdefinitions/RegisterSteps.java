@@ -94,7 +94,7 @@ public class RegisterSteps {
     }
 
     @And("user input email without '@' {}")
-    public void inputValidEmail2(String email) {
+    public void inputinValidEmail2(String email) {
         regist.tapEmail();
         regist.typeEmail(email);
     }

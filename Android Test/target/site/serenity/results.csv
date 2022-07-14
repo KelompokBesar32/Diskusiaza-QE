@@ -1,5 +1,16 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+<<<<<<< HEAD
 "User on landing page","User open profile page","SUCCESS","2022-07-15T00:08:39.1586637+07:00[Asia/Bangkok]","0.0","24.65"
 "User on landing page","User open explore page","SUCCESS","2022-07-15T00:09:03.8349943+07:00[Asia/Bangkok]","0.0","20.99"
 "User on landing page","User open trending page","SUCCESS","2022-07-15T00:09:24.8662853+07:00[Asia/Bangkok]","0.0","27.75"
 "User on landing page","User create thread","ERROR","2022-07-15T00:09:52.687378+07:00[Asia/Bangkok]","0.0","33.37"
+=======
+"As a user on register page","User input valid data","SUCCESS","2022-07-14T21:53:40.8999317+07:00[Asia/Jakarta]","0.0","50.38"
+"As a user on register page","user input email tanpa menggunakan '@'","ERROR","2022-07-14T21:54:31.337161+07:00[Asia/Jakarta]","0.0","52.94"
+"As a user on register page","user tidak memasukkan email","ERROR","2022-07-14T21:55:24.3463215+07:00[Asia/Jakarta]","0.0","73.71"
+"As a user on register page","user tidak memasukan nama depan","ERROR","2022-07-14T21:56:38.1854164+07:00[Asia/Jakarta]","0.0","22.69"
+"As a user on register page","user tidak memasukan password","ERROR","2022-07-14T21:57:00.9444461+07:00[Asia/Jakarta]","0.0","2.44"
+"As a user on register page","user tidak memasukan nama belakang","ERROR","2022-07-14T21:57:03.4043068+07:00[Asia/Jakarta]","0.0","2.52"
+"As a user on register page","user tidak memasukan jenis kelamin","ERROR","2022-07-14T21:57:05.9424452+07:00[Asia/Jakarta]","0.0","2.67"
+"As a user on register page","user tidak mengisi confirm password","ERROR","2022-07-14T21:57:08.6231913+07:00[Asia/Jakarta]","0.0","4.3"
+>>>>>>> 35f1205b9e0def982509957387d613aede47645b

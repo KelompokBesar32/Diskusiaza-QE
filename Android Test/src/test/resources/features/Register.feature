@@ -19,7 +19,7 @@ Feature: As a user on register page
     And user click sign up
     When user input valid nama depan2 siti
     And user input valid nama belakang2 mutee
-    And user input email without '@' sitimutee@gmail.com
+    And user input email without '@' sitimutewgmail.com
     And user input valid password2 susah
     And user input valid confirm password2 susah
     And user input valid tanggal lahir2

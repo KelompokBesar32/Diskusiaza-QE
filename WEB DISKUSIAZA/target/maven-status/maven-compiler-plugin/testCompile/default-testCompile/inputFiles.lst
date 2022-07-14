@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\StepDefinition\PageRuangUserSteps.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\Starter\PageJawab.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\Starter\Loginpage.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\StepDefinition\LoginSteps.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\StepDefinition\PageRuangAdminSteps.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\Starter\PageRuangAdmin.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\StepDefinition\LandingPageSteps.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\Starter\LandingPage.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\CucumberTestSuite.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\Starter\PageRuangUser.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\Starter\PagePertanyaan.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\StepDefinition\RegisterSteps.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\Starter\PageRuangModerator.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\StepDefinition\PageRuangModeratorSteps.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\StepDefinition\PagePertanyaanSteps.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\Starter\RegisterPage.java
-D:\CAPSTONE PROJECT KELOMPOK 32\WEB DISKUSIAZA\src\test\java\StepDefinition\PageJawabSteps.java
-=======
 C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\src\test\java\Starter\LandingPage.java
 C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\src\test\java\Starter\PageRuangAdmin.java
 C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\src\test\java\Starter\RegisterPage.java
@@ -34,4 +15,3 @@ C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA
 C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\src\test\java\StepDefinition\PageRuangUserSteps.java
 C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\src\test\java\StepDefinition\LandingPageSteps.java
 C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\src\test\java\StepDefinition\PageJawabSteps.java
->>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615

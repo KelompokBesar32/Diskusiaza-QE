@@ -21,6 +21,6 @@ Feature: User on login page
 
   Scenario: user input invalid email and invalid password
     Given user on login page
-    When user input invalid email iii@gmail.com and invalid password 1234
+    When user input invalid email and invalid password
     And user click button login4
     Then got massage4 email or password wrong

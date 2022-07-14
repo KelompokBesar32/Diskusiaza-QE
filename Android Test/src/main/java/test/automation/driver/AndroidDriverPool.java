@@ -32,7 +32,6 @@ public class AndroidDriverPool {
             driver.hideKeyboard();
         } catch (MalformedURLException e) {
             e.printStackTrace();
-
         }
 
         return driver;

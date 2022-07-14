@@ -57,11 +57,10 @@ public class LoginSteps {
     }
 
     //scenario 3 unsuccess invalid email
-
     @When("user input invalid email and valid password")
-    public void iInputInvalidEmail() {
+    public void iInputInvalidEmail(){
         login.tapEmail();
-        login.typeEmail("iigmail");
+        login.typeEmail("iiii@gmail.com");
         login.tapPassword();
         login.typePassword("123");
     }
@@ -77,12 +76,12 @@ public class LoginSteps {
 
     //scenario 4 unsuccess invalid email and password
 
-    @When("user input invalid email {} and invalid password {}")
-    public void notInputUsernamePassword4(String email, String password){
+    @When("user input invalid email and invalid password")
+    public void notInputUsernamePassword4(){
         login.tapEmail();
-        login.typeEmail(email);
+        login.typeEmail("iigmail.com");
         login.tapPassword();
-        login.typePassword(password);
+        login.typePassword("fff");
     }
 
     @And("user click button login4")

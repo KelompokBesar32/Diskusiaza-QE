@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="User on login page" time="22.636" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="User on login page" time="28.673" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\LENOVO-PC\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\LENOVO-PC\AppData\Local\Temp\surefire5679966366284225460 2022-07-13T01-03-33_995-jvmRun1 surefire4252054695913867559tmp surefire_013056272877250349418tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\LENOVO-PC\AppData\Local\Temp\surefire6897690090494135123 2022-07-14T15-11-46_605-jvmRun1 surefire18192339599243384186tmp surefire_014427104568245040486tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\target\test-classes;C:\Users\LENOVO-PC\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\LENOVO-PC\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-core\2.4.51\serenity-core-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-model\2.4.51\serenity-model-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\LENOVO-PC\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\inject\guice\5.0.1\guice-5.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\LENOVO-PC\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\thoughtworks\xstream\xstream\1.4.17\xstream-1.4.17.jar;C:\Users\LENOVO-PC\.m2\repository\io\github\x-stream\mxparser\1.2.1\mxparser-1.2.1.jar;C:\Users\LENOVO-PC\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-core\6.10.2\cucumber-core-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-gherkin\6.10.2\cucumber-gherkin-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.2\cucumber-gherkin-messages-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\messages\14.0.1\messages-14.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-plugin\6.10.2\cucumber-plugin-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\docstring\6.10.2\docstring-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\html-formatter\12.0.0\html-formatter-12.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\create-meta\3.0.0\create-meta-3.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\awaitility\awaitility\4.0.3\awaitility-4.0.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\LENOVO-PC\.m2\repository\org\asciidoctor\asciidoctorj\2.5.1\asciidoctorj-2.5.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\asciidoctor\asciidoctorj-api\2.5.1\asciidoctorj-api-2.5.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jruby\9.2.17.0\jruby-9.2.17.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jruby-core\9.2.17.0\jruby-core-9.2.17.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-netdb\1.2.0\jnr-netdb-1.2.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-enxio\0.32.3\jnr-enxio-0.32.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-unixsocket\0.38.5\jnr-unixsocket-0.38.5.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-posix\3.1.4\jnr-posix-3.1.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-constants\0.10.1\jnr-constants-0.10.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jffi\1.3.1\jffi-1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jffi\1.3.1\jffi-1.3.1-native.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\joni\joni\2.1.31\joni-2.1.31.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jcodings\jcodings\1.0.46\jcodings-1.0.46.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\dirgra\0.3\dirgra-0.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\headius\invokebinder\1.11\invokebinder-1.11.jar;C:\Users\LENOVO-PC\.m2\repository\com\headius\options\1.4\options-1.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\jcraft\jzlib\1.1.3\jzlib-1.1.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\martiansoftware\nailgun-server\0.9.1\nailgun-server-0.9.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\headius\backport9\1.8\backport9-1.8.jar;C:\Users\LENOVO-PC\.m2\repository\javax\annotation\javax.annotation-api\1.3.1\javax.annotation-api-1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jruby-stdlib\9.2.17.0\jruby-stdlib-9.2.17.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\bytebuddy\byte-buddy\1.11.1\byte-buddy-1.11.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.1\byte-buddy-agent-1.11.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-reports\2.4.51\serenity-reports-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-stats\2.4.51\serenity-stats-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.0\kotlin-stdlib-1.5.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.0\kotlin-stdlib-common-1.5.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-reports-configuration\2.4.51\serenity-reports-configuration-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-report-resources\2.4.51\serenity-report-resources-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\code\gson\gson\2.8.7\gson-2.8.7.jar;C:\Users\LENOVO-PC\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.4\jackson-core-2.12.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.4\jackson-databind-2.12.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.4\jackson-annotations-2.12.4.jar;C:\Users\LENOVO-PC\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\LENOVO-PC\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO-PC\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\LENOVO-PC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\LENOVO-PC\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.47.1\htmlunit-2.47.1.jar;C:\Users\LENOVO-PC\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\LENOVO-PC\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.47.0\htmlunit-core-js-2.47.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.47.1\neko-htmlunit-2.47.1.jar;C:\Users\LENOVO-PC\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\LENOVO-PC\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.7.0\htmlunit-cssparser-1.7.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\LENOVO-PC\.m2\repository\com\shapesecurity\salvation2\3.0.0\salvation2-3.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.36.v20210114\websocket-client-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-client\9.4.36.v20210114\jetty-client-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-http\9.4.36.v20210114\jetty-http-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-util\9.4.36.v20210114\jetty-util-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-io\9.4.36.v20210114\jetty-io-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.36.v20210114\websocket-common-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.36.v20210114\websocket-api-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.47.1\htmlunit-driver-2.47.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\LENOVO-PC\.m2\repository\io\appium\java-client\7.5.1\java-client-7.5.1.jar;C:\Users\LENOVO-PC\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\LENOVO-PC\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\LENOVO-PC\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\LENOVO-PC\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\LENOVO-PC\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.1\webdrivermanager-4.4.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\LENOVO-PC\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\LENOVO-PC\.m2\repository\com\paulhammant\ngwebdriver\1.1.5\ngwebdriver-1.1.5.jar;C:\Users\LENOVO-PC\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\LENOVO-PC\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-junit\2.4.51\serenity-junit-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-rest-assured\2.4.51\serenity-rest-assured-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-screenplay\2.4.51\serenity-screenplay-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-screenplay-rest\2.4.51\serenity-screenplay-rest-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-cucumber6\2.4.51\serenity-cucumber6-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.4.51\serenity-screenplay-webdriver-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\LENOVO-PC\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\datatable-matchers\3.4.0\datatable-matchers-3.4.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\LENOVO-PC\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\rest-assured\4.3.2\rest-assured-4.3.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\codehaus\groovy\groovy\3.0.6\groovy-3.0.6.jar;C:\Users\LENOVO-PC\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.6\groovy-xml-3.0.6.jar;C:\Users\LENOVO-PC\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\assertj\assertj-core\3.6.2\assertj-core-3.6.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\LENOVO-PC\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,6 +26,7 @@
     <property name="jdk.module.path" value="C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\target\rest-api-1.0-SNAPSHOT.jar"/>
     <property name="java.version.date" value="2022-01-18"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="tags" value="@login"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
@@ -59,36 +60,36 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="User input valid email and password" classname="User on login page" time="6.423">
-    <system-out><![CDATA[01:03:38.272 [main] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\serenity.properties 
+  <testcase name="User input valid email and password" classname="User on login page" time="13.963">
+    <system-out><![CDATA[15:11:50.503 [main] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\serenity.properties 
 
-01:03:38.312 [main] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\serenity.properties 
+15:11:50.529 [main] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\serenity.properties 
 
-01:03:38.312 [main] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\serenity.properties 
+15:11:50.529 [main] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\serenity.properties 
 
-01:03:38.329 [main] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+15:11:50.540 [main] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
 
-01:03:38.329 [main] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/webdriver/chromedriver
+15:11:50.540 [main] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/webdriver/chromedriver
 
-01:03:38.329 [main] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://diskusiaza.netlify.app
+15:11:50.540 [main] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://diskusiaza.netlify.app
 
-01:03:39.432 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/LandingPage.feature
+15:11:51.009 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/LandingPage.feature
 
-01:03:39.435 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/LandingPage.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+15:11:51.009 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/LandingPage.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 
-01:03:39.987 [pool-2-thread-1] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\serenity.properties 
+15:11:51.223 [pool-2-thread-1] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\serenity.properties 
 
-01:03:39.992 [pool-2-thread-1] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\serenity.properties 
+15:11:51.233 [pool-2-thread-1] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\serenity.properties 
 
-01:03:39.992 [pool-2-thread-1] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\serenity.properties 
+15:11:51.233 [pool-2-thread-1] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\serenity.properties 
 
-01:03:39.992 [pool-2-thread-1] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+15:11:51.233 [pool-2-thread-1] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
 
-01:03:39.992 [pool-2-thread-1] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/webdriver/chromedriver
+15:11:51.233 [pool-2-thread-1] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/webdriver/chromedriver
 
-01:03:39.992 [pool-2-thread-1] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://diskusiaza.netlify.app
+15:11:51.233 [pool-2-thread-1] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://diskusiaza.netlify.app
 
-01:03:40.016 [pool-2-thread-1] INFO  - 
+15:11:51.244 [pool-2-thread-1] INFO  - 
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -105,86 +106,837 @@
 -------------------------------------------------------------------------------------
 
 
-01:03:40.024 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@1332f379
+15:11:51.244 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@1332f379
 
-01:03:40.024 [pool-2-thread-1] INFO  - Test Suite Started: User on landing page
+15:11:51.244 [pool-2-thread-1] INFO  - Test Suite Started: User on landing page
 
-01:03:40.072 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature
+15:11:51.287 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature
 
-01:03:40.072 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+15:11:51.287 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 
-01:03:40.096 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@c6f1146e
+15:11:51.297 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@c6f1146e
 
-01:03:40.096 [pool-2-thread-1] INFO  - Test Suite Started: User on login page
+15:11:51.297 [pool-2-thread-1] INFO  - Test Suite Started: User on login page
 
-01:03:40.096 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageJawab.feature
+15:11:51.297 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageJawab.feature
 
-01:03:40.096 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageJawab.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+15:11:51.297 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageJawab.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 
-01:03:40.104 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@85b78f1a
+15:11:51.303 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@85b78f1a
 
-01:03:40.104 [pool-2-thread-1] INFO  - Test Suite Started: user on page jawaban
+15:11:51.303 [pool-2-thread-1] INFO  - Test Suite Started: user on page jawaban
 
-01:03:40.104 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PagePertanyaan.feature
+15:11:51.308 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PagePertanyaan.feature
 
-01:03:40.104 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PagePertanyaan.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+15:11:51.308 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PagePertanyaan.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 
-01:03:40.115 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@fa4b98c9
+15:11:51.308 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@fa4b98c9
 
-01:03:40.115 [pool-2-thread-1] INFO  - Test Suite Started: user on page pertanyaan
+15:11:51.308 [pool-2-thread-1] INFO  - Test Suite Started: user on page pertanyaan
 
-01:03:40.115 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageRuangAdmin.feature
+15:11:51.308 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageRuangAdmin.feature
 
-01:03:40.115 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageRuangAdmin.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+15:11:51.308 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageRuangAdmin.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 
-01:03:40.128 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@7208e7cc
+15:11:51.308 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@7208e7cc
 
-01:03:40.135 [pool-2-thread-1] INFO  - Test Suite Started: user on page ruang admin
+15:11:51.308 [pool-2-thread-1] INFO  - Test Suite Started: user on page ruang admin
 
-01:03:40.135 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageRuangModerator.feature
+15:11:51.318 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageRuangModerator.feature
 
-01:03:40.135 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageRuangModerator.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+15:11:51.318 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageRuangModerator.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 
-01:03:40.144 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@50df768c
+15:11:51.318 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@50df768c
 
-01:03:40.144 [pool-2-thread-1] INFO  - Test Suite Started: user on page ruang moderator
+15:11:51.318 [pool-2-thread-1] INFO  - Test Suite Started: user on page ruang moderator
 
-01:03:40.144 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageRuangUser.feature
+15:11:51.318 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageRuangUser.feature
 
-01:03:40.147 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageRuangUser.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+15:11:51.318 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/PageRuangUser.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 
-01:03:40.160 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@31ca8b04
+15:11:51.329 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@31ca8b04
 
-01:03:40.160 [pool-2-thread-1] INFO  - Test Suite Started: user on page ruang user
+15:11:51.329 [pool-2-thread-1] INFO  - Test Suite Started: user on page ruang user
 
-01:03:40.160 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature
+15:11:51.329 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature
 
-01:03:40.160 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+15:11:51.329 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Register.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 
-01:03:40.184 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@1e062542
+15:11:51.340 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@1e062542
 
-01:03:40.184 [pool-2-thread-1] INFO  - Test Suite Started: user on register page
-
-01:04:39.560 [pool-2-thread-1] ERROR  - 
-  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
- |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
-   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
-   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
-
-User membuka search field
------------------------------------------------------------------------
-
-01:04:39.560 [pool-2-thread-1] DEBUG  - RELATED ISSUES: 
-
-01:04:39.655 [pool-2-thread-1] ERROR  -     Test failed at step: Click search button
-
-01:04:39.655 [pool-2-thread-1] ERROR  -     Expected enabled element was not enabledBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'Driver info: driver.version: unknown
+15:11:51.340 [pool-2-thread-1] INFO  - Test Suite Started: user on register page
 
 
-Scenario: User input valid email and password                     &amp#27;[90m# src/test/resources/web/Login.feature:3&amp#27;[0m
-01:05:30.685 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature
-01:05:30.685 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-01:05:30.691 [pool-2-thread-1] INFO  - 
+
+4
+ Scenarios (
+&amp#27;[32m4 passed&amp#27;[0m
+)
+
+16
+ Steps (
+&amp#27;[32m16 passed&amp#27;[0m
+)
+
+0m
+29.004s
+
+
+
+
+
+15:12:20.017 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+
+15:12:20.149 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+
+15:12:20.166 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 4 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@671411a2
+
+15:12:20.166 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:User input valid email and password
+
+15:12:20.166 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@671411a2: Generating report for test outcome: User on login page:User input valid email and password
+
+15:12:20.166 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:user input invalid email and valid password
+
+15:12:20.166 [pool-2-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@671411a2: Generating report for test outcome: User on login page:user input invalid email and valid password
+
+15:12:20.173 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:user input invalid email and invalid password
+
+15:12:20.174 [pool-2-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@671411a2: Generating report for test outcome: User on login page:user input invalid email and invalid password
+
+15:12:20.178 [pool-2-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for User input valid email and password to file C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\target\site\serenity\9c437cbd66f0ca0fa73497773c56ca666a8659da165f1c3343de041045e442ac.json (using temp file C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\target\site\serenity\9c437cbd66f0ca0fa73497773c56ca666a8659da165f1c3343de041045e442ac.json15581439-2175-473b-b2ee-67ba43a001d0)
+
+15:12:20.179 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:user input valid email and invalid password
+
+15:12:20.179 [pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@671411a2: Generating report for test outcome: User on login page:user input valid email and invalid password
+
+15:12:20.179 [pool-2-thread-4] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for user input invalid email and invalid password to file C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\target\site\serenity\e4866abacba6a42c5e9d20910431803dfb52611a1e42f8e5cf90f393e7d29c86.json (using temp file C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\target\site\serenity\e4866abacba6a42c5e9d20910431803dfb52611a1e42f8e5cf90f393e7d29c86.json05fc8ef1-deca-4a31-8f49-de3b883c8cd3)
+
+15:12:20.179 [pool-2-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for user input valid email and invalid password to file C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\target\site\serenity\427a57ba4f81f4ec6500c78164c03fb64eee10fd1051db611f78c9f827b986c8.json (using temp file C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\target\site\serenity\427a57ba4f81f4ec6500c78164c03fb64eee10fd1051db611f78c9f827b986c8.json68af65cb-58fc-4689-ba77-a333eaa42b09)
+
+15:12:20.187 [pool-2-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for user input invalid email and valid password to file C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\target\site\serenity\429a47232607fc1e00dccde1ac2192369a8754188adfac0e3107628c9536c1b3.json (using temp file C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB DISKUSIAZA\target\site\serenity\429a47232607fc1e00dccde1ac2192369a8754188adfac0e3107628c9536c1b3.json5d3c57cf-cc00-4838-8853-568f83a11cb7)
+
+15:12:20.236 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:User input valid email and password done
+
+15:12:20.252 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:user input invalid email and invalid password done
+
+15:12:20.252 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:user input valid email and invalid password done
+
+15:12:20.273 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:user input invalid email and valid password done
+
+15:12:20.273 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+
+15:12:20.273 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 107 ms
+
+15:12:20.273 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 4 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@f3007ab
+
+15:12:20.284 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:User input valid email and password
+
+15:12:20.284 [pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@f3007ab: Generating report for test outcome: User on login page:User input valid email and password
+
+15:12:20.289 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:user input valid email and invalid password
+
+15:12:20.289 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@f3007ab: Generating report for test outcome: User on login page:user input valid email and invalid password
+
+15:12:20.289 [pool-3-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:user input invalid email and invalid password
+
+15:12:20.289 [pool-3-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@f3007ab: Generating report for test outcome: User on login page:user input invalid email and invalid password
+
+15:12:20.289 [pool-3-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:user input invalid email and valid password
+
+15:12:20.289 [pool-3-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@f3007ab: Generating report for test outcome: User on login page:user input invalid email and valid password
+
+15:12:20.320 [pool-3-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:196)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.321 [pool-3-thread-2] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:196)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.322 [pool-3-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:226)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.324 [pool-3-thread-2] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:226)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.325 [pool-3-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:227)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.328 [pool-3-thread-2] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:227)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.335 [pool-3-thread-4] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:196)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.336 [pool-3-thread-4] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:226)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.342 [pool-3-thread-3] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:196)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.342 [pool-3-thread-3] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:226)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.342 [pool-3-thread-3] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:227)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.358 [pool-3-thread-4] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:227)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.584 [pool-3-thread-2] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:196)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.584 [pool-3-thread-2] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:226)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.584 [pool-3-thread-2] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:227)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.604 [pool-3-thread-3] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:196)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.614 [pool-3-thread-3] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:226)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.647 [pool-3-thread-3] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:227)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.664 [pool-3-thread-4] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:196)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.665 [pool-3-thread-4] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:226)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.666 [pool-3-thread-4] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:227)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.725 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in 427a57ba4f81f4ec6500c78164c03fb64eee10fd1051db611f78c9f827b986c8_screenshots.html
+
+15:12:20.738 [pool-3-thread-4] DEBUG serenity.reporting - Generating report in e4866abacba6a42c5e9d20910431803dfb52611a1e42f8e5cf90f393e7d29c86_screenshots.html
+
+15:12:20.740 [pool-3-thread-3] DEBUG serenity.reporting - Generating report in 429a47232607fc1e00dccde1ac2192369a8754188adfac0e3107628c9536c1b3_screenshots.html
+
+15:12:20.865 [pool-3-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:196)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.865 [pool-3-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:226)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.865 [pool-3-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\WEB%20DISKUSIAZA\src\test\resources\web\Login.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:227)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:254)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:108)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+15:12:20.867 [pool-3-thread-1] DEBUG serenity.reporting - Generating report in 9c437cbd66f0ca0fa73497773c56ca666a8659da165f1c3343de041045e442ac_screenshots.html
+
+15:12:21.985 [pool-3-thread-2] DEBUG serenity.reporting - Generated report 427a57ba4f81f4ec6500c78164c03fb64eee10fd1051db611f78c9f827b986c8_screenshots.html in 1260 ms
+
+15:12:21.985 [pool-3-thread-1] DEBUG serenity.reporting - Generated report 9c437cbd66f0ca0fa73497773c56ca666a8659da165f1c3343de041045e442ac_screenshots.html in 1118 ms
+
+15:12:21.993 [pool-3-thread-1] DEBUG serenity.reporting - Generating report in 9c437cbd66f0ca0fa73497773c56ca666a8659da165f1c3343de041045e442ac.html
+
+15:12:22.182 [pool-3-thread-3] DEBUG serenity.reporting - Generated report 429a47232607fc1e00dccde1ac2192369a8754188adfac0e3107628c9536c1b3_screenshots.html in 1442 ms
+
+15:12:22.185 [pool-3-thread-3] DEBUG serenity.reporting - Generating report in 429a47232607fc1e00dccde1ac2192369a8754188adfac0e3107628c9536c1b3.html
+
+15:12:22.281 [pool-3-thread-4] DEBUG serenity.reporting - Generated report e4866abacba6a42c5e9d20910431803dfb52611a1e42f8e5cf90f393e7d29c86_screenshots.html in 1543 ms
+
+15:12:22.294 [pool-3-thread-4] DEBUG serenity.reporting - Generating report in e4866abacba6a42c5e9d20910431803dfb52611a1e42f8e5cf90f393e7d29c86.html
+
+15:12:22.950 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in 427a57ba4f81f4ec6500c78164c03fb64eee10fd1051db611f78c9f827b986c8.html
+
+15:12:23.100 [pool-3-thread-1] DEBUG serenity.reporting - Generated report 9c437cbd66f0ca0fa73497773c56ca666a8659da165f1c3343de041045e442ac.html in 1107 ms
+
+15:12:23.100 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:User input valid email and password done
+
+15:12:23.201 [pool-3-thread-3] DEBUG serenity.reporting - Generated report 429a47232607fc1e00dccde1ac2192369a8754188adfac0e3107628c9536c1b3.html in 1016 ms
+
+15:12:23.201 [pool-3-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:user input invalid email and valid password done
+
+15:12:23.233 [pool-3-thread-2] DEBUG serenity.reporting - Generated report 427a57ba4f81f4ec6500c78164c03fb64eee10fd1051db611f78c9f827b986c8.html in 283 ms
+
+15:12:23.233 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:user input valid email and invalid password done
+
+15:12:23.382 [pool-3-thread-4] DEBUG serenity.reporting - Generated report e4866abacba6a42c5e9d20910431803dfb52611a1e42f8e5cf90f393e7d29c86.html in 1088 ms
+
+15:12:23.382 [pool-3-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome User on login page:user input invalid email and invalid password done
+
+15:12:23.382 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+
+15:12:23.382 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 3109 ms
+
+15:12:23.644 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature
+
+15:12:23.644 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+
+15:12:23.660 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+
+
+@login
+Scenario: User input valid email and password                     &amp#27;[90m# src/test/resources/web/Login.feature:4&amp#27;[0m
+15:11:51.761 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature
+15:11:51.761 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+15:11:51.916 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -192,42 +944,46 @@ Scenario: User input valid email and password                     &amp#27;[90m# 
 
 User input valid email and password(user-on-login-page;user-input-valid-email-and-password)
 --------------------------------------------------------------------------------
-01:05:30.771 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.onLoginPage - openPage
-01:05:30.771 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
-01:05:30.787 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=103 in cache (valid until 02:03:47 13/07/2022 WIB)
-01:05:30.787 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome103=103.0.5060.53 in cache (valid until 01:03:47 14/07/2022 WIB)
-01:05:30.787 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-01:05:30.787 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 103.0.5060.53 found in cache
-01:05:30.787 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO-PC\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-01:05:31.038 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-01:05:31.038 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, base.url: https://diskusiaza.netlify.app, browserName: chrome, chrome.driver: src/test/resources/webdrive..., driver: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
-01:05:34.121 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
-01:05:34.121 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
-01:05:34.398 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\782dc78b0f08bbf214e0ae243b118e25f1cdfbefd79bca6adab077374681cf4e.png
-01:05:34.398 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+15:11:52.769 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.onLoginPage - openPage
+15:11:52.822 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+15:11:53.292 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=103 in cache (valid until 16:05:41 14/07/2022 WIB)
+15:11:53.292 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome103=103.0.5060.53 in cache (valid until 15:05:41 15/07/2022 WIB)
+15:11:53.292 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+15:11:53.313 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 103.0.5060.53 found in cache
+15:11:53.313 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO-PC\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+15:11:54.625 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+15:11:54.625 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, base.url: https://diskusiaza.netlify.app, browserName: chrome, chrome.driver: src/test/resources/webdrive..., driver: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+15:12:01.821 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+15:12:01.903 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+15:12:02.146 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\782dc78b0f08bbf214e0ae243b118e25f1cdfbefd79bca6adab077374681cf4e.png
+15:12:02.146 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5264588858160722406
+15:12:02.146 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\782dc78b0f08bbf214e0ae243b118e25f1cdfbefd79bca6adab077374681cf4e.png
+15:12:02.146 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser on login page&amp#27;[0m                                        &amp#27;[90m# StepDefinition.LoginSteps.onLoginPage()&amp#27;[0m
-01:05:34.412 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.inputValidEmail - inputEmail
-01:05:34.974 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\13df75acde21429b47927fe143fd5672c65120c8d265a24bb8bcf03dad779d21.png
-01:05:34.974 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputEmail
-01:05:34.974 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-15439256185382743194
-01:05:34.974 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\13df75acde21429b47927fe143fd5672c65120c8d265a24bb8bcf03dad779d21.png
-01:05:34.983 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.inputValidEmail - inputPassword
-01:05:35.411 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\7e2fd10d410f19a96ef90bfa966264bd9ad7621b71a6b4fb7f4841337de825cd.png
-01:05:35.411 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputPassword
+15:12:02.189 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.inputValidEmail - inputEmail
+15:12:02.790 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\13df75acde21429b47927fe143fd5672c65120c8d265a24bb8bcf03dad779d21.png
+15:12:02.790 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputEmail
+15:12:02.790 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1495594876008171498
+15:12:02.791 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\13df75acde21429b47927fe143fd5672c65120c8d265a24bb8bcf03dad779d21.png
+15:12:02.796 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.inputValidEmail - inputPassword
+15:12:03.182 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\7e2fd10d410f19a96ef90bfa966264bd9ad7621b71a6b4fb7f4841337de825cd.png
+15:12:03.182 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputPassword
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser input valid email &amp#27;[0m&amp#27;[32m&amp#27;[1mii@gmail.com&amp#27;[0m&amp#27;[32m and valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m123&amp#27;[0m &amp#27;[90m# StepDefinition.LoginSteps.inputValidEmail(java.lang.String,java.lang.String)&amp#27;[0m
-01:05:35.411 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-14463511980341269081
-01:05:35.411 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\7e2fd10d410f19a96ef90bfa966264bd9ad7621b71a6b4fb7f4841337de825cd.png
-01:05:35.422 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.clickLoginButton - clickLoginButton
-01:05:35.742 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\0afdbea1bf67f452be6aa67a673ed26048f40803a201acc34fa504b42f92eaef.png
-01:05:35.742 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickLoginButton
+15:12:03.183 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-14768597649833913878
+15:12:03.183 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\7e2fd10d410f19a96ef90bfa966264bd9ad7621b71a6b4fb7f4841337de825cd.png
+15:12:03.198 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.clickLoginButton - clickLoginButton
+15:12:03.507 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\b8baa147681488890be69cd86ea46aca92b4c3df7f90e1b83ea262b5c33774b2.png
+15:12:03.507 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickLoginButton
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click button login&amp#27;[0m                                     &amp#27;[90m# StepDefinition.LoginSteps.clickLoginButton()&amp#27;[0m
-01:05:35.742 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6781655076219800091
-01:05:35.742 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\0afdbea1bf67f452be6aa67a673ed26048f40803a201acc34fa504b42f92eaef.png
-01:05:35.752 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.successLogin - validationOnHomepage
-01:05:36.416 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\fca8b56f379b9de898b088e1163cfe4aa3af93b82b06994e4e8aeb3437c55eeb.png
-01:05:36.416 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validationOnHomepage
+15:12:03.507 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-13170457558554850801
+15:12:03.507 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\b8baa147681488890be69cd86ea46aca92b4c3df7f90e1b83ea262b5c33774b2.png
+15:12:03.520 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.successLogin - validationOnHomepage
+15:12:04.524 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\4575560e380160bf9e655d8eb334897106c9e345a191b15119d6b9216c725614.png
+15:12:04.524 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validationOnHomepage
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser success to landing page&amp#27;[0m                               &amp#27;[90m# StepDefinition.LoginSteps.successLogin()&amp#27;[0m
-01:05:36.416 [pool-2-thread-1] INFO  - 
+15:12:04.524 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-15066797196179401517
+15:12:04.524 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\4575560e380160bf9e655d8eb334897106c9e345a191b15119d6b9216c725614.png
+15:12:04.534 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -235,33 +991,35 @@ User input valid email and password(user-on-login-page;user-input-valid-email-an
 
 User input valid email and password
 ----------------------------------------------------------------------
-01:05:46.920 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3566825184919325148
-01:05:46.920 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\a003d5d16c67c433b451fc844338d490dc778f5ecb1007c1ed80799fa5f0642a.png
-01:05:47.347 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2165740302541847428
-01:05:47.347 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\3aaf571ed9537142dae5ea2ba02d90034c418195a42e3e139c83ce5a8b4a25b1.png
-01:05:47.938 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-10646892733365095704
-01:05:47.938 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\0d9b7017d5e90b7a4f098827ba2399bff49681b56c1673bfe34d27a5fb514816.png
-01:05:51.905 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5387976983319258767
-01:05:51.905 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\8ba21f13b9071a1cd96b17eeda09659d915f23c51e21b3494474539c87087562.png
-01:05:52.296 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6762840079946587977
-01:05:52.296 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\da1ffe5ff04d710b7fea89b1947b0e476d21edc126117d2f7de182722fd61075.png
-01:05:52.825 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9070200212134934933
-01:05:52.825 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\27ef4e0550c000b4be235355e6d40a1bcf2f1632a18ab64e16e9d3c126559bc2.png
+15:12:13.697 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2146783738145900513
+15:12:13.697 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\a003d5d16c67c433b451fc844338d490dc778f5ecb1007c1ed80799fa5f0642a.png
+15:12:14.089 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-16047400722917134229
+15:12:14.089 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\3aaf571ed9537142dae5ea2ba02d90034c418195a42e3e139c83ce5a8b4a25b1.png
+15:12:14.596 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-409927911363976752
+15:12:14.596 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\082f7eee36e2586533819da0ce3a3b8a01eec62d5f7615bca8ae55c601ab8369.png
+15:12:18.595 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7137848559429480187
+15:12:18.595 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\8ba21f13b9071a1cd96b17eeda09659d915f23c51e21b3494474539c87087562.png
+15:12:19.029 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-17666702691541460815
+15:12:19.029 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\da1ffe5ff04d710b7fea89b1947b0e476d21edc126117d2f7de182722fd61075.png
+15:12:19.531 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4126077464983187465
+15:12:19.531 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\3885b3a06d17a76a80c8aa93804039da9cb8710570f0ada271cd0dbf2dac048c.png
+15:12:23.650 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 11745
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59025
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 13, 2022 1:05:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 14, 2022 3:11:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="user input valid email and invalid password" classname="User on login page" time="5.623">
+  <testcase name="user input valid email and invalid password" classname="User on login page" time="5.028">
     <system-out><![CDATA[
-Scenario: user input valid email and invalid password               &amp#27;[90m# src/test/resources/web/Login.feature:9&amp#27;[0m
-01:05:37.110 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature
-01:05:37.110 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-01:05:37.112 [pool-2-thread-1] INFO  - 
+@login
+Scenario: user input valid email and invalid password               &amp#27;[90m# src/test/resources/web/Login.feature:10&amp#27;[0m
+15:12:05.314 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature
+15:12:05.314 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+15:12:05.314 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -269,31 +1027,31 @@ Scenario: user input valid email and invalid password               &amp#27;[90m
 
 user input valid email and invalid password(user-on-login-page;user-input-valid-email-and-invalid-password)
 --------------------------------------------------------------------------------
-01:05:37.121 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.onLoginPage - openPage
-01:05:37.122 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
-01:05:37.127 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=103 in cache (valid until 02:03:47 13/07/2022 WIB)
-01:05:37.128 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome103=103.0.5060.53 in cache (valid until 01:03:47 14/07/2022 WIB)
-01:05:37.128 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-01:05:37.131 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 103.0.5060.53 found in cache
-01:05:37.131 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO-PC\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-01:05:37.355 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-01:05:37.355 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, base.url: https://diskusiaza.netlify.app, browserName: chrome, chrome.driver: src/test/resources/webdrive..., driver: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
-01:05:40.776 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\782dc78b0f08bbf214e0ae243b118e25f1cdfbefd79bca6adab077374681cf4e.png
-01:05:40.776 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+15:12:05.335 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.onLoginPage - openPage
+15:12:05.335 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+15:12:05.350 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=103 in cache (valid until 16:05:41 14/07/2022 WIB)
+15:12:05.356 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome103=103.0.5060.53 in cache (valid until 15:05:41 15/07/2022 WIB)
+15:12:05.356 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+15:12:05.361 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 103.0.5060.53 found in cache
+15:12:05.361 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO-PC\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+15:12:05.569 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+15:12:05.569 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, base.url: https://diskusiaza.netlify.app, browserName: chrome, chrome.driver: src/test/resources/webdrive..., driver: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+15:12:08.600 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\782dc78b0f08bbf214e0ae243b118e25f1cdfbefd79bca6adab077374681cf4e.png
+15:12:08.600 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser on login page&amp#27;[0m                                          &amp#27;[90m# StepDefinition.LoginSteps.onLoginPage()&amp#27;[0m
-01:05:40.787 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.inputInvalidPassword - inputEmail
-01:05:41.331 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\13df75acde21429b47927fe143fd5672c65120c8d265a24bb8bcf03dad779d21.png
-01:05:41.331 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputEmail
-01:05:41.331 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.inputInvalidPassword - inputPassword
-01:05:41.789 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\7e2fd10d410f19a96ef90bfa966264bd9ad7621b71a6b4fb7f4841337de825cd.png
-01:05:41.789 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputPassword
+15:12:08.614 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.inputInvalidPassword - inputEmail
+15:12:09.142 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\13df75acde21429b47927fe143fd5672c65120c8d265a24bb8bcf03dad779d21.png
+15:12:09.143 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputEmail
+15:12:09.148 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.inputInvalidPassword - inputPassword
+15:12:09.602 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\7e2fd10d410f19a96ef90bfa966264bd9ad7621b71a6b4fb7f4841337de825cd.png
+15:12:09.602 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputPassword
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser input valid email &amp#27;[0m&amp#27;[32m&amp#27;[1mii@gmail.com&amp#27;[0m&amp#27;[32m and invalid password &amp#27;[0m&amp#27;[32m&amp#27;[1mabc&amp#27;[0m &amp#27;[90m# StepDefinition.LoginSteps.inputInvalidPassword(java.lang.String,java.lang.String)&amp#27;[0m
-01:05:41.805 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.clickLoginButton2 - clickLoginButton
-01:05:42.116 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\b8baa147681488890be69cd86ea46aca92b4c3df7f90e1b83ea262b5c33774b2.png
-01:05:42.116 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickLoginButton
+15:12:09.616 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.clickLoginButton2 - clickLoginButton
+15:12:09.906 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\b8baa147681488890be69cd86ea46aca92b4c3df7f90e1b83ea262b5c33774b2.png
+15:12:09.907 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickLoginButton
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click button login2&amp#27;[0m                                      &amp#27;[90m# StepDefinition.LoginSteps.clickLoginButton2()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mgot massage2 &amp#27;[0m&amp#27;[32m&amp#27;[1memail or password wrong&amp#27;[0m                         &amp#27;[90m# StepDefinition.LoginSteps.iFailedToLoginAndGetErrorMessage2(java.lang.String)&amp#27;[0m
-01:05:42.132 [pool-2-thread-1] INFO  - 
+15:12:09.921 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -302,20 +1060,21 @@ user input valid email and invalid password(user-on-login-page;user-input-valid-
 user input valid email and invalid password
 ----------------------------------------------------------------------
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 16662
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 47351
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 13, 2022 1:05:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 14, 2022 3:12:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="user input invalid email and valid password" classname="User on login page" time="5.79">
+  <testcase name="user input invalid email and valid password" classname="User on login page" time="4.678">
     <system-out><![CDATA[
-Scenario: user input invalid email and valid password         &amp#27;[90m# src/test/resources/web/Login.feature:15&amp#27;[0m
-01:05:42.733 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature
-01:05:42.733 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-01:05:42.733 [pool-2-thread-1] INFO  - 
+@login
+Scenario: user input invalid email and valid password         &amp#27;[90m# src/test/resources/web/Login.feature:16&amp#27;[0m
+15:12:10.337 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature
+15:12:10.337 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+15:12:10.337 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -323,31 +1082,31 @@ Scenario: user input invalid email and valid password         &amp#27;[90m# src/
 
 user input invalid email and valid password(user-on-login-page;user-input-invalid-email-and-valid-password)
 --------------------------------------------------------------------------------
-01:05:42.743 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.onLoginPage - openPage
-01:05:42.748 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
-01:05:42.750 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=103 in cache (valid until 02:03:47 13/07/2022 WIB)
-01:05:42.750 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome103=103.0.5060.53 in cache (valid until 01:03:47 14/07/2022 WIB)
-01:05:42.750 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-01:05:42.755 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 103.0.5060.53 found in cache
-01:05:42.755 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO-PC\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-01:05:42.974 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-01:05:42.974 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, base.url: https://diskusiaza.netlify.app, browserName: chrome, chrome.driver: src/test/resources/webdrive..., driver: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
-01:05:46.291 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\782dc78b0f08bbf214e0ae243b118e25f1cdfbefd79bca6adab077374681cf4e.png
-01:05:46.291 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+15:12:10.359 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.onLoginPage - openPage
+15:12:10.359 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+15:12:10.359 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=103 in cache (valid until 16:05:41 14/07/2022 WIB)
+15:12:10.359 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome103=103.0.5060.53 in cache (valid until 15:05:41 15/07/2022 WIB)
+15:12:10.359 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+15:12:10.369 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 103.0.5060.53 found in cache
+15:12:10.369 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO-PC\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+15:12:10.577 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+15:12:10.577 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, base.url: https://diskusiaza.netlify.app, browserName: chrome, chrome.driver: src/test/resources/webdrive..., driver: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+15:12:13.204 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\782dc78b0f08bbf214e0ae243b118e25f1cdfbefd79bca6adab077374681cf4e.png
+15:12:13.204 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser on login page&amp#27;[0m                                    &amp#27;[90m# StepDefinition.LoginSteps.onLoginPage()&amp#27;[0m
-01:05:46.302 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.iInputInvalidEmail - inputEmail
-01:05:46.920 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\a003d5d16c67c433b451fc844338d490dc778f5ecb1007c1ed80799fa5f0642a.png
-01:05:46.920 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputEmail
-01:05:46.925 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.iInputInvalidEmail - inputPassword
-01:05:47.347 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\3aaf571ed9537142dae5ea2ba02d90034c418195a42e3e139c83ce5a8b4a25b1.png
-01:05:47.347 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputPassword
+15:12:13.217 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.iInputInvalidEmail - inputEmail
+15:12:13.696 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\a003d5d16c67c433b451fc844338d490dc778f5ecb1007c1ed80799fa5f0642a.png
+15:12:13.697 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputEmail
+15:12:13.701 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.iInputInvalidEmail - inputPassword
+15:12:14.088 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\3aaf571ed9537142dae5ea2ba02d90034c418195a42e3e139c83ce5a8b4a25b1.png
+15:12:14.088 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputPassword
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser input invalid email &amp#27;[0m&amp#27;[32m&amp#27;[1miimail&amp#27;[0m&amp#27;[32m and valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m123&amp#27;[0m &amp#27;[90m# StepDefinition.LoginSteps.iInputInvalidEmail(java.lang.String,java.lang.String)&amp#27;[0m
-01:05:47.366 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.clickLoginButton3 - clickLoginButton
-01:05:47.938 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\0d9b7017d5e90b7a4f098827ba2399bff49681b56c1673bfe34d27a5fb514816.png
-01:05:47.938 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickLoginButton
+15:12:14.102 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.clickLoginButton3 - clickLoginButton
+15:12:14.596 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\082f7eee36e2586533819da0ce3a3b8a01eec62d5f7615bca8ae55c601ab8369.png
+15:12:14.596 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickLoginButton
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click button login3&amp#27;[0m                                &amp#27;[90m# StepDefinition.LoginSteps.clickLoginButton3()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mgot massage3 &amp#27;[0m&amp#27;[32m&amp#27;[1memail or password wrong&amp#27;[0m                   &amp#27;[90m# StepDefinition.LoginSteps.iFailToLoginAndGetErrorMessage(java.lang.String)&amp#27;[0m
-01:05:47.951 [pool-2-thread-1] INFO  - 
+15:12:14.610 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -356,20 +1115,21 @@ user input invalid email and valid password(user-on-login-page;user-input-invali
 user input invalid email and valid password
 ----------------------------------------------------------------------
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 11566
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 35774
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 13, 2022 1:05:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 14, 2022 3:12:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="user input invalid email and invalid password" classname="User on login page" time="4.8">
+  <testcase name="user input invalid email and invalid password" classname="User on login page" time="5.004">
     <system-out><![CDATA[
-Scenario: user input invalid email and invalid password     &amp#27;[90m# src/test/resources/web/Login.feature:21&amp#27;[0m
-01:05:48.520 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature
-01:05:48.520 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-01:05:48.525 [pool-2-thread-1] INFO  - 
+@login
+Scenario: user input invalid email and invalid password     &amp#27;[90m# src/test/resources/web/Login.feature:22&amp#27;[0m
+15:12:15.009 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature
+15:12:15.009 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/WEB%20DISKUSIAZA/src/test/resources/web/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+15:12:15.009 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -377,31 +1137,31 @@ Scenario: user input invalid email and invalid password     &amp#27;[90m# src/te
 
 user input invalid email and invalid password(user-on-login-page;user-input-invalid-email-and-invalid-password)
 --------------------------------------------------------------------------------
-01:05:48.534 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.onLoginPage - openPage
-01:05:48.534 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
-01:05:48.542 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=103 in cache (valid until 02:03:47 13/07/2022 WIB)
-01:05:48.542 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome103=103.0.5060.53 in cache (valid until 01:03:47 14/07/2022 WIB)
-01:05:48.542 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
-01:05:48.546 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 103.0.5060.53 found in cache
-01:05:48.546 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO-PC\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-01:05:48.744 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-01:05:48.744 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, base.url: https://diskusiaza.netlify.app, browserName: chrome, chrome.driver: src/test/resources/webdrive..., driver: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
-01:05:51.454 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\782dc78b0f08bbf214e0ae243b118e25f1cdfbefd79bca6adab077374681cf4e.png
-01:05:51.454 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
+15:12:15.025 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.onLoginPage - openPage
+15:12:15.031 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+15:12:15.036 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=103 in cache (valid until 16:05:41 14/07/2022 WIB)
+15:12:15.036 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome103=103.0.5060.53 in cache (valid until 15:05:41 15/07/2022 WIB)
+15:12:15.036 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+15:12:15.041 [pool-2-thread-1] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 103.0.5060.53 found in cache
+15:12:15.041 [pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO-PC\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+15:12:15.227 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+15:12:15.227 [pool-2-thread-1] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, base.url: https://diskusiaza.netlify.app, browserName: chrome, chrome.driver: src/test/resources/webdrive..., driver: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+15:12:18.039 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\782dc78b0f08bbf214e0ae243b118e25f1cdfbefd79bca6adab077374681cf4e.png
+15:12:18.039 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: openPage
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser on login page&amp#27;[0m                                  &amp#27;[90m# StepDefinition.LoginSteps.onLoginPage()&amp#27;[0m
-01:05:51.464 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.notInputUsernamePassword4 - inputEmail
-01:05:51.905 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\8ba21f13b9071a1cd96b17eeda09659d915f23c51e21b3494474539c87087562.png
-01:05:51.905 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputEmail
-01:05:51.912 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.notInputUsernamePassword4 - inputPassword
-01:05:52.296 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\da1ffe5ff04d710b7fea89b1947b0e476d21edc126117d2f7de182722fd61075.png
-01:05:52.296 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputPassword
+15:12:18.053 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.notInputUsernamePassword4 - inputEmail
+15:12:18.594 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\8ba21f13b9071a1cd96b17eeda09659d915f23c51e21b3494474539c87087562.png
+15:12:18.595 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputEmail
+15:12:18.600 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.notInputUsernamePassword4 - inputPassword
+15:12:19.029 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\da1ffe5ff04d710b7fea89b1947b0e476d21edc126117d2f7de182722fd61075.png
+15:12:19.029 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: inputPassword
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser input invalid email &amp#27;[0m&amp#27;[32m&amp#27;[1mii&amp#27;[0m&amp#27;[32m and invalid password &amp#27;[0m&amp#27;[32m&amp#27;[1mxyz&amp#27;[0m &amp#27;[90m# StepDefinition.LoginSteps.notInputUsernamePassword4(java.lang.String,java.lang.String)&amp#27;[0m
-01:05:52.314 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.clickLoginButton4 - clickLoginButton
-01:05:52.825 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\27ef4e0550c000b4be235355e6d40a1bcf2f1632a18ab64e16e9d3c126559bc2.png
-01:05:52.825 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickLoginButton
+15:12:19.043 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.clickLoginButton4 - clickLoginButton
+15:12:19.531 [pool-2-thread-1] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\3885b3a06d17a76a80c8aa93804039da9cb8710570f0ada271cd0dbf2dac048c.png
+15:12:19.531 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickLoginButton
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click button login4&amp#27;[0m                              &amp#27;[90m# StepDefinition.LoginSteps.clickLoginButton4()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mgot massage4 &amp#27;[0m&amp#27;[32m&amp#27;[1memail or password wrong&amp#27;[0m                 &amp#27;[90m# StepDefinition.LoginSteps.iGetErrorMessage(java.lang.String)&amp#27;[0m
-01:05:52.833 [pool-2-thread-1] INFO  - 
+15:12:19.544 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -410,11 +1170,11 @@ user input invalid email and invalid password(user-on-login-page;user-input-inva
 user input invalid email and invalid password
 ----------------------------------------------------------------------
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 26835
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 32907
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 13, 2022 1:05:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 14, 2022 3:12:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
