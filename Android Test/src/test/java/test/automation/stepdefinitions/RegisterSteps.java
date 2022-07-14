@@ -13,21 +13,15 @@ public class RegisterSteps {
     @Steps
     RegisterScreen regist;
 
-    @Steps
-    LoginScreen login;
+
 
     //Scenario 1
-    @Given("user on login page 5")
-<<<<<<< HEAD
-    public void onLoginPage(){
-        login.onHomepage();
-=======
-    public void onLoginPage1(){
-        loginn.onHomepage();
->>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
-    }
+    @Given("user open login page")
+    public void onLoginPage() {
+        regist.onLoginpage();
 
-    @And("user click sign up1")
+    }
+    @And("user click sign up")
     public void clicksignupicon(){
         regist.tapSignUp();
     }
@@ -64,17 +58,11 @@ public class RegisterSteps {
     }
 
     @And("user input valid tanggal lahir")
-    public void inputValidTanggal(String Tanggal) {
+    public void inputValidTanggal(){
         regist.tapTanggalLahir();
-<<<<<<< HEAD
         regist.switchToManual();
         regist.inputTtl("07/09/2000");
         regist.clickOK();
-=======
-        regist.tapTanggal();
-        regist.TypeTanggal(Tanggal);
-        regist.tapButtonOK();
->>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
     }
 
     @And("user pilih jenis kelamin")
@@ -93,16 +81,6 @@ public class RegisterSteps {
     }
 
     //Scenario 2 input email tanpa menggunakan '@'
-    @Given("user on login page 6")
-    public void onLoginPage2(){
-        loginn.onHomepage();
-    }
-
-    @And("user click sign up2")
-    public void clicksignupicon2(){
-        regist.tapSignUp();
-    }
-
     @When("user input valid nama depan2 {}")
     public void inputValidNamaDepan2(String namadepan){
         regist.tapNamaDepan();
@@ -134,11 +112,11 @@ public class RegisterSteps {
     }
 
     @And("user input valid tanggal lahir2")
-    public void inputValidTanggal2(String Tanggal) {
+    public void inputValidTanggal2() {
         regist.tapTanggalLahir();
-        regist.tapTanggal();
-        regist.TypeTanggal(Tanggal);
-        regist.tapButtonOK();
+        regist.switchToManual();
+        regist.inputTtl("07/09/2000");
+        regist.clickOK();
     }
 
     @And("user pilih jenis kelamin2")
@@ -156,16 +134,6 @@ public class RegisterSteps {
     }
 
     //Scenario 3 tidak memasukkan email
-    @Given("user on login page 7")
-    public void onLoginPage3(){
-        loginn.onHomepage();
-    }
-
-    @And("user click sign up3")
-    public void clicksignupicon3(){
-        regist.tapSignUp();
-    }
-
     @When("user input valid nama depan3 {}")
     public void inputValidNamaDepan3(String namadepan){
         regist.tapNamaDepan();
@@ -191,11 +159,11 @@ public class RegisterSteps {
     }
 
     @And("user input valid tanggal lahir3")
-    public void inputValidTanggal3(String Tanggal) {
+    public void inputValidTanggal3() {
         regist.tapTanggalLahir();
-        regist.tapTanggal();
-        regist.TypeTanggal(Tanggal);
-        regist.tapButtonOK();
+        regist.switchToManual();
+        regist.inputTtl("07/09/2000");
+        regist.clickOK();
     }
 
     @And("user pilih jenis kelamin3")
@@ -213,16 +181,6 @@ public class RegisterSteps {
     }
 
     //Scenario 4 tidak memasukan nama depan
-    @Given("user on login page 8")
-    public void onLoginPage4(){
-        loginn.onHomepage();
-    }
-
-    @And("user click sign up4")
-    public void clicksignupicon4(){
-        regist.tapSignUp();
-    }
-
     @When("user input valid nama belakang4 {}")
     public void inputValidNamaBelakang4(String namabelakang) {
         regist.tapNamaBelakang();
@@ -248,11 +206,11 @@ public class RegisterSteps {
     }
 
     @And("user input valid tanggal lahir4")
-    public void inputValidTanggal4(String Tanggal) {
+    public void inputValidTanggal4() {
         regist.tapTanggalLahir();
-        regist.tapTanggal();
-        regist.TypeTanggal(Tanggal);
-        regist.tapButtonOK();
+        regist.switchToManual();
+        regist.inputTtl("07/09/2000");
+        regist.clickOK();
     }
 
     @And("user pilih jenis kelamin4")
@@ -270,16 +228,6 @@ public class RegisterSteps {
     }
 
     //Scenario 5 user tidak memasukkan password
-    @Given("user on login page 9")
-    public void onLoginPage5(){
-        loginn.onHomepage();
-    }
-
-    @And("user click sign up5")
-    public void clicksignupicon5(){
-        regist.tapSignUp();
-    }
-
     @When("user input valid nama depan5 {}")
     public void inputValidNamaDepan5(String namadepan){
         regist.tapNamaDepan();
@@ -305,11 +253,11 @@ public class RegisterSteps {
     }
 
     @And("user input valid tanggal lahir5")
-    public void inputValidTanggal5(String Tanggal) {
+    public void inputValidTanggal5() {
         regist.tapTanggalLahir();
-        regist.tapTanggal();
-        regist.TypeTanggal(Tanggal);
-        regist.tapButtonOK();
+        regist.switchToManual();
+        regist.inputTtl("07/09/2000");
+        regist.clickOK();
     }
 
     @And("user pilih jenis kelamin5")
@@ -327,16 +275,6 @@ public class RegisterSteps {
     }
 
     //Scenario 6 tidak memasukan nama belakang
-    @Given("user on login page 10")
-    public void onLoginPage6(){
-        loginn.onHomepage();
-    }
-
-    @And("user click sign up6")
-    public void clicksignupicon6(){
-        regist.tapSignUp();
-    }
-
     @When("user input valid nama depan6 {}")
     public void inputValidNamaDepan6(String namadepan) {
         regist.tapNamaDepan();
@@ -362,11 +300,11 @@ public class RegisterSteps {
     }
 
     @And("user input valid tanggal lahir6")
-    public void inputValidTanggal6(String Tanggal) {
+    public void inputValidTanggal6() {
         regist.tapTanggalLahir();
-        regist.tapTanggal();
-        regist.TypeTanggal(Tanggal);
-        regist.tapButtonOK();
+        regist.switchToManual();
+        regist.inputTtl("07/09/2000");
+        regist.clickOK();
     }
 
     @And("user pilih jenis kelamin6")
@@ -384,16 +322,6 @@ public class RegisterSteps {
     }
 
     //Scenario 7 user tidak memilih jenis kelamin
-    @Given("user on login page 11")
-    public void onLoginPage7(){
-        loginn.onHomepage();
-    }
-
-    @And("user click sign up7")
-    public void clicksignupicon7(){
-        regist.tapSignUp();
-    }
-
     @When("user input valid nama depan7 {}")
     public void inputValidNamaDepan7(String namadepan){
         regist.tapNamaDepan();
@@ -425,11 +353,11 @@ public class RegisterSteps {
     }
 
     @And("user input valid tanggal lahir7")
-    public void inputValidTanggal7(String Tanggal) {
+    public void inputValidTanggal7() {
         regist.tapTanggalLahir();
-        regist.tapTanggal();
-        regist.TypeTanggal(Tanggal);
-        regist.tapButtonOK();
+        regist.switchToManual();
+        regist.inputTtl("07/09/2000");
+        regist.clickOK();
     }
 
     @And("user klik Daftar button7")
@@ -442,16 +370,6 @@ public class RegisterSteps {
     }
 
     //Scenario 8 user tidak mengisi confirm password
-    @Given("user on login page 12")
-    public void onLoginPage8(){
-        loginn.onHomepage();
-    }
-
-    @And("user click sign up8")
-    public void clicksignupicon8(){
-        regist.tapSignUp();
-    }
-
     @When("user input valid nama depan8 {}")
     public void inputValidNamaDepan8(String namadepan){
         regist.tapNamaDepan();
@@ -477,11 +395,11 @@ public class RegisterSteps {
     }
 
     @And("user input valid tanggal lahir8")
-    public void inputValidTanggal8(String Tanggal) {
+    public void inputValidTanggal8() {
         regist.tapTanggalLahir();
-        regist.tapTanggal();
-        regist.TypeTanggal(Tanggal);
-        regist.tapButtonOK();
+        regist.switchToManual();
+        regist.inputTtl("07/09/2000");
+        regist.clickOK();
     }
 
     @And("user input valid jenis kelamin8")

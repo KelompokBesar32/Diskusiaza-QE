@@ -2,8 +2,8 @@
 Feature: As a user on register page
 
   Scenario: User input valid data
-    Given user on login page 5
-    And user click sign up1
+    Given user open login page
+    And user click sign up
     When user input valid nama depan siti
     And user input valid nama belakang mutee
     And user input valid email
@@ -15,8 +15,8 @@ Feature: As a user on register page
     Then user sign up to login page
 
   Scenario: user input email tanpa menggunakan '@'
-    Given user on login page 6
-    And user click sign up2
+    Given user open login page
+    And user click sign up
     When user input valid nama depan2 siti
     And user input valid nama belakang2 mutee
     And user input email without '@' sitimutee@gmail.com
@@ -28,8 +28,8 @@ Feature: As a user on register page
     Then user got message2 'invalid email'
 
   Scenario: user tidak memasukkan email
-    Given user on login page 7
-    And user click sign up3
+    Given user open login page
+    And user click sign up
     When user input valid nama depan3 siti
     And user input valid nama belakang3 mutee
     And user input valid password3 susah
@@ -40,8 +40,8 @@ Feature: As a user on register page
     Then user got message3 'email tidak boleh kosong'
 
   Scenario: user tidak memasukan nama depan
-    Given user on login page 8
-    And user click sign up4
+    Given user open login page
+    And user click sign up
     When user input valid nama belakang4 mutee
     And user input valid email4 sitimutee@gmail.com
     And user input valid password4 susah
@@ -52,8 +52,8 @@ Feature: As a user on register page
     Then user got message4 'email tidak boleh kosong'
 
   Scenario: user tidak memasukan password
-    Given user on login page 9
-    And user click sign up5
+    Given user open login page
+    And user click sign up
     When user input valid nama depan5 siti
     And user input valid nama belakang5 mutee
     And user input valid email5 sitimutee@gmail.com
@@ -64,8 +64,8 @@ Feature: As a user on register page
     Then user got message5 'password tidak boleh kosong'
 
   Scenario: user tidak memasukan nama belakang
-    Given user on login page 10
-    And user click sign up6
+    Given user open login page
+    And user click sign up
     When user input valid nama depan6 siti
     And user input valid email6 sitimutee@gmail.com
     And user input valid password6 susah
@@ -76,8 +76,8 @@ Feature: As a user on register page
     Then user got message6 'nama belakang tidak boleh kosong'
 
   Scenario: user tidak memasukan jenis kelamin
-    Given user on login page 11
-    And user click sign up7
+    Given user open login page
+    And user click sign up
     When user input valid nama depan7 siti
     And user pilih nama belakang7 mutee
     And user input valid email7 sitimutee@gmail.com
@@ -88,8 +88,8 @@ Feature: As a user on register page
     Then user got message7 'pilih jenis kelamin'
 
   Scenario: user tidak mengisi confirm password
-    Given user on login page 12
-    And user click sign up8
+    Given user open login page
+    And user click sign up
     When user input valid nama depan8 siti
     And user pilih nama belakang8 mutee
     And user input valid email8 sitimutee@gmail.com

@@ -1,32 +1,48 @@
 -------------------------------------------------------------------------------
 Test set: CucumberTestSuite
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.034 sec - in CucumberTestSuite
-=======
-Tests run: 20, Failures: 0, Errors: 8, Skipped: 12, Time elapsed: 16.481 sec <<< FAILURE! - in CucumberTestSuite
-user on login page(User input valid email and password)  Time elapsed: 0.831 sec  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+Tests run: 23, Failures: 0, Errors: 2, Skipped: 6, Time elapsed: 119.647 sec <<< FAILURE! - in CucumberTestSuite
+user login with email ii@gmail.com and password 123(User create thread)  Time elapsed: 32.682 sec  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.example.diskusiaza_mobile' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.example.diskusiaza_mobile.MainActivity' or 'com.example.diskusiaza_mobile.com.example.diskusiaza_mobile.MainActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.243.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.example.diskusiaza_mobile' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.example.diskusiaza_mobile.MainActivity' or 'com.example.diskusiaza_mobile.com.example.diskusiaza_mobile.MainActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+    at getResponseForW3CError (C:\Users\Siti Nurlatipah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Siti Nurlatipah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.243.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.example.diskusiaza_mobile' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.example.diskusiaza_mobile.MainActivity' or 'com.example.diskusiaza_mobile.com.example.diskusiaza_mobile.MainActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.243.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.example.diskusiaza_mobile' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.example.diskusiaza_mobile.MainActivity' or 'com.example.diskusiaza_mobile.com.example.diskusiaza_mobile.MainActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+    at getResponseForW3CError (C:\Users\Siti Nurlatipah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Siti Nurlatipah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
 
-User input valid email and password  Time elapsed: 0.002 sec  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
+User create thread  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.example.diskusiaza_mobile' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.example.diskusiaza_mobile.MainActivity' or 'com.example.diskusiaza_mobile.com.example.diskusiaza_mobile.MainActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.243.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.example.diskusiaza_mobile' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.example.diskusiaza_mobile.MainActivity' or 'com.example.diskusiaza_mobile.com.example.diskusiaza_mobile.MainActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+    at getResponseForW3CError (C:\Users\Siti Nurlatipah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Siti Nurlatipah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.243.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.example.diskusiaza_mobile' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.example.diskusiaza_mobile.MainActivity' or 'com.example.diskusiaza_mobile.com.example.diskusiaza_mobile.MainActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-9MG0RTAB', ip: '192.168.243.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.example.diskusiaza_mobile' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: 'com.example.diskusiaza_mobile.MainActivity' or 'com.example.diskusiaza_mobile.com.example.diskusiaza_mobile.MainActivity' never started. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting
+    at getResponseForW3CError (C:\Users\Siti Nurlatipah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Siti Nurlatipah\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
 
-user on login page(user input valid email and invalid password)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
-
-user input valid email and invalid password  Time elapsed: 0.001 sec  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
-
-user on login page(user input invalid email and valid password)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
-
-user input invalid email and valid password  Time elapsed: 0.475 sec  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
-
-user on login page(user input invalid email and invalid password)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
-
-user input invalid email and invalid password  Time elapsed: 0.044 sec  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
-
->>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615

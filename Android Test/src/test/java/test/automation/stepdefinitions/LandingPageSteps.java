@@ -9,8 +9,7 @@ import test.automation.pages.LoginScreen;
 import test.automation.pages.LandingPageScreen;
 
 public class LandingPageSteps {
-    @Steps
-    LoginScreen login;
+
 
     @Steps
     LandingPageScreen landing;
@@ -18,12 +17,12 @@ public class LandingPageSteps {
     //profile
     @Given("user login with email {} and password {}")
     public void login(String email, String password){
-        login.onHomepage();
-        login.tapEmail();
-        login.typeEmail(email);
-        login.tapPassword();
-        login.typePassword(password);
-        login.tapLoginButton();
+        landing.openLoginPage();
+        landing.clickEmail();
+        landing.inputEmail(email);
+        landing.clickPassword();
+        landing.inputPassword(password);
+        landing.tapTombolLogin();
     }
     @And("user on landing page")
     public void onLandingPage() {
@@ -59,19 +58,6 @@ public class LandingPageSteps {
     }
 
     //thread
-    @Given("user login email {} and password {}")
-    public void loginUser(String email, String password){
-        login.onHomepage();
-        login.tapEmail();
-        login.typeEmail(email);
-        login.tapPassword();
-        login.typePassword(password);
-        login.tapLoginButton();
-    }
-    @And("user go to landing page")
-    public void goLandingPage() {
-        landing.onLandingpage();
-    }
     @When("user click plus icon")
     public void clickPlus(){
         landing.tapPlus();
@@ -94,6 +80,5 @@ public class LandingPageSteps {
     public void successThread(){
         landing.onLandingpage();
     }
-
 
 }

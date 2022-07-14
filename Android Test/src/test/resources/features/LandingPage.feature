@@ -1,3 +1,4 @@
+@landing
 Feature: User on landing page
 
   Scenario: User open profile page
@@ -19,8 +20,8 @@ Feature: User on landing page
     Then user on trending page
 
   Scenario: User create thread
-    Given user login email ii@gmail.com and password 123
-    And user go to landing page
+    Given user login with email ii@gmail.com and password 123
+    And user on landing page
     When user click plus icon
     And user type judul apa
     And user type isi aja
