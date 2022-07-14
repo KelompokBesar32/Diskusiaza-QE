@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberTestSuite" time="51.034" tests="12" errors="0" skipped="0" failures="0">
+=======
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberTestSuite" time="16.481" tests="20" errors="8" skipped="12" failures="0">
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
@@ -33,18 +37,31 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
+<<<<<<< HEAD
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.5\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Siti Nurlatipah"/>
+    <property name="tags" value="@Regist"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+=======
     <property name="library.jansi.path" value="C:\apache-maven-3.8.5\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\LENOVO-PC"/>
     <property name="tags" value="@login"/>
     <property name="user.timezone" value="Asia/Jakarta"/>
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="17"/>
     <property name="user.name" value="LENOVO-PC"/>
     <property name="java.class.path" value="C:\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
+<<<<<<< HEAD
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dtags=@Regist"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.14"/>
+=======
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -D tags=@login"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
@@ -61,6 +78,20 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+<<<<<<< HEAD
+  <testcase name="user on login page 5" classname="User input valid data" time="15.548"/>
+  <testcase name="user click sign up1" classname="User input valid data" time="13.135"/>
+  <testcase name="user input valid nama depan siti" classname="User input valid data" time="2.208"/>
+  <testcase name="user input valid nama belakang mutee" classname="User input valid data" time="1.278"/>
+  <testcase name="user input valid email" classname="User input valid data" time="1.54"/>
+  <testcase name="user input valid password susah" classname="User input valid data" time="1.32"/>
+  <testcase name="user input valid confirm password susah" classname="User input valid data" time="1.291"/>
+  <testcase name="user input valid tanggal lahir" classname="User input valid data" time="3.524"/>
+  <testcase name="user pilih jenis kelamin" classname="User input valid data" time="0.144"/>
+  <testcase name="user klik Daftar button" classname="User input valid data" time="1.028"/>
+  <testcase name="user sign up to login page" classname="User input valid data" time="0.109"/>
+  <testcase name="User input valid data" classname="User input valid data" time="0.123"/>
+=======
   <testcase name="user on login page" classname="User input valid email and password" time="0.831">
     <error message="Cannot invoke &quot;io.appium.java_client.android.AndroidDriver.hideKeyboard()&quot; because &quot;driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
 </error>
@@ -501,4 +532,5 @@ user input invalid email and invalid password(user-on-login-page;user-input-inva
     <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mgot massage4 &amp#27;[0m&amp#27;[36m&amp#27;[1memail or password wrong&amp#27;[0m                             &amp#27;[90m# test.automation.stepdefinitions.LoginSteps.iGetErrorMessage(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
 </testsuite>

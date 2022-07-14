@@ -1,5 +1,6 @@
 package test.automation.stepdefinitions;
 
+import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -13,12 +14,17 @@ public class RegisterSteps {
     RegisterScreen regist;
 
     @Steps
-    LoginScreen loginn;
+    LoginScreen login;
 
     //Scenario 1
     @Given("user on login page 5")
+<<<<<<< HEAD
+    public void onLoginPage(){
+        login.onHomepage();
+=======
     public void onLoginPage1(){
         loginn.onHomepage();
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
     }
 
     @And("user click sign up1")
@@ -38,10 +44,11 @@ public class RegisterSteps {
         regist.typeNamaBelakang(namabelakang);
     }
 
-    @And("user input valid email {}")
-    public void inputValidEmail(String email) {
+    @And("user input valid email")
+    public void inputValidEmail() {
+        Faker faker=new Faker();
         regist.tapEmail();
-        regist.typeEmail(email);
+        regist.typeEmail(faker.internet().emailAddress());
     }
 
     @And("user input valid password {}")
@@ -59,9 +66,15 @@ public class RegisterSteps {
     @And("user input valid tanggal lahir")
     public void inputValidTanggal(String Tanggal) {
         regist.tapTanggalLahir();
+<<<<<<< HEAD
+        regist.switchToManual();
+        regist.inputTtl("07/09/2000");
+        regist.clickOK();
+=======
         regist.tapTanggal();
         regist.TypeTanggal(Tanggal);
         regist.tapButtonOK();
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
     }
 
     @And("user pilih jenis kelamin")
@@ -76,7 +89,7 @@ public class RegisterSteps {
 
     @Then("user sign up to login page")
     public void successToLoginPage(){
-        loginn.onHomepage();
+        regist.onLoginpage();
     }
 
     //Scenario 2 input email tanpa menggunakan '@'

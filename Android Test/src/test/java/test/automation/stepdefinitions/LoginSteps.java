@@ -20,7 +20,7 @@ public class LoginSteps {
         login.onHomepage();
     }
 
-    @When("user input valid email {} and valid password {}")
+    @When("user type valid email {} and valid password {}")
     public void inputValidEmailandValidPassword(String email, String password){
         login.tapEmail();
         login.typeEmail(email);
@@ -39,6 +39,15 @@ public class LoginSteps {
     }
 
     //scenario 2 unsuccess invalid password
+<<<<<<< HEAD
+    @When("user input valid email and invalid password")
+    public void inputInvalidPassword(){
+        login.tapEmail();
+        login.typeEmail("ii@gmail.com");
+        login.tapPassword();
+        login.typePassword("abd");
+    }
+=======
 
     @When("user input valid email {} and invalid password {}")
     public void inputInvalidPassword(String email, String password){
@@ -46,6 +55,7 @@ public class LoginSteps {
         login.typeEmail(email);
         login.tapPassword();
         login.typePassword(password);}
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
 
     @And("user click button login2")
     public void clickLoginButton2(){
@@ -57,12 +67,23 @@ public class LoginSteps {
     }
 
     //scenario 3 unsuccess invalid email
+<<<<<<< HEAD
+
+    @When("user input invalid email and valid password")
+    public void iInputInvalidEmail() {
+        login.tapEmail();
+        login.typeEmail("iigmail");
+        login.tapPassword();
+        login.typePassword("123");
+    }
+=======
     @When("user input invalid email {} and valid password {}")
     public void iInputInvalidEmail(String email, String password){
         login.tapEmail();
         login.typeEmail(email);
         login.tapPassword();
         login.typePassword(password);}
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615
 
     @And("user click button login3")
     public void clickLoginButton3(){

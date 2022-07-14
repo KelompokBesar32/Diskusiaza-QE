@@ -18,6 +18,10 @@ public class RegisterScreen extends BasePageObject {
     private By DoneButtonTanggal(){return MobileBy.xpath("//android.widget.Button[@content-desc=\"OK\"]\n");}
     private By JenisKelamin(){return MobileBy.AccessibilityId("Woman");}
     private By RegisterButton(){return MobileBy.AccessibilityId("Sign Up");}
+    private By inputManual(){return MobileBy.AccessibilityId("Switch to input");}
+    private By inputTanggal(){return MobileBy.xpath("//android.widget.EditText");}
+    private By okButton(){return MobileBy.AccessibilityId("OK");}
+    private By loginButton(){return MobileBy.xpath("//android.widget.Button[@content-desc=\"Login\"]");}
 
     //private By snackbarLogin(){return MobileBy.AccessibilityId("Email atau password tidak valid.");}
     @Step
@@ -55,5 +59,15 @@ public class RegisterScreen extends BasePageObject {
     public void tapJenisKelamin(){onClick(JenisKelamin());}
     @Step
     public void tapSignUpButton(){onClick(RegisterButton());}
+    @Step
+    public void switchToManual(){onClick(inputManual());}
+    @Step
+    public void inputTtl(String lahir){onType(inputTanggal(),lahir);}
+    @Step
+    public void clickOK(){onClick(okButton());}
+    @Step
+    public boolean onLoginpage() {
+        return waitUntilPresence(loginButton()).isDisplayed();
+    }
 
 }

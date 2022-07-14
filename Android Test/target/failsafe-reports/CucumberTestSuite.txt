@@ -1,6 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: CucumberTestSuite
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.034 sec - in CucumberTestSuite
+=======
 Tests run: 20, Failures: 0, Errors: 8, Skipped: 12, Time elapsed: 16.481 sec <<< FAILURE! - in CucumberTestSuite
 user on login page(User input valid email and password)  Time elapsed: 0.831 sec  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
@@ -26,3 +29,4 @@ java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.And
 user input invalid email and invalid password  Time elapsed: 0.044 sec  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.hideKeyboard()" because "driver" is null
 
+>>>>>>> 3f0c8d122b3be1e532cb16ba0344716cfe043615

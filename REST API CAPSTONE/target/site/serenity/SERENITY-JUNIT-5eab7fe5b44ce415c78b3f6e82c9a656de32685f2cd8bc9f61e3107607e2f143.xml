@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="As a user on category thread" skipped="0" tests="3" time="0.96" timestamp="2022-07-09 06:22:19"><testcase name="User get thread category"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="As a user on category thread" skipped="0" tests="3" time="1.47" timestamp="2022-07-13 02:59:03"><testcase name="User get thread category"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
@@ -16,7 +16,7 @@ rest.api@1.0-SNAPSHOT/Starter.Thread.ThreadCategory.lambda$getResponseCode200$0(
 net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
 rest.api@1.0-SNAPSHOT/Starter.Thread.ThreadCategory.getResponseCode200(ThreadCategory.java:21)&#13;
 rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.ThreadSteps.responseCode200(ThreadSteps.java:28)&#13;
-✽.user get respon code 200(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Thread.feature:6)&#13;
+✽.user get respon code 200(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/Thread.feature:6)&#13;
 </system-err></testcase><testcase name="User get all thread"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
 </failure><system-err>1 expectation failed.
@@ -35,7 +35,7 @@ rest.api@1.0-SNAPSHOT/Starter.Thread.ThreadById.lambda$getResponseCode200$0(Thre
 net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
 rest.api@1.0-SNAPSHOT/Starter.Thread.ThreadById.getResponseCode200(ThreadById.java:19)&#13;
 rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.ThreadSteps.getResponseCode200(ThreadSteps.java:45)&#13;
-✽.user get response code2 200(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Thread.feature:12)&#13;
+✽.user get response code2 200(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/Thread.feature:12)&#13;
 </system-err></testcase><testcase name="User get thread by id"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
 </failure><system-err>1 expectation failed.
@@ -54,5 +54,5 @@ rest.api@1.0-SNAPSHOT/Starter.Thread.Thread.lambda$getResponseCode200$0(Thread.j
 net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
 rest.api@1.0-SNAPSHOT/Starter.Thread.Thread.getResponseCode200(Thread.java:23)&#13;
 rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.ThreadSteps.getResponse3Code200(ThreadSteps.java:62)&#13;
-✽.user get response code3 200(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Thread.feature:18)&#13;
+✽.user get response code3 200(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/Thread.feature:18)&#13;
 </system-err></testcase></testsuite>

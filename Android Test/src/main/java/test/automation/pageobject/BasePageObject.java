@@ -22,7 +22,7 @@ public class BasePageObject {
     }
 
     public WebDriverWait onWait() {
-        return new WebDriverWait(getDriver(), 10);
+        return new WebDriverWait(getDriver(), 30);
     }
 
     public AndroidElement waitUntilClickable(By by) {
