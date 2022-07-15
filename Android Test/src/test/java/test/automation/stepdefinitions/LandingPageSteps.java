@@ -5,7 +5,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
-import test.automation.pages.LoginScreen;
 import test.automation.pages.LandingPageScreen;
 
 public class LandingPageSteps {

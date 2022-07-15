@@ -81,7 +81,7 @@ public class LoginSteps {
         login.tapEmail();
         login.typeEmail("iigmail.com");
         login.tapPassword();
-        login.typePassword("fff");
+        login.typePassword("eeeefff");
     }
 
     @And("user click button login4")
@@ -90,6 +90,6 @@ public class LoginSteps {
     }
 
     @Then("got massage4 {}")
-    public void iGetErrorMessage(String message) {
+    public void iFailToLoginAndGetErrorMessage4(String message) {
     }
 }

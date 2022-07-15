@@ -17,8 +17,8 @@ public class LandingPageScreen extends BasePageObject {
     private By onTrending(){return MobileBy.xpath("//android.view.View/android.view.View[1]");}
     private By username(){return MobileBy.AccessibilityId("Siti Nurlatipah");}
     private By landingpage(){return MobileBy.xpath("//android.view.View/android.view.View[1]");}
-    private By judul(){return MobileBy.xpath("//android.widget.ImageView//android.widget.EditText[1]");}
-    private By isi(){return MobileBy.xpath("//android.widget.ImageView//android.widget.EditText[2]");}
+    private By judul(){return MobileBy.xpath("//android.widget.ImageView/android.widget.EditText[1]");}
+    private By isi(){return MobileBy.xpath("//android.widget.ImageView/android.widget.EditText[2]");}
     private By kirimThread(){return MobileBy.AccessibilityId("Kirimkan");}
     private By plusThread(){return MobileBy.xpath("//android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button");}
     @Step

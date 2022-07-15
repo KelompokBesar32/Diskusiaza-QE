@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"User on landing page","User open profile page","SUCCESS","2022-07-15T00:08:39.1586637+07:00[Asia/Bangkok]","0.0","24.65"
-"User on landing page","User open explore page","SUCCESS","2022-07-15T00:09:03.8349943+07:00[Asia/Bangkok]","0.0","20.99"
-"User on landing page","User open trending page","SUCCESS","2022-07-15T00:09:24.8662853+07:00[Asia/Bangkok]","0.0","27.75"
+"User on landing page","User open profile page","SUCCESS","2022-07-15T12:20:27.1280944+07:00[Asia/Jakarta]","0.0","25.68"
+"User on landing page","User open explore page","SUCCESS","2022-07-15T12:20:52.8249812+07:00[Asia/Jakarta]","0.0","16.5"
+"User on landing page","User open trending page","SUCCESS","2022-07-15T12:21:09.3391117+07:00[Asia/Jakarta]","0.0","23.19"
+"User on landing page","User create thread","SUCCESS","2022-07-15T12:21:32.5362472+07:00[Asia/Jakarta]","0.0","19.39"
