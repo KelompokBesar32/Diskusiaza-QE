@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user on profil page","User get data profile","FAILURE","2022-07-16T01:46:08.9339708+07:00[Asia/Jakarta]","0.0","3.89"
+"As a user on profil page","User update data profile","FAILURE","2022-07-16T01:46:12.8387038+07:00[Asia/Jakarta]","0.0","0.26"
