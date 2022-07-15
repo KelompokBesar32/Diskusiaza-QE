@@ -1,5 +1,6 @@
 package Starter.LikeThread;
 
+import io.restassured.response.Response;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
 import org.json.simple.JSONObject;
@@ -8,18 +9,32 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class DeleteLikeThread {
-    public static String url = "https://capstone-go.dikatest.xyz/t/";
+    protected String url = "https://capstone-go.dikatest.xyz/";
+    protected static String token="";
+
+    public JSONObject setLoginToken1(){
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("email","hening@gmail.com");
+        requestBody.put("password","aiueo");
+        return requestBody;
+    }
     @Step
-    public String deleteLikeThreadEndpoints(){
-        return url + "therad/like";
+    public void successAuth1(){
+        SerenityRest.given().header("Content-Type", "application/json").body(setLoginToken1().toJSONString()).delete(url+"auth/login");
+        Response resp = SerenityRest.lastResponse();
+        token = resp.getBody().jsonPath().get("token");
+    }
+    @Step
+    public String DeleteLikeThreadEndpoints(){
+        return url + "/t/therad/like";
     }
 
     @Step
-    public void unlikeUsingThreadId(){
+    public void inputthreadid1(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("therad_id", "7");
+        requestBody.put("therad_id",5);
 
-        SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString()).delete(deleteLikeThreadEndpoints());
+        SerenityRest.given().header("Content-Type","application/json").header("Authorization", "Bearer"+token).body(requestBody.toJSONString()).delete(DeleteLikeThreadEndpoints());
     }
     @Step
     public void  getHttpsResponseCode200(){

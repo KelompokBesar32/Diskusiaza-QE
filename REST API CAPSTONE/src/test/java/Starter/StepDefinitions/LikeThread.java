@@ -13,12 +13,18 @@ public class LikeThread {
     PostLikeThread likeThread;
     @Steps
     DeleteLikeThread unlikeThread;
-    @Given("user post like thread endpoints")
+
+    //like thread
+    @Given("user success auth using token")
+    public void successAuthToken(){
+        likeThread.successAuth();
+    }
+    @When("user post like thread endpoints")
     public void postLikeThreadEndpoints(){
         likeThread.postLikeThreadEndpoints();
     }
-    @When("user input thread id")
-    public void likeUsingThreadId(){
+    @And("user input thread id")
+    public void inputThreadID(){
         likeThread.likeUsingThreadId();
     }
     @Then("user succes like thread with respon code 200")
@@ -30,13 +36,19 @@ public class LikeThread {
         likeThread.receiveMassageLikeSucces();
     }
 
-    @Given("user delete like thread endpoints")
-    public void deleteLikeThreadEndpoints(){
-        unlikeThread.deleteLikeThreadEndpoints();
+    //unlike thread
+    @Given("user success auth using token1")
+    public void successAuthToken1(){
+        unlikeThread.successAuth1();
     }
-    @When("user input thread id2")
+    @When("user delete like thread endpoints")
+    public void deleteLikeThreadEndpoints(){
+        unlikeThread.DeleteLikeThreadEndpoints();
+    }
+
+    @And("user input thread id2")
     public void unlikeUsingThreadId(){
-        unlikeThread.unlikeUsingThreadId();
+        unlikeThread.inputthreadid1();
     }
     @Then("user succes unlike thread with respon code 200")
     public void getResponseCode() {

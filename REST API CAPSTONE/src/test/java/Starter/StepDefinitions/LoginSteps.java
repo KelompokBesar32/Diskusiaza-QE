@@ -28,6 +28,7 @@ public class LoginSteps {
     public void succesloginresponcode200() {
         post.succesloginresponcode200();
     }
+
     @Given("user post login endpoints2")
     public void postloginendpoints2(){
         post2.postloginendpoint2();

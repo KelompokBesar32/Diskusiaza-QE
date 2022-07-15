@@ -1,18 +1,35 @@
 package Starter.Thread;
+import io.restassured.response.Response;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
+import org.json.simple.JSONObject;
+
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class ThreadById {
-    public static String url = "https://capstone-go.dikatest.xyz/t/";
+    protected String url = "https://capstone-go.dikatest.xyz/";
+    protected static String token = "";
+
+    public JSONObject setLoginToken3() {
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("email", "hening@gmail.com");
+        requestBody.put("password", "aiueo");
+        return requestBody;
+    }
     @Step
-    public String setGetThreadCategoryEndpoints(){
+    public void successAuth3() {
+        SerenityRest.given().header("Content-Type", "application/json").body(setLoginToken3().toJSONString()).get(url + "auth/login");
+        Response resp = SerenityRest.lastResponse();
+        token = resp.getBody().jsonPath().get("token");
+    }
+    @Step
+    public String setGetThreadByIDEndpoints(){
         return url + "therad/1";
     }
     @Step
-    public void sendGetThreadCategoryEndpoints(){
-        SerenityRest.given().get(setGetThreadCategoryEndpoints());
+    public void sendGetThreadByIDEndpoints(){
+        SerenityRest.given().header("Authorization", "Bearer" + token).get(setGetThreadByIDEndpoints());
     }
     @Step
     public void  getResponseCode200(){

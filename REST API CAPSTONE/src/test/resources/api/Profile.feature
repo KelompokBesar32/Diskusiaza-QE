@@ -1,3 +1,4 @@
+@profil
 Feature: As a user on profil page
 
   Scenario: User get data profile

@@ -6,22 +6,37 @@ import org.json.simple.JSONObject;
 
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 import static org.hamcrest.CoreMatchers.equalTo;
+import io.restassured.response.Response;
 
 public class PostLikeThread {
-    public static String url = "https://capstone-go.dikatest.xyz/t/";
-    protected static String=
-    @Step
-    public String postLikeThreadEndpoints(){
-        return url + "therad/like";
+    protected String url = "https://capstone-go.dikatest.xyz/";
+    protected static String token="";
+
+    public JSONObject setLoginToken(){
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("email","hening@gmail.com");
+        requestBody.put("password","aiueo");
+        return requestBody;
     }
 
+    @Step
+    public void successAuth(){
+        SerenityRest.given().header("Content-Type", "application/json").body(setLoginToken().toJSONString()).post(url+"auth/login");
+        Response resp = SerenityRest.lastResponse();
+        token = resp.getBody().jsonPath().get("token");
+
+    }
+    @Step
+    public String postLikeThreadEndpoints(){
+        return url + "t/therad/like";
+    }
     @Step
     public void likeUsingThreadId(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("therad_id", "4");
-        SerenityRest.given().header("Authorization", "Bearer "+token)
-        SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString()).post(postLikeThreadEndpoints());
+        requestBody.put("therad_id",5);
+        SerenityRest.given().header("Content-Type","application/json").header("Authorization", "Bearer"+token).body(requestBody.toJSONString()).post(postLikeThreadEndpoints());
     }
+
     @Step
     public void  getResponseCode200(){
         restAssuredThat(response -> response.statusCode(200));

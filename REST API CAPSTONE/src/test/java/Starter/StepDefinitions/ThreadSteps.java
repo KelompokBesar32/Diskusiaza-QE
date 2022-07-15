@@ -15,7 +15,13 @@ public class ThreadSteps {
     ThreadById byId;
     @Steps
     ThreadCategory category;
-    @Given("user set get category thread endpoints")
+
+    //category
+    @Given("user success auth using token4")
+    public void successAuthhh(){
+        category.successAuth4();
+    }
+    @And("user set get category thread endpoints")
     public void setGetCategory(){
         category.setGetThreadCategoryEndpoints();
     }
@@ -32,13 +38,18 @@ public class ThreadSteps {
         category.receiveThreadById();
     }
 
-    @Given("user set get all thread endpoints")
+    //by id
+    @Given("user success auth using token3")
+    public void successauthh3(){
+        byId.successAuth3();
+    }
+    @And("user set get all thread endpoints")
     public void setGetAllThread(){
-        byId.setGetThreadCategoryEndpoints();
+        byId.setGetThreadByIDEndpoints();
     }
     @When("user send get all thread endpoints")
     public void sendGetAllThread(){
-        byId.sendGetThreadCategoryEndpoints();
+        byId.sendGetThreadByIDEndpoints();
     }
     @Then("user get response code2 200")
     public void getResponseCode200() {
@@ -49,7 +60,12 @@ public class ThreadSteps {
         byId.receiveMassageLikeSucces();
     }
 
-    @Given("user set get thread by id endpoints")
+    //all thread
+    @Given("user success auth using token2")
+    public void successauthh(){
+        allThread.successAuth2();
+    }
+    @And("user set get thread by id endpoints")
     public void setGetThreadById(){
         allThread.setGetThreadEndpoints();
     }

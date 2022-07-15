@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: As a user on profil page
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.834 s <<< FAILURE! - in As a user on profil page
-As a user on profil page.User get data profile  Time elapsed: 0.807 s  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.542 s <<< FAILURE! - in As a user on profil page
+As a user on profil page.User get data profile  Time elapsed: 4.19 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
-Expected status code <200> but was <400>.
+Expected status code <200> but was <503>.
 
 
-As a user on profil page.User update data profile  Time elapsed: 1.017 s  <<< FAILURE!
+As a user on profil page.User update data profile  Time elapsed: 0.27 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
-Expected status code <200> but was <400>.
+Expected status code <200> but was <503>.
 
 
