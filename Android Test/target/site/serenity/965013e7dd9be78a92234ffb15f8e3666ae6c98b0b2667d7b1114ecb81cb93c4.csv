@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"As a user on register page","User input valid data","ERROR","2022-07-15T12:23:04.289805+07:00[Asia/Jakarta]","0.0","53.21"
-"As a user on register page","user tidak memasukan password","ERROR","2022-07-15T12:25:03.3174361+07:00[Asia/Jakarta]","0.0","57.14"
-"As a user on register page","user tidak mengisi confirm password","ERROR","2022-07-15T12:26:44.4543023+07:00[Asia/Jakarta]","0.0","58.2"

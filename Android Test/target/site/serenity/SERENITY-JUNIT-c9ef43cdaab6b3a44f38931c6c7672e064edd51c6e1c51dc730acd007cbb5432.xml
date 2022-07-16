@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="User on landing page" skipped="0" tests="4" time="84.76" timestamp="2022-07-15 12:20:27"><testcase name="User open profile page"/><testcase name="User open explore page"/><testcase name="User open trending page"/><testcase name="User create thread"/></testsuite>

@@ -21,11 +21,11 @@ public class ThreadSteps {
     public void successAuthhh(){
         category.successAuth4();
     }
-    @And("user set get category thread endpoints")
+    @When("user set get category thread endpoints")
     public void setGetCategory(){
         category.setGetThreadCategoryEndpoints();
     }
-    @When("user send get category thread endpoints")
+    @And("user send get category thread endpoints")
     public void sendGetCategory(){
         category.sendGetThreadCategoryEndpoints();
     }
@@ -43,11 +43,11 @@ public class ThreadSteps {
     public void successauthh3(){
         byId.successAuth3();
     }
-    @And("user set get all thread endpoints")
+    @When("user set get all thread endpoints")
     public void setGetAllThread(){
         byId.setGetThreadByIDEndpoints();
     }
-    @When("user send get all thread endpoints")
+    @And("user send get all thread endpoints")
     public void sendGetAllThread(){
         byId.sendGetThreadByIDEndpoints();
     }
@@ -65,11 +65,11 @@ public class ThreadSteps {
     public void successauthh(){
         allThread.successAuth2();
     }
-    @And("user set get thread by id endpoints")
+    @When("user set get thread by id endpoints")
     public void setGetThreadById(){
         allThread.setGetThreadEndpoints();
     }
-    @When("user send get thread by id endpoints")
+    @And("user send get thread by id endpoints")
     public void sendGetThreadById(){
         allThread.sendGetThreadEndpoints();
     }
