@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"As a user on register page","user input email tanpa menggunakan '@'","SUCCESS","2022-07-15T12:23:57.5112173+07:00[Asia/Jakarta]","0.0","22.74"
-"As a user on register page","user tidak memasukkan email","SUCCESS","2022-07-15T12:24:20.2549617+07:00[Asia/Jakarta]","0.0","21.61"
-"As a user on register page","user tidak memasukan nama depan","SUCCESS","2022-07-15T12:24:41.8681027+07:00[Asia/Jakarta]","0.0","21.44"
-"As a user on register page","user tidak memasukan nama belakang","SUCCESS","2022-07-15T12:26:00.46145+07:00[Asia/Jakarta]","0.0","21.3"
-"As a user on register page","user tidak memasukan jenis kelamin","SUCCESS","2022-07-15T12:26:21.7714573+07:00[Asia/Jakarta]","0.0","22.68"

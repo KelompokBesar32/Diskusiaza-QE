@@ -12,9 +12,6 @@ public class LoginSteps {
     @Steps
     LoginScreen login;
 
-    @Steps
-    LandingPageScreen landingg;
-
     @Given("user on login page")
     public void onLoginPage(){
         login.onHomepage();
@@ -35,7 +32,7 @@ public class LoginSteps {
 
     @Then("user success to landing page")
     public void successLogin(){
-        landingg.onLandingpage();
+        login.onLanding();
     }
 
     //scenario 2 unsuccess invalid password
