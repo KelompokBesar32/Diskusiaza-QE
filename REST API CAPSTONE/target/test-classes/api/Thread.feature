@@ -1,9 +1,10 @@
+@thread
 Feature: As a user on category thread
 
   Scenario: User get thread category
     Given user success auth using token2
-    And user set get category thread endpoints
-    When user send get category thread endpoints
+    When user set get category thread endpoints
+    And user send get category thread endpoints
     Then user get respon code 200
     And user receive details category thread
 

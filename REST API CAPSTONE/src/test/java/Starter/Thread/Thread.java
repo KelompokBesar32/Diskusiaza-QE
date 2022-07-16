@@ -21,27 +21,27 @@ public class Thread {
 
         @Step
         public void successAuth2() {
-        SerenityRest.given().header("Content-Type", "application/json").body(setLoginToken2().toJSONString()).get(url + "auth/login");
+        SerenityRest.given().header("Content-Type", "application/json").body(setLoginToken2().toJSONString()).post(url + "auth/login");
         Response resp = SerenityRest.lastResponse();
         token = resp.getBody().jsonPath().get("token");
     }
 
         @Step
         public String setGetThreadEndpoints() {
-            return url + "therad";
+            return url + "t/therad";
         }
 
         @Step
         public void sendGetThreadEndpoints() {
-            SerenityRest.given().header("Authorization", "Bearer" + token).get(setGetThreadEndpoints());
+            SerenityRest.given().header("Authorization", "Bearer " + token).get(setGetThreadEndpoints());
         }
         @Step
         public void getResponseCode200 () {
             restAssuredThat(response -> response.statusCode(200));
         }
         @Step
-        public void receiveMassageLikeSucces () {
-            restAssuredThat(response -> response.body("'data','id'", equalTo("3")));
+        public void receiveMassageLikeSucces2 () {
+            restAssuredThat(response -> response.body("'data'.id[0]", equalTo(1)));
         }
     }
 

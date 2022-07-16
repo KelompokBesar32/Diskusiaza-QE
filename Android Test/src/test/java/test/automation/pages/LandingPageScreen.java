@@ -11,20 +11,20 @@ public class LandingPageScreen extends BasePageObject {
     private By passwordField(){return MobileBy.xpath("//android.view.View//android.widget.EditText[2]");}
     private By loginButton(){return MobileBy.xpath("//android.widget.Button[@content-desc=\"Login\"]");}
     private By profileIcon() {return MobileBy.xpath("//android.widget.Button[4]");}
-    private By exploreIcon() {return MobileBy.xpath("//android.widget.Button[2]");}
+    private By notifIcon() {return MobileBy.xpath("//android.view.View[1]/android.widget.Button[1]");}
+    private By MessageIcon(){return MobileBy.xpath("//android.view.View[1]/android.widget.Button[2]");}
+    private By onProfile(){return MobileBy.AccessibilityId("ii@gmail.com");}
+    private By onNotification(){return MobileBy.AccessibilityId("Notification");}
+    private By onMessage(){return MobileBy.AccessibilityId("Message");}
+    private By exploreIcon() {return MobileBy.xpath("//android.view.View[2]/android.widget.Button[2]\n");}
     private By trendingIcon() {return MobileBy.xpath("//android.widget.Button[3]");}
-    private By onExplore(){return MobileBy.xpath("//android.widget.EditText");}
+    private By onExplore(){return MobileBy.AccessibilityId("Explore");}
     private By onTrending(){return MobileBy.xpath("//android.view.View/android.view.View[1]");}
-    private By username(){return MobileBy.AccessibilityId("Siti Nurlatipah");}
-    private By landingpage(){return MobileBy.xpath("//android.view.View/android.view.View[1]");}
-    private By judul(){return MobileBy.xpath("//android.widget.ImageView/android.widget.EditText[1]");}
-    private By isi(){return MobileBy.xpath("//android.widget.ImageView/android.widget.EditText[2]");}
+    private By landingpage(){return MobileBy.AccessibilityId("Diskusiaza");}
+    private By judul(){return MobileBy.xpath("//android.widget.EditText[1]");}
+    private By isi(){return MobileBy.xpath("//android.widget.EditText[2]");}
     private By kirimThread(){return MobileBy.AccessibilityId("Kirimkan");}
     private By plusThread(){return MobileBy.xpath("//android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.Button");}
-    @Step
-    public boolean onProfilepage() {
-        return waitUntilPresence(username()).isDisplayed();
-    }
     @Step
     public boolean onLandingpage() {
         return waitUntilPresence(landingpage()).isDisplayed();
@@ -36,6 +36,18 @@ public class LandingPageScreen extends BasePageObject {
     @Step
     public void tapTrendingButton(){onClick(trendingIcon());}
     @Step
+    public void tapNotifButton(){onClick(notifIcon());}
+    @Step
+    public void tapMessageButton(){onClick(MessageIcon());}
+    @Step
+    public boolean onMessagePage() {
+        return waitUntilPresence(onMessage()).isDisplayed();
+    }
+    @Step
+    public boolean onNotificationPage() {
+        return waitUntilPresence(onNotification()).isDisplayed();
+    }
+    @Step
     public boolean onExplorePage() {
         return waitUntilPresence(onExplore()).isDisplayed();
     }
@@ -44,13 +56,17 @@ public class LandingPageScreen extends BasePageObject {
         return waitUntilPresence(onTrending()).isDisplayed();
     }
     @Step
+    public boolean onProfilePage() {
+        return waitUntilPresence(onProfile()).isDisplayed();
+    }
+    @Step
     public void tapJudul(){onClick(judul());}
     @Step
-    public void typeIsi(String judul){onType(judul(),judul);}
+    public void typeJudul(String judul){onType(judul(),judul);}
     @Step
     public void tapIsi(){onClick(isi());}
     @Step
-    public void typeJudul(String isi){onType(isi(),isi);}
+    public void typeIsi(String isi){onType(isi(),isi);}
     @Step
     public void tapKirim(){onClick(kirimThread());}
     @Step

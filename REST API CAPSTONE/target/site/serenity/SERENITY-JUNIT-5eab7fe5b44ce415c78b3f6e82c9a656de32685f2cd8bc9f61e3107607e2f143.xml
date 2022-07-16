@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="As a user on category thread" skipped="0" tests="3" time="16.1" timestamp="2022-07-16 11:23:38"><testcase name="User get thread category"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+rest.api@1.0-SNAPSHOT/Starter.Thread.ThreadCategory.lambda$getResponseCode200$0(ThreadCategory.java:36)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+rest.api@1.0-SNAPSHOT/Starter.Thread.ThreadCategory.getResponseCode200(ThreadCategory.java:36)&#13;
+rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.ThreadSteps.responseCode200(ThreadSteps.java:34)&#13;
+✽.user get respon code 200(file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/Thread.feature:8)&#13;
+</system-err></testcase><testcase name="User get all thread"/><testcase name="User get thread by id"/></testsuite>

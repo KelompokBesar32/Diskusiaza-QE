@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberTestSuite" time="87.332" tests="20" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberTestSuite" time="151.688" tests="27" errors="2" skipped="4" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
@@ -35,7 +35,7 @@
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="C:\apache-maven-3.8.5\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\LENOVO-PC"/>
-    <property name="tags" value="@login"/>
+    <property name="tags" value="@profile"/>
     <property name="user.timezone" value="Asia/Jakarta"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="17"/>
@@ -43,7 +43,7 @@
     <property name="java.class.path" value="C:\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dtags=@login"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dtags=@profile"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,24 +61,241 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="user on login page" classname="User input valid email and password" time="16.288"/>
-  <testcase name="user type valid email ii@gmail.com and valid password 123" classname="User input valid email and password" time="2.017"/>
-  <testcase name="user click button login" classname="User input valid email and password" time="0.585"/>
-  <testcase name="user success to landing page" classname="User input valid email and password" time="10.376"/>
-  <testcase name="User input valid email and password" classname="User input valid email and password" time="10.387"/>
-  <testcase name="user on login page" classname="user input valid email and invalid password" time="12.246"/>
-  <testcase name="user input valid email and invalid password" classname="user input valid email and invalid password" time="2.08"/>
-  <testcase name="user click button login2" classname="user input valid email and invalid password" time="1.295"/>
-  <testcase name="got massage2 email or password wrong" classname="user input valid email and invalid password" time="0.003"/>
-  <testcase name="user input valid email and invalid password" classname="user input valid email and invalid password" time="0.008"/>
-  <testcase name="user on login page" classname="user input invalid email and valid password" time="13.498"/>
-  <testcase name="user input invalid email and valid password" classname="user input invalid email and valid password" time="1.941"/>
-  <testcase name="user click button login3" classname="user input invalid email and valid password" time="1.437"/>
-  <testcase name="got massage3 email or password wrong" classname="user input invalid email and valid password" time="0.002"/>
-  <testcase name="user input invalid email and valid password" classname="user input invalid email and valid password" time="0.005"/>
-  <testcase name="user on login page" classname="user input invalid email and invalid password" time="12.653"/>
-  <testcase name="user input invalid email and invalid password" classname="user input invalid email and invalid password" time="1.987"/>
-  <testcase name="user click button login4" classname="user input invalid email and invalid password" time="1.127"/>
-  <testcase name="got massage4 email or password wrong" classname="user input invalid email and invalid password" time="0.001"/>
-  <testcase name="user input invalid email and invalid password" classname="user input invalid email and invalid password" time="0.004"/>
+  <testcase name="user login and go to homepage" classname="As user i wanna look my profile page" time="20.296"/>
+  <testcase name="User tap profile button" classname="As user i wanna look my profile page" time="0.602"/>
+  <testcase name="user tap profile" classname="As user i wanna look my profile page" time="0.158"/>
+  <testcase name="user can see my profile" classname="As user i wanna look my profile page" time="0"/>
+  <testcase name="As user i wanna look my profile page" classname="As user i wanna look my profile page" time="0.05"/>
+  <testcase name="user login and go to homepage" classname="As user i wanna update my profile" time="18.041"/>
+  <testcase name="User tap profile bar" classname="As user i wanna update my profile" time="0.685"/>
+  <testcase name="user click profile button" classname="As user i wanna update my profile" time="0.104"/>
+  <testcase name="user tap edit profile" classname="As user i wanna update my profile" time="1.619"/>
+  <testcase name="user update data profile" classname="As user i wanna update my profile" time="0.802"/>
+  <testcase name="user tap simpan" classname="As user i wanna update my profile" time="1.421"/>
+  <testcase name="user see update profile" classname="As user i wanna update my profile" time="0.002"/>
+  <testcase name="As user i wanna update my profile" classname="As user i wanna update my profile" time="0.009"/>
+  <testcase name="user login and go to homepage" classname="As user i wanna delete my thread" time="16.886"/>
+  <testcase name="User tap profile bar2" classname="As user i wanna delete my thread" time="0.723"/>
+  <testcase name="user click profile button2" classname="As user i wanna delete my thread" time="0.128"/>
+  <testcase name="user tap titik tiga" classname="As user i wanna delete my thread" time="1.014"/>
+  <testcase name="user tap delete" classname="As user i wanna delete my thread" time="0.848"/>
+  <testcase name="user success delete thread" classname="As user i wanna delete my thread" time="0.003"/>
+  <testcase name="As user i wanna delete my thread" classname="As user i wanna delete my thread" time="0.008"/>
+  <testcase name="user login and go to homepage" classname="As user i wanna edit my thread" time="17.652"/>
+  <testcase name="User tap profile bar3" classname="As user i wanna edit my thread" time="40.859">
+    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[4] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[4] (tried for 30 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\LENOVO-PC\OneDrive..., appPackage: com.example.diskusiaza_mobile, automationName: UiAutomator2, connectHardwareKeyboard: false, databaseEnabled: false, desired: {app: C:\Users\LENOVO-PC\OneDrive..., automationName: UiAutomator2, connectHardwareKeyboard: false, noReset: false, platformName: android, platformVersion: 12, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 83, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e2c1d29e-5a74-4335-825a-adf5b3acbd50
+*** Element info: {Using=xpath, value=//android.widget.Button[4]}
+</error>
+    <system-out><![CDATA[  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser login and go to homepage&amp#27;[0m    &amp#27;[90m# test.automation.stepdefinitions.ProfilePageSteps.onLoginAndGoHomepage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user click profile button3" classname="As user i wanna edit my thread" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mUser tap profile bar3&amp#27;[0m             &amp#27;[90m# test.automation.stepdefinitions.ProfilePageSteps.tapProfileBar3()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[4] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at test.automation.pageobject.BasePageObject.waitUntilClickable(BasePageObject.java:29)
+	at test.automation.pages.ProfilePageScreen$ByteBuddy$rTN7g8IH.waitUntilClickable$accessor$ita9QvHC(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.ProfilePageScreen$ByteBuddy$rTN7g8IH.waitUntilClickable(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onClick(BasePageObject.java:41)
+	at test.automation.pages.ProfilePageScreen$ByteBuddy$rTN7g8IH.onClick$accessor$ita9QvHC(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.ProfilePageScreen$ByteBuddy$rTN7g8IH.onClick(Unknown Source)
+	at test.automation.pages.ProfilePageScreen.tapProfileBar(ProfilePageScreen.java:60)
+	at test.automation.pages.ProfilePageScreen$ByteBuddy$rTN7g8IH.tapProfileBar$accessor$ita9QvHC(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.ProfilePageScreen$ByteBuddy$rTN7g8IH.tapProfileBar(Unknown Source)
+	at test.automation.stepdefinitions.ProfilePageSteps.tapProfileBar3(ProfilePageSteps.java:97)
+	at âœ½.User tap profile bar3(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/Android%20Test/src/test/resources/features/Profile.feature:29)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\LENOVO-PC\OneDrive..., appPackage: com.example.diskusiaza_mobile, automationName: UiAutomator2, connectHardwareKeyboard: false, databaseEnabled: false, desired: {app: C:\Users\LENOVO-PC\OneDrive..., automationName: UiAutomator2, connectHardwareKeyboard: false, noReset: false, platformName: android, platformVersion: 12, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 83, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e2c1d29e-5a74-4335-825a-adf5b3acbd50
+*** Element info: {Using=xpath, value=//android.widget.Button[4]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at test.automation.pageobject.BasePageObject.waitUntilClickable(BasePageObject.java:29)
+	at test.automation.pages.ProfilePageScreen$ByteBuddy$rTN7g8IH.waitUntilClickable$accessor$ita9QvHC(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.ProfilePageScreen$ByteBuddy$rTN7g8IH.waitUntilClickable(Unknown Source)
+	at test.automation.pageobject.BasePageObject.onClick(BasePageObject.java:41)
+	at test.automation.pages.ProfilePageScreen$ByteBuddy$rTN7g8IH.onClick$accessor$ita9QvHC(Unknown Source)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.ProfilePageScreen$ByteBuddy$rTN7g8IH.onClick(Unknown Source)
+	at test.automation.pages.ProfilePageScreen.tapProfileBar(ProfilePageScreen.java:60)
+	at test.automation.pages.ProfilePageScreen$ByteBuddy$rTN7g8IH.tapProfileBar$accessor$ita9QvHC(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:504)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:484)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:458)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:210)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at test.automation.pages.ProfilePageScreen$ByteBuddy$rTN7g8IH.tapProfileBar(Unknown Source)
+	at test.automation.stepdefinitions.ProfilePageSteps.tapProfileBar3(ProfilePageSteps.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:110)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
+	at io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:286)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user tap titik tiga2" classname="As user i wanna edit my thread" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser click profile button3&amp#27;[0m         &amp#27;[90m# test.automation.stepdefinitions.ProfilePageSteps.tapButtonProfile3()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user tap edit thread" classname="As user i wanna edit my thread" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser tap titik tiga2&amp#27;[0m               &amp#27;[90m# test.automation.stepdefinitions.ProfilePageSteps.titikTiga2()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="user success edit thread" classname="As user i wanna edit my thread" time="0">
+    <skipped/>
+    <system-out><![CDATA[  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser tap edit thread&amp#27;[0m               &amp#27;[90m# test.automation.stepdefinitions.ProfilePageSteps.editThreadd()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="As user i wanna edit my thread" classname="As user i wanna edit my thread" time="0.002">
+    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[4] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[4] (tried for 30 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\LENOVO-PC\OneDrive..., appPackage: com.example.diskusiaza_mobile, automationName: UiAutomator2, connectHardwareKeyboard: false, databaseEnabled: false, desired: {app: C:\Users\LENOVO-PC\OneDrive..., automationName: UiAutomator2, connectHardwareKeyboard: false, noReset: false, platformName: android, platformVersion: 12, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 83, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e2c1d29e-5a74-4335-825a-adf5b3acbd50
+*** Element info: {Using=xpath, value=//android.widget.Button[4]}
+</error>
+    <system-out><![CDATA[  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser success edit thread&amp#27;[0m          &amp#27;[90m# test.automation.stepdefinitions.ProfilePageSteps.editThreadSuccess()&amp#27;[0m
+]]></system-out>
+  </testcase>
 </testsuite>

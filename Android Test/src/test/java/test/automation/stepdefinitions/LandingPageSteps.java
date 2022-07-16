@@ -33,7 +33,7 @@ public class LandingPageSteps {
     }
     @Then("user on Profile page")
     public void onProfilePage(){
-        landing.onProfilepage();
+        landing.onProfilePage();
     }
 
     //explore
@@ -56,20 +56,40 @@ public class LandingPageSteps {
         landing.onTrendingPage();
     }
 
+    //Message
+    @When("user click message button")
+    public void clickmessage(){
+        landing.tapMessageButton();
+    }
+    @Then("user on message page")
+    public void onmessagePage(){
+        landing.onMessagePage();
+    }
+
+    //Notification
+    @When("user click notif button")
+    public void clicknotif(){
+        landing.tapNotifButton();
+    }
+    @Then("user on notif page")
+    public void onNotifPage(){
+        landing.onNotificationPage();
+    }
+
     //thread
     @When("user click plus icon")
     public void clickPlus(){
         landing.tapPlus();
     }
-    @And("user type judul {}")
-    public void typeJudul(String judul) {
+    @And("user type judul")
+    public void typeJudul() {
         landing.tapJudul();
-        landing.typeJudul(judul);
+        landing.typeJudul("aku cinta kamu");
     }
-    @And("user type isi {}")
-    public void typeIsi(String isi) {
+    @And("user type isi")
+    public void typeIsi() {
         landing.tapIsi();
-        landing.typeIsi(isi);
+        landing.typeIsi("tapi kamu cinta yang lain:(");
     }
     @And("user click kirimkan button")
     public void clickKirim() {

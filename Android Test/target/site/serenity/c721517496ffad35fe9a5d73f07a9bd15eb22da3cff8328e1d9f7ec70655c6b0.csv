@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"User on login page","User input valid email and password","SUCCESS","2022-07-16T16:08:12.7454019+07:00[Asia/Jakarta]","0.0","29.45"
-"User on login page","user input valid email and invalid password","SUCCESS","2022-07-16T16:08:42.2096576+07:00[Asia/Jakarta]","0.0","15.65"
-"User on login page","user input invalid email and valid password","SUCCESS","2022-07-16T16:08:57.8724931+07:00[Asia/Jakarta]","0.0","16.95"
-"User on login page","user input invalid email and invalid password","SUCCESS","2022-07-16T16:09:14.8294137+07:00[Asia/Jakarta]","0.0","15.78"
