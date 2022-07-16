@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user on category thread","User get all thread","SUCCESS","2022-07-16T23:23:51.637714+07:00[Asia/Bangkok]","0.0","1.8"
+"As a user on category thread","User get thread by id","SUCCESS","2022-07-16T23:23:53.4768186+07:00[Asia/Bangkok]","0.0","0.91"

@@ -14,8 +14,8 @@ public class PostLikeThread {
 
     public JSONObject setLoginToken(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email","hening@gmail.com");
-        requestBody.put("password","aiueo");
+        requestBody.put("email","ii@gmail.com");
+        requestBody.put("password","123");
         return requestBody;
     }
 
@@ -33,8 +33,8 @@ public class PostLikeThread {
     @Step
     public void likeUsingThreadId(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("therad_id",5);
-        SerenityRest.given().header("Content-Type","application/json").header("Authorization", "Bearer"+token).body(requestBody.toJSONString()).post(postLikeThreadEndpoints());
+        requestBody.put("therad_id",20);
+        SerenityRest.given().header("Content-Type","application/json").header("Authorization", "Bearer "+token).body(requestBody.toJSONString()).post(postLikeThreadEndpoints());
     }
 
     @Step

@@ -21,11 +21,11 @@ public class ThreadSteps {
     public void successAuthhh(){
         category.successAuth4();
     }
-    @And("user set get category thread endpoints")
+    @When("user set get category thread endpoints")
     public void setGetCategory(){
         category.setGetThreadCategoryEndpoints();
     }
-    @When("user send get category thread endpoints")
+    @And("user send get category thread endpoints")
     public void sendGetCategory(){
         category.sendGetThreadCategoryEndpoints();
     }
@@ -35,50 +35,50 @@ public class ThreadSteps {
     }
     @And("user receive details category thread")
     public void detailsCategory(){
-        category.receiveThreadById();
+        category.receiveCategoryName();
     }
 
-    //by id
+    //by all thread
     @Given("user success auth using token3")
     public void successauthh3(){
-        byId.successAuth3();
+        allThread.successAuth2();
     }
     @And("user set get all thread endpoints")
     public void setGetAllThread(){
-        byId.setGetThreadByIDEndpoints();
+        allThread.setGetThreadEndpoints();
     }
     @When("user send get all thread endpoints")
     public void sendGetAllThread(){
-        byId.sendGetThreadByIDEndpoints();
+        allThread.sendGetThreadEndpoints();
     }
     @Then("user get response code2 200")
     public void getResponseCode200() {
-        byId.getResponseCode200();
+        allThread.getResponseCode200();
     }
     @And("user receive details all thread")
     public void receiveDetailsAllThread(){
-        byId.receiveMassageLikeSucces();
+        allThread.receiveMassageLikeSucces2();
     }
 
-    //all thread
+    //all by id
     @Given("user success auth using token2")
     public void successauthh(){
-        allThread.successAuth2();
+        byId.successAuth3();
     }
     @And("user set get thread by id endpoints")
     public void setGetThreadById(){
-        allThread.setGetThreadEndpoints();
+        byId.setGetThreadByIDEndpoints();
     }
     @When("user send get thread by id endpoints")
     public void sendGetThreadById(){
-        allThread.sendGetThreadEndpoints();
+        byId.sendGetThreadByIDEndpoints();
     }
     @Then("user get response code3 200")
     public void getResponse3Code200() {
-        allThread.getResponseCode200();
+        byId.getResponseCode200();
     }
     @And("user receive thread by id")
     public void receiveThreadById(){
-        allThread.receiveMassageLikeSucces();
+        byId.receiveMassageLikeSucces();
     }
 }

@@ -19,17 +19,17 @@ public class ThreadById {
     }
     @Step
     public void successAuth3() {
-        SerenityRest.given().header("Content-Type", "application/json").body(setLoginToken3().toJSONString()).get(url + "auth/login");
+        SerenityRest.given().header("Content-Type", "application/json").body(setLoginToken3().toJSONString()).post(url + "auth/login");
         Response resp = SerenityRest.lastResponse();
         token = resp.getBody().jsonPath().get("token");
     }
     @Step
     public String setGetThreadByIDEndpoints(){
-        return url + "therad/1";
+        return url + "t/therad/1";
     }
     @Step
     public void sendGetThreadByIDEndpoints(){
-        SerenityRest.given().header("Authorization", "Bearer" + token).get(setGetThreadByIDEndpoints());
+        SerenityRest.given().header("Authorization", "Bearer " + token).get(setGetThreadByIDEndpoints());
     }
     @Step
     public void  getResponseCode200(){
@@ -37,6 +37,6 @@ public class ThreadById {
     }
     @Step
     public void receiveMassageLikeSucces(){
-        restAssuredThat(response -> response.body("'data','id''", equalTo("3")));
+        restAssuredThat(response -> response.body("'data'.judul", equalTo("Bagaimana rasanya punya pacar ?")));
     }
 }

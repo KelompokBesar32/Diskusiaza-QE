@@ -14,27 +14,27 @@ public class DeleteLikeThread {
 
     public JSONObject setLoginToken1(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email","hening@gmail.com");
-        requestBody.put("password","aiueo");
+        requestBody.put("email","ii@gmail.com");
+        requestBody.put("password","123");
         return requestBody;
     }
     @Step
     public void successAuth1(){
-        SerenityRest.given().header("Content-Type", "application/json").body(setLoginToken1().toJSONString()).delete(url+"auth/login");
+        SerenityRest.given().header("Content-Type", "application/json").body(setLoginToken1().toJSONString()).post(url+"auth/login");
         Response resp = SerenityRest.lastResponse();
         token = resp.getBody().jsonPath().get("token");
     }
     @Step
     public String DeleteLikeThreadEndpoints(){
-        return url + "/t/therad/like";
+        return url + "t/therad/like";
     }
 
     @Step
     public void inputthreadid1(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("therad_id",5);
+        requestBody.put("therad_id",16);
 
-        SerenityRest.given().header("Content-Type","application/json").header("Authorization", "Bearer"+token).body(requestBody.toJSONString()).delete(DeleteLikeThreadEndpoints());
+        SerenityRest.given().header("Content-Type","application/json").header("Authorization", "Bearer "+token).body(requestBody.toJSONString()).delete(DeleteLikeThreadEndpoints());
     }
     @Step
     public void  getHttpsResponseCode200(){
