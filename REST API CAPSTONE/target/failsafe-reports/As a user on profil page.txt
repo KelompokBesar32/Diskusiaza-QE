@@ -1,6 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: As a user on profil page
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.397 s - in As a user on profil page
+=======
 Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.21 s <<< FAILURE! - in As a user on profil page
 As a user on profil page.User get data profile  Time elapsed: 3.787 s  <<< FAILURE!
 java.lang.AssertionError: 
@@ -14,3 +17,4 @@ java.lang.AssertionError:
 Expected status code <200> but was <400>.
 
 
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02

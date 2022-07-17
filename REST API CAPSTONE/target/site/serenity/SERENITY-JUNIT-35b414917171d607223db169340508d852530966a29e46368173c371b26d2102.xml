@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="As a user on profil page" skipped="0" tests="1" time="10.68" timestamp="2022-07-17 06:47:49"><testcase name="User get data profile"/></testsuite>
+=======
 <?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="As a user on profil page" skipped="0" tests="2" time="3.94" timestamp="2022-07-16 04:12:17"><testcase name="User get data profile"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;400&gt;.
 </failure><system-err>1 expectation failed.
@@ -37,3 +40,4 @@ rest.api@1.0-SNAPSHOT/Starter.Profile.PutProfile.getValidResponseCode200(PutProf
 rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.Profile.succesgetvalidresponcode200(Profile.java:43)&#13;
 ✽.user get valid response code 200(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature:13)&#13;
 </system-err></testcase></testsuite>
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02

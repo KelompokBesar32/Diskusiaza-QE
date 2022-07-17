@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 Serenity report generated 17-07-2022 20:13
 29 test scenarios 
 
 Passed:             28
 Failed:             1
 Failed with errors: 0
+=======
+Serenity report generated 17-07-2022 19:23
+29 test scenarios 
+
+Passed:             25
+Failed:             2
+Failed with errors: 2
+>>>>>>> 3eb7ed59fd558cd82a68549bb500382e6b35ceb5
 Compromised:        0
 Pending:            0
 Ignored:            0

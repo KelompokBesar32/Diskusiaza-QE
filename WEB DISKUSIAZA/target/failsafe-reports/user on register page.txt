@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: user on register page
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 59.369 s - in user on register page
+=======
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 320.359 s - in user on register page
+>>>>>>> 3eb7ed59fd558cd82a68549bb500382e6b35ceb5

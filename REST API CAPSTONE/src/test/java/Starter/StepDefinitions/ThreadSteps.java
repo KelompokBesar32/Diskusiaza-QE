@@ -17,9 +17,9 @@ public class ThreadSteps {
     ThreadCategory category;
 
     //category
-    @Given("user success auth using token4")
+    @Given("user kategori success auth using token")
     public void successAuthhh(){
-        category.successAuth4();
+        category.successAuthorized();
     }
     @When("user set get category thread endpoints")
     public void setGetCategory(){
@@ -61,7 +61,7 @@ public class ThreadSteps {
     }
 
     //all by id
-    @Given("user success auth using token2")
+    @Given("user success auth using token4")
     public void successauthh(){
         byId.successAuth3();
     }

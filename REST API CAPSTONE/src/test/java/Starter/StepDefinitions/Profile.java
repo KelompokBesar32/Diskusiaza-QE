@@ -10,41 +10,26 @@ import net.thucydides.core.annotations.Steps;
 
 public class Profile {
     @Steps
-    GetProfile getprof;
-    @Steps
-    PutProfile putprof;
-    @Given("user get profile endpoints")
-    public void getprofileendpoints(){
-        getprof.setgetprofileendpoints();
+    GetProfile getprofile;
+
+    @Given("user login and success auth using token")
+    public void authSuccess(){
+        getprofile.successAutho();
     }
-    @When("user kirim token")
-    public void kirimtoken(){
-        getprof.sendGetTokenEndpoints();
+    @When("user set get profile endpoints")
+    public void setGetProfileEndpoints(){
+        getprofile.setGetProfileEndpoints();
     }
-    @Then("user get response code 200")
-    public void succesgetresponcode200() {
-        getprof.getprofileResponseCode200();
+    @And("user send get profile endpoints")
+    public void sendGetProfileEndpoints(){
+        getprofile.sendGetProfileEndpoints();
+    }
+    @Then("user get profile respon code 200")
+    public void succesGetProfileResponCode200() {
+        getprofile.getResponseCode200();
     }
     @And("user get valid data profile")
     public void receivevaliddataprofile(){
-        getprof.receivevaliddataprof();
+        getprofile.receiveValidDataProfile();
     }
-
-    @Given("user put profile endpoints")
-    public void setPutprofile(){
-        putprof.setPutProfileEndpoints();
-    }
-    @When("user input update body")
-    public void inputupdatebody(){
-        putprof.sendInputUpdateBodyEndpoints();
-    }
-    @Then("user get valid response code 200")
-    public void succesgetvalidresponcode200() {
-        putprof.getValidResponseCode200();
-    }
-    @And("user get update data profile")
-    public void getUpdateDataProf(){
-        putprof.receiveupdatevaliddataprof();
-    }
-
 }

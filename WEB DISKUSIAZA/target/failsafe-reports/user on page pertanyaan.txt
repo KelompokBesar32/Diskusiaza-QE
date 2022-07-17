@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: user on page pertanyaan
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s - in user on page pertanyaan
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.287 s - in user on page pertanyaan
+>>>>>>> 3eb7ed59fd558cd82a68549bb500382e6b35ceb5

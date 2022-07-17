@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+<<<<<<< HEAD
 "User on landing page","User membuka page pertanyaan","SUCCESS","2022-07-17T20:11:05.5873375+07:00[Asia/Jakarta]","0.0","11.18"
 "User on landing page","User membuka tulis jawaban","SUCCESS","2022-07-17T20:11:18.0419042+07:00[Asia/Jakarta]","0.0","4.75"
 "User on landing page","user membuka notifikasi","SUCCESS","2022-07-17T20:11:23.1717703+07:00[Asia/Jakarta]","0.0","4.78"
@@ -11,3 +12,17 @@
 "User on landing page","User membuka Ruang","SUCCESS","2022-07-17T20:11:55.642418+07:00[Asia/Jakarta]","0.0","4.17"
 "User on landing page","User membuka Profil","SUCCESS","2022-07-17T20:12:00.1423521+07:00[Asia/Jakarta]","0.0","4.05"
 "User on landing page","User membuat Thread","SUCCESS","2022-07-17T20:12:04.6274718+07:00[Asia/Jakarta]","0.0","4.4"
+=======
+"User on landing page","User membuka page pertanyaan","FAILURE","2022-07-17T19:04:38.9388692+07:00[Asia/Bangkok]","0.0","33.53"
+"User on landing page","User membuka tulis jawaban","ERROR","2022-07-17T19:05:14.2560298+07:00[Asia/Bangkok]","0.0","26.15"
+"User on landing page","user membuka notifikasi","SUCCESS","2022-07-17T19:05:42.558811+07:00[Asia/Bangkok]","0.0","29.53"
+"User on landing page","User membuka search field","SUCCESS","2022-07-17T19:06:13.3651368+07:00[Asia/Bangkok]","0.0","23.36"
+"User on landing page","User membuka Explore","SUCCESS","2022-07-17T19:06:37.7390898+07:00[Asia/Bangkok]","0.0","15.39"
+"User on landing page","User membuka Trending","SUCCESS","2022-07-17T19:06:54.0348412+07:00[Asia/Bangkok]","0.0","13.59"
+"User on landing page","User membuka message","SUCCESS","2022-07-17T19:07:08.7823286+07:00[Asia/Bangkok]","0.0","14.56"
+"User on landing page","User membuka Bookmarks","SUCCESS","2022-07-17T19:07:24.3656876+07:00[Asia/Bangkok]","0.0","35.76"
+"User on landing page","User membuka Jawab","SUCCESS","2022-07-17T19:08:01.9612813+07:00[Asia/Bangkok]","0.0","15.93"
+"User on landing page","User membuka Ruang","SUCCESS","2022-07-17T19:08:19.0283442+07:00[Asia/Bangkok]","0.0","26.02"
+"User on landing page","User membuka Profil","SUCCESS","2022-07-17T19:08:46.0832306+07:00[Asia/Bangkok]","0.0","27.67"
+"User on landing page","User membuat Thread","SUCCESS","2022-07-17T19:09:17.7881374+07:00[Asia/Bangkok]","0.0","31.96"
+>>>>>>> 3eb7ed59fd558cd82a68549bb500382e6b35ceb5
