@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="As a user on profil page" time="11.397" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
@@ -40,12 +41,53 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
     <property name="user.name" value="Siti Nurlatipah"/>
+=======
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="As a user on profil page" time="4.21" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST API CAPSTONE\target\test-classes;C:\Users\LENOVO-PC\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\LENOVO-PC\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-core\2.4.51\serenity-core-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-model\2.4.51\serenity-model-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\LENOVO-PC\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\inject\guice\5.0.1\guice-5.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\LENOVO-PC\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\thoughtworks\xstream\xstream\1.4.17\xstream-1.4.17.jar;C:\Users\LENOVO-PC\.m2\repository\io\github\x-stream\mxparser\1.2.1\mxparser-1.2.1.jar;C:\Users\LENOVO-PC\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-core\6.10.2\cucumber-core-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-gherkin\6.10.2\cucumber-gherkin-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.2\cucumber-gherkin-messages-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\messages\14.0.1\messages-14.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-plugin\6.10.2\cucumber-plugin-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\docstring\6.10.2\docstring-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\html-formatter\12.0.0\html-formatter-12.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\create-meta\3.0.0\create-meta-3.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\awaitility\awaitility\4.0.3\awaitility-4.0.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\LENOVO-PC\.m2\repository\org\asciidoctor\asciidoctorj\2.5.1\asciidoctorj-2.5.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\asciidoctor\asciidoctorj-api\2.5.1\asciidoctorj-api-2.5.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jruby\9.2.17.0\jruby-9.2.17.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jruby-core\9.2.17.0\jruby-core-9.2.17.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-netdb\1.2.0\jnr-netdb-1.2.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-enxio\0.32.3\jnr-enxio-0.32.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-unixsocket\0.38.5\jnr-unixsocket-0.38.5.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-posix\3.1.4\jnr-posix-3.1.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-constants\0.10.1\jnr-constants-0.10.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jffi\1.3.1\jffi-1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jffi\1.3.1\jffi-1.3.1-native.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\joni\joni\2.1.31\joni-2.1.31.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jcodings\jcodings\1.0.46\jcodings-1.0.46.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\dirgra\0.3\dirgra-0.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\headius\invokebinder\1.11\invokebinder-1.11.jar;C:\Users\LENOVO-PC\.m2\repository\com\headius\options\1.4\options-1.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\jcraft\jzlib\1.1.3\jzlib-1.1.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\martiansoftware\nailgun-server\0.9.1\nailgun-server-0.9.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\headius\backport9\1.8\backport9-1.8.jar;C:\Users\LENOVO-PC\.m2\repository\javax\annotation\javax.annotation-api\1.3.1\javax.annotation-api-1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jruby-stdlib\9.2.17.0\jruby-stdlib-9.2.17.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\bytebuddy\byte-buddy\1.11.1\byte-buddy-1.11.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.1\byte-buddy-agent-1.11.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-reports\2.4.51\serenity-reports-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-stats\2.4.51\serenity-stats-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.0\kotlin-stdlib-1.5.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.0\kotlin-stdlib-common-1.5.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-reports-configuration\2.4.51\serenity-reports-configuration-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-report-resources\2.4.51\serenity-report-resources-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\code\gson\gson\2.8.7\gson-2.8.7.jar;C:\Users\LENOVO-PC\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.4\jackson-core-2.12.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.4\jackson-databind-2.12.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.4\jackson-annotations-2.12.4.jar;C:\Users\LENOVO-PC\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\LENOVO-PC\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO-PC\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\LENOVO-PC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\LENOVO-PC\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.47.1\htmlunit-2.47.1.jar;C:\Users\LENOVO-PC\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\LENOVO-PC\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.47.0\htmlunit-core-js-2.47.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.47.1\neko-htmlunit-2.47.1.jar;C:\Users\LENOVO-PC\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\LENOVO-PC\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.7.0\htmlunit-cssparser-1.7.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\LENOVO-PC\.m2\repository\com\shapesecurity\salvation2\3.0.0\salvation2-3.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.36.v20210114\websocket-client-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-client\9.4.36.v20210114\jetty-client-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-http\9.4.36.v20210114\jetty-http-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-util\9.4.36.v20210114\jetty-util-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-io\9.4.36.v20210114\jetty-io-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.36.v20210114\websocket-common-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.36.v20210114\websocket-api-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.47.1\htmlunit-driver-2.47.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\LENOVO-PC\.m2\repository\io\appium\java-client\7.5.1\java-client-7.5.1.jar;C:\Users\LENOVO-PC\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\LENOVO-PC\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\LENOVO-PC\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\LENOVO-PC\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\LENOVO-PC\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.1\webdrivermanager-4.4.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\LENOVO-PC\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\LENOVO-PC\.m2\repository\com\paulhammant\ngwebdriver\1.1.5\ngwebdriver-1.1.5.jar;C:\Users\LENOVO-PC\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\LENOVO-PC\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-junit\2.4.51\serenity-junit-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-rest-assured\2.4.51\serenity-rest-assured-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-screenplay\2.4.51\serenity-screenplay-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-screenplay-rest\2.4.51\serenity-screenplay-rest-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-cucumber6\2.4.51\serenity-cucumber6-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.4.51\serenity-screenplay-webdriver-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\LENOVO-PC\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\datatable-matchers\3.4.0\datatable-matchers-3.4.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\LENOVO-PC\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\rest-assured\4.3.2\rest-assured-4.3.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\codehaus\groovy\groovy\3.0.6\groovy-3.0.6.jar;C:\Users\LENOVO-PC\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.6\groovy-xml-3.0.6.jar;C:\Users\LENOVO-PC\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\assertj\assertj-core\3.6.2\assertj-core-3.6.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\LENOVO-PC\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\LENOVO-PC\AppData\Local\Temp\surefire15315569311394584812 2022-07-16T16-12-14_139-jvmRun1 surefire17626749240754263116tmp surefire_04935386577931270409tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST API CAPSTONE\target\test-classes;C:\Users\LENOVO-PC\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\LENOVO-PC\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-core\2.4.51\serenity-core-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-model\2.4.51\serenity-model-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\LENOVO-PC\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\inject\guice\5.0.1\guice-5.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\LENOVO-PC\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\thoughtworks\xstream\xstream\1.4.17\xstream-1.4.17.jar;C:\Users\LENOVO-PC\.m2\repository\io\github\x-stream\mxparser\1.2.1\mxparser-1.2.1.jar;C:\Users\LENOVO-PC\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-core\6.10.2\cucumber-core-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-gherkin\6.10.2\cucumber-gherkin-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.2\cucumber-gherkin-messages-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\messages\14.0.1\messages-14.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-plugin\6.10.2\cucumber-plugin-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\docstring\6.10.2\docstring-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\html-formatter\12.0.0\html-formatter-12.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\create-meta\3.0.0\create-meta-3.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\awaitility\awaitility\4.0.3\awaitility-4.0.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\LENOVO-PC\.m2\repository\org\asciidoctor\asciidoctorj\2.5.1\asciidoctorj-2.5.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\asciidoctor\asciidoctorj-api\2.5.1\asciidoctorj-api-2.5.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jruby\9.2.17.0\jruby-9.2.17.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jruby-core\9.2.17.0\jruby-core-9.2.17.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-netdb\1.2.0\jnr-netdb-1.2.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-enxio\0.32.3\jnr-enxio-0.32.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-unixsocket\0.38.5\jnr-unixsocket-0.38.5.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-posix\3.1.4\jnr-posix-3.1.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-constants\0.10.1\jnr-constants-0.10.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jffi\1.3.1\jffi-1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jffi\1.3.1\jffi-1.3.1-native.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\joni\joni\2.1.31\joni-2.1.31.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jcodings\jcodings\1.0.46\jcodings-1.0.46.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\dirgra\0.3\dirgra-0.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\headius\invokebinder\1.11\invokebinder-1.11.jar;C:\Users\LENOVO-PC\.m2\repository\com\headius\options\1.4\options-1.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\jcraft\jzlib\1.1.3\jzlib-1.1.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\martiansoftware\nailgun-server\0.9.1\nailgun-server-0.9.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\headius\backport9\1.8\backport9-1.8.jar;C:\Users\LENOVO-PC\.m2\repository\javax\annotation\javax.annotation-api\1.3.1\javax.annotation-api-1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jruby-stdlib\9.2.17.0\jruby-stdlib-9.2.17.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\bytebuddy\byte-buddy\1.11.1\byte-buddy-1.11.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.1\byte-buddy-agent-1.11.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-reports\2.4.51\serenity-reports-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-stats\2.4.51\serenity-stats-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.0\kotlin-stdlib-1.5.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.0\kotlin-stdlib-common-1.5.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-reports-configuration\2.4.51\serenity-reports-configuration-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-report-resources\2.4.51\serenity-report-resources-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\code\gson\gson\2.8.7\gson-2.8.7.jar;C:\Users\LENOVO-PC\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.4\jackson-core-2.12.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.4\jackson-databind-2.12.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.4\jackson-annotations-2.12.4.jar;C:\Users\LENOVO-PC\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\LENOVO-PC\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO-PC\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\LENOVO-PC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\LENOVO-PC\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.47.1\htmlunit-2.47.1.jar;C:\Users\LENOVO-PC\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\LENOVO-PC\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.47.0\htmlunit-core-js-2.47.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.47.1\neko-htmlunit-2.47.1.jar;C:\Users\LENOVO-PC\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\LENOVO-PC\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.7.0\htmlunit-cssparser-1.7.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\LENOVO-PC\.m2\repository\com\shapesecurity\salvation2\3.0.0\salvation2-3.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.36.v20210114\websocket-client-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-client\9.4.36.v20210114\jetty-client-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-http\9.4.36.v20210114\jetty-http-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-util\9.4.36.v20210114\jetty-util-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-io\9.4.36.v20210114\jetty-io-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.36.v20210114\websocket-common-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.36.v20210114\websocket-api-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.47.1\htmlunit-driver-2.47.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\LENOVO-PC\.m2\repository\io\appium\java-client\7.5.1\java-client-7.5.1.jar;C:\Users\LENOVO-PC\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\LENOVO-PC\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\LENOVO-PC\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\LENOVO-PC\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\LENOVO-PC\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.1\webdrivermanager-4.4.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\LENOVO-PC\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\LENOVO-PC\.m2\repository\com\paulhammant\ngwebdriver\1.1.5\ngwebdriver-1.1.5.jar;C:\Users\LENOVO-PC\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\LENOVO-PC\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-junit\2.4.51\serenity-junit-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-rest-assured\2.4.51\serenity-rest-assured-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-screenplay\2.4.51\serenity-screenplay-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-screenplay-rest\2.4.51\serenity-screenplay-rest-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-cucumber6\2.4.51\serenity-cucumber6-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.4.51\serenity-screenplay-webdriver-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\LENOVO-PC\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\datatable-matchers\3.4.0\datatable-matchers-3.4.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\LENOVO-PC\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\rest-assured\4.3.2\rest-assured-4.3.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\codehaus\groovy\groovy\3.0.6\groovy-3.0.6.jar;C:\Users\LENOVO-PC\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.6\groovy-xml-3.0.6.jar;C:\Users\LENOVO-PC\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\assertj\assertj-core\3.6.2\assertj-core-3.6.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\LENOVO-PC\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\LENOVO-PC"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST API CAPSTONE\target\rest-api-1.0-SNAPSHOT.jar"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="tags" value="@profil"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST API CAPSTONE"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\LENOVO-PC\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST API CAPSTONE\target\test-classes;C:\Users\LENOVO-PC\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\LENOVO-PC\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-core\2.4.51\serenity-core-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-model\2.4.51\serenity-model-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\LENOVO-PC\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\inject\guice\5.0.1\guice-5.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\LENOVO-PC\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\thoughtworks\xstream\xstream\1.4.17\xstream-1.4.17.jar;C:\Users\LENOVO-PC\.m2\repository\io\github\x-stream\mxparser\1.2.1\mxparser-1.2.1.jar;C:\Users\LENOVO-PC\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-core\6.10.2\cucumber-core-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-gherkin\6.10.2\cucumber-gherkin-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.2\cucumber-gherkin-messages-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\messages\14.0.1\messages-14.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-plugin\6.10.2\cucumber-plugin-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\docstring\6.10.2\docstring-6.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\html-formatter\12.0.0\html-formatter-12.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\create-meta\3.0.0\create-meta-3.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\awaitility\awaitility\4.0.3\awaitility-4.0.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\LENOVO-PC\.m2\repository\org\asciidoctor\asciidoctorj\2.5.1\asciidoctorj-2.5.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\asciidoctor\asciidoctorj-api\2.5.1\asciidoctorj-api-2.5.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jruby\9.2.17.0\jruby-9.2.17.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jruby-core\9.2.17.0\jruby-core-9.2.17.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-netdb\1.2.0\jnr-netdb-1.2.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-enxio\0.32.3\jnr-enxio-0.32.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-unixsocket\0.38.5\jnr-unixsocket-0.38.5.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-posix\3.1.4\jnr-posix-3.1.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jnr-constants\0.10.1\jnr-constants-0.10.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jffi\1.3.1\jffi-1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\jnr\jffi\1.3.1\jffi-1.3.1-native.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\joni\joni\2.1.31\joni-2.1.31.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jcodings\jcodings\1.0.46\jcodings-1.0.46.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\dirgra\0.3\dirgra-0.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\headius\invokebinder\1.11\invokebinder-1.11.jar;C:\Users\LENOVO-PC\.m2\repository\com\headius\options\1.4\options-1.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\jcraft\jzlib\1.1.3\jzlib-1.1.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\martiansoftware\nailgun-server\0.9.1\nailgun-server-0.9.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\headius\backport9\1.8\backport9-1.8.jar;C:\Users\LENOVO-PC\.m2\repository\javax\annotation\javax.annotation-api\1.3.1\javax.annotation-api-1.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\jruby\jruby-stdlib\9.2.17.0\jruby-stdlib-9.2.17.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\bytebuddy\byte-buddy\1.11.1\byte-buddy-1.11.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.1\byte-buddy-agent-1.11.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-reports\2.4.51\serenity-reports-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-stats\2.4.51\serenity-stats-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.0\kotlin-stdlib-1.5.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.0\kotlin-stdlib-common-1.5.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-reports-configuration\2.4.51\serenity-reports-configuration-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\LENOVO-PC\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-report-resources\2.4.51\serenity-report-resources-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\code\gson\gson\2.8.7\gson-2.8.7.jar;C:\Users\LENOVO-PC\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.4\jackson-core-2.12.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.4\jackson-databind-2.12.4.jar;C:\Users\LENOVO-PC\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.4\jackson-annotations-2.12.4.jar;C:\Users\LENOVO-PC\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\LENOVO-PC\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO-PC\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\LENOVO-PC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\LENOVO-PC\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.47.1\htmlunit-2.47.1.jar;C:\Users\LENOVO-PC\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\LENOVO-PC\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.47.0\htmlunit-core-js-2.47.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.47.1\neko-htmlunit-2.47.1.jar;C:\Users\LENOVO-PC\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\LENOVO-PC\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\LENOVO-PC\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.7.0\htmlunit-cssparser-1.7.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\LENOVO-PC\.m2\repository\com\shapesecurity\salvation2\3.0.0\salvation2-3.0.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.36.v20210114\websocket-client-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-client\9.4.36.v20210114\jetty-client-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-http\9.4.36.v20210114\jetty-http-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-util\9.4.36.v20210114\jetty-util-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\jetty-io\9.4.36.v20210114\jetty-io-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.36.v20210114\websocket-common-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.36.v20210114\websocket-api-9.4.36.v20210114.jar;C:\Users\LENOVO-PC\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\LENOVO-PC\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.47.1\htmlunit-driver-2.47.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\LENOVO-PC\.m2\repository\io\appium\java-client\7.5.1\java-client-7.5.1.jar;C:\Users\LENOVO-PC\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\LENOVO-PC\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\LENOVO-PC\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\LENOVO-PC\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\LENOVO-PC\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\LENOVO-PC\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.1\webdrivermanager-4.4.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\LENOVO-PC\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\LENOVO-PC\.m2\repository\com\paulhammant\ngwebdriver\1.1.5\ngwebdriver-1.1.5.jar;C:\Users\LENOVO-PC\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\LENOVO-PC\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\LENOVO-PC\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\LENOVO-PC\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\LENOVO-PC\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\LENOVO-PC\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-junit\2.4.51\serenity-junit-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-rest-assured\2.4.51\serenity-rest-assured-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\LENOVO-PC\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-screenplay\2.4.51\serenity-screenplay-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-screenplay-rest\2.4.51\serenity-screenplay-rest-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-cucumber6\2.4.51\serenity-cucumber6-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.4.51\serenity-screenplay-webdriver-2.4.51.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\LENOVO-PC\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\datatable-matchers\3.4.0\datatable-matchers-3.4.0.jar;C:\Users\LENOVO-PC\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\LENOVO-PC\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\rest-assured\4.3.2\rest-assured-4.3.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\LENOVO-PC\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\codehaus\groovy\groovy\3.0.6\groovy-3.0.6.jar;C:\Users\LENOVO-PC\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.6\groovy-xml-3.0.6.jar;C:\Users\LENOVO-PC\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\LENOVO-PC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LENOVO-PC\.m2\repository\org\assertj\assertj-core\3.6.2\assertj-core-3.6.2.jar;C:\Users\LENOVO-PC\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\LENOVO-PC\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\LENOVO-PC\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\LENOVO-PC\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\maven\surefire\surefire-junit47\3.0.0-M5\surefire-junit47-3.0.0-M5.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M5\common-java5-3.0.0-M5.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\maven\surefire\common-junit3\3.0.0-M5\common-junit3-3.0.0-M5.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\maven\surefire\common-junit4\3.0.0-M5\common-junit4-3.0.0-M5.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\maven\surefire\common-junit48\3.0.0-M5\common-junit48-3.0.0-M5.jar;C:\Users\LENOVO-PC\.m2\repository\org\apache\maven\surefire\surefire-grouper\3.0.0-M5\surefire-grouper-3.0.0-M5.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="LENOVO-PC"/>
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="webdriver.base.url" value=""/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<<<<<<< HEAD
     <property name="java.vendor.version" value="18.9"/>
     <property name="localRepository" value="C:\Users\Siti Nurlatipah\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -69,6 +111,35 @@
 18:47:48.169 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/LikeThread.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 
 18:47:48.540 [pool-2-thread-1] INFO  - 
+=======
+    <property name="localRepository" value="C:\Users\LENOVO-PC\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST API CAPSTONE"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2017a\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\apache-maven-3.8.5\bin;%ANDROID_HOME;C:\Users\LENOVO-PC\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Users\LENOVO-PC\AppData\Local\Microsoft\WindowsApps;C:\Users\LENOVO-PC\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="User get data profile" classname="As a user on profil page" time="3.787">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+]]></failure>
+    <system-out><![CDATA[16:12:16.938 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/LikeThread.feature
+
+16:12:16.939 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/LikeThread.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+
+16:12:17.072 [pool-2-thread-1] INFO  - 
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -85,6 +156,7 @@
 -------------------------------------------------------------------------------------
 
 
+<<<<<<< HEAD
 18:47:48.548 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@1c375dc4
 
 18:47:48.555 [pool-2-thread-1] INFO  - Test Suite Started: As a user i can like or unlike thread
@@ -145,11 +217,114 @@
 
 0m
 11.942s
+=======
+16:12:17.072 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@672bf22c
+
+16:12:17.072 [pool-2-thread-1] INFO  - Test Suite Started: As a user i can like or unlike thread
+
+16:12:17.088 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Login.feature
+
+16:12:17.088 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Login.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+
+16:12:17.088 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@99892d51
+
+16:12:17.088 [pool-2-thread-1] INFO  - Test Suite Started: As a user on login page
+
+16:12:17.088 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature
+
+16:12:17.088 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+
+16:12:17.103 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@b8acb2a
+
+16:12:17.103 [pool-2-thread-1] INFO  - Test Suite Started: As a user on profil page
+
+16:12:17.103 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Register.feature
+
+16:12:17.103 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Register.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+
+16:12:17.103 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@2fbe3d7f
+
+16:12:17.103 [pool-2-thread-1] INFO  - Test Suite Started: As a user on register page
+
+16:12:17.103 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Thread.feature
+
+16:12:17.103 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Thread.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+
+16:12:17.103 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@d2b5f566
+
+16:12:17.119 [pool-2-thread-1] INFO  - Test Suite Started: As a user on category thread
+
+16:12:17.119 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/ThreadAll.feature
+
+16:12:17.119 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/ThreadAll.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+
+16:12:17.119 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@d5e3d6e7
+
+16:12:17.119 [pool-2-thread-1] INFO  - Test Suite Started: As a user on Buat Thread Page
+
+16:12:20.922 [pool-2-thread-1] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+User get data profile
+-----------------------------------------------------------------------
+
+16:12:20.922 [pool-2-thread-1] DEBUG  - RELATED ISSUES: 
+
+16:12:21.000 [pool-2-thread-1] ERROR  -     Test failed at step: Getprofile response code200
+
+16:12:21.000 [pool-2-thread-1] ERROR  -     1 expectation failed.Expected status code <200> but was <400>.
+
+16:12:21.329 [pool-2-thread-1] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+User update data profile
+-----------------------------------------------------------------------
+
+16:12:21.329 [pool-2-thread-1] DEBUG  - RELATED ISSUES: 
+
+16:12:21.329 [pool-2-thread-1] ERROR  -     Test failed at step: Get valid response code200
+
+16:12:21.329 [pool-2-thread-1] ERROR  -     1 expectation failed.Expected status code <200> but was <400>.
+
+
+
+&amp#27;[31mFailed scenarios:&amp#27;[0m
+
+file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature:4 # User get data profile
+
+file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature:10 # User update data profile
+
+
+
+2
+ Scenarios (
+&amp#27;[31m2 failed&amp#27;[0m
+)
+
+8
+ Steps (
+&amp#27;[31m2 failed&amp#27;[0m
+, 
+&amp#27;[36m2 skipped&amp#27;[0m
+, 
+&amp#27;[32m4 passed&amp#27;[0m
+)
+
+0m
+4.397s
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02
 
 
 
 
 
+<<<<<<< HEAD
 
 18:48:00.122 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
 
@@ -177,12 +352,299 @@
 
 18:48:00.597 [pool-3-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\D:\CAPSTONE%20PROJECT%20KELOMPOK%2032\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
 java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\D:\CAPSTONE%20PROJECT%20KELOMPOK%2032\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+=======
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)
+
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.GetProfile.lambda$getprofileResponseCode200$0(GetProfile.java:21)
+
+	at net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.GetProfile.getprofileResponseCode200(GetProfile.java:21)
+
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.GetProfile$ByteBuddy$P5DAxGKL.getprofileResponseCode200$accessor$ov3VqFqj(Unknown Source)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.GetProfile$ByteBuddy$P5DAxGKL.getprofileResponseCode200(Unknown Source)
+
+	at rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.Profile.succesgetresponcode200(Profile.java:26)
+
+	at ?.user get response code 200(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature:7)
+
+
+
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)
+
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.PutProfile.lambda$getValidResponseCode200$0(PutProfile.java:24)
+
+	at net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.PutProfile.getValidResponseCode200(PutProfile.java:24)
+
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.PutProfile$ByteBuddy$6cMKLv6O.getValidResponseCode200$accessor$ltg45XFT(Unknown Source)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.PutProfile$ByteBuddy$6cMKLv6O.getValidResponseCode200(Unknown Source)
+
+	at rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.Profile.succesgetvalidresponcode200(Profile.java:43)
+
+	at ?.user get valid response code 200(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature:13)
+
+
+
+
+
+16:12:21.344 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+
+16:12:21.391 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+
+16:12:21.407 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 2 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@6cea6820
+
+16:12:21.407 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As a user on profil page:User get data profile
+
+16:12:21.407 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As a user on profil page:User update data profile
+
+16:12:21.407 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@6cea6820: Generating report for test outcome: As a user on profil page:User get data profile
+
+16:12:21.407 [pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@6cea6820: Generating report for test outcome: As a user on profil page:User update data profile
+
+16:12:21.421 [pool-2-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for User get data profile to file C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST API CAPSTONE\target\site\serenity\35b414917171d607223db169340508d852530966a29e46368173c371b26d2102.json (using temp file C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST API CAPSTONE\target\site\serenity\35b414917171d607223db169340508d852530966a29e46368173c371b26d2102.jsone4e77519-3488-45f9-9cbe-c825224a0a2d)
+
+16:12:21.421 [pool-2-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for User update data profile to file C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST API CAPSTONE\target\site\serenity\0b335c159f859dc85bc6e4a0b37d26c88dbd32a3bf36a08acf1542bb7f2c39fa.json (using temp file C:\Users\LENOVO-PC\OneDrive - IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST API CAPSTONE\target\site\serenity\0b335c159f859dc85bc6e4a0b37d26c88dbd32a3bf36a08acf1542bb7f2c39fa.jsonc1b81bce-bc54-4be0-809f-65b7586e0cb2)
+
+16:12:21.481 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As a user on profil page:User get data profile done
+
+16:12:21.481 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As a user on profil page:User update data profile done
+
+16:12:21.481 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+
+16:12:21.481 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 74 ms
+
+16:12:21.481 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 2 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2127aba
+
+16:12:21.483 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As a user on profil page:User update data profile
+
+16:12:21.483 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2127aba: Generating report for test outcome: As a user on profil page:User update data profile
+
+16:12:21.483 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As a user on profil page:User get data profile
+
+16:12:21.483 [pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2127aba: Generating report for test outcome: As a user on profil page:User get data profile
+
+16:12:21.506 [pool-3-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02
 	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
 	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
 	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
 	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+<<<<<<< HEAD
 	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
 	at java.base/java.io.File.toPath(File.java:2329)
+=======
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02
 	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
 	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
 	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
@@ -194,6 +656,7 @@ java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\D:\CAPSTO
 	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
 	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
 	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+<<<<<<< HEAD
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -202,12 +665,52 @@ java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\D:\CAPSTO
 
 18:48:00.602 [pool-3-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\D:\CAPSTONE%20PROJECT%20KELOMPOK%2032\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
 java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\D:\CAPSTONE%20PROJECT%20KELOMPOK%2032\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+=======
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+16:12:21.507 [pool-3-thread-2] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02
 	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
 	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
 	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
 	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+<<<<<<< HEAD
 	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
 	at java.base/java.io.File.toPath(File.java:2329)
+=======
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:196)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+16:12:21.508 [pool-3-thread-2] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02
 	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
 	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
 	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
@@ -220,6 +723,7 @@ java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\D:\CAPSTO
 	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
 	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
 	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+<<<<<<< HEAD
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -228,12 +732,53 @@ java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\D:\CAPSTO
 
 18:48:00.605 [pool-3-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\D:\CAPSTONE%20PROJECT%20KELOMPOK%2032\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
 java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\D:\CAPSTONE%20PROJECT%20KELOMPOK%2032\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+=======
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+16:12:21.508 [pool-3-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02
 	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
 	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
 	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
 	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+<<<<<<< HEAD
 	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:229)
 	at java.base/java.io.File.toPath(File.java:2329)
+=======
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:226)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+16:12:21.508 [pool-3-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02
 	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
 	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
 	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
@@ -247,6 +792,7 @@ java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\D:\CAPSTO
 	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
 	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
 	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+<<<<<<< HEAD
 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -271,6 +817,65 @@ Scenario: User get data profile                 &amp#27;[90m# src/test/resources
 18:47:49.202 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature
 18:47:49.203 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/CAPSTONE%20PROJECT%20KELOMPOK%2032/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 18:47:49.386 [pool-2-thread-1] INFO  - 
+=======
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+16:12:21.508 [pool-3-thread-2] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+java.nio.file.InvalidPathException: Illegal char <:> at index 4: file:\C:\Users\LENOVO-PC\OneDrive%20-%20IT-PLN\Dokumen\apenim\Diskusiaza-QE\REST%20API%20CAPSTONE\src\test\resources\api\Profile.feature
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.io.File.toPath(File.java:2387)
+	at net.thucydides.core.requirements.RootDirectory.getRelativePathOf(RootDirectory.java:364)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.requirementWithMatchingPath(FileSystemRequirementsTagProvider.java:372)
+	at net.thucydides.core.requirements.FileSystemRequirementsTagProvider.getParentRequirementOf(FileSystemRequirementsTagProvider.java:335)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:227)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:214)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:190)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:105)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+16:12:22.338 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in 0b335c159f859dc85bc6e4a0b37d26c88dbd32a3bf36a08acf1542bb7f2c39fa.html
+
+16:12:22.338 [pool-3-thread-1] DEBUG serenity.reporting - Generating report in 35b414917171d607223db169340508d852530966a29e46368173c371b26d2102.html
+
+16:12:22.669 [pool-3-thread-2] DEBUG serenity.reporting - Generated report 0b335c159f859dc85bc6e4a0b37d26c88dbd32a3bf36a08acf1542bb7f2c39fa.html in 331 ms
+
+16:12:22.669 [pool-3-thread-1] DEBUG serenity.reporting - Generated report 35b414917171d607223db169340508d852530966a29e46368173c371b26d2102.html in 331 ms
+
+16:12:22.670 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As a user on profil page:User update data profile done
+
+16:12:22.670 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome As a user on profil page:User get data profile done
+
+16:12:22.670 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+
+16:12:22.670 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1189 ms
+
+16:12:22.795 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature
+
+
+@profil
+Scenario: User get data profile    &amp#27;[90m# src/test/resources/api/Profile.feature:4&amp#27;[0m
+16:12:17.291 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature
+16:12:17.291 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+16:12:17.353 [pool-2-thread-1] INFO  - 
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -278,6 +883,7 @@ Scenario: User get data profile                 &amp#27;[90m# src/test/resources
 
 User get data profile(as-a-user-on-profil-page;user-get-data-profile)
 --------------------------------------------------------------------------------
+<<<<<<< HEAD
 18:47:50.426 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Profile.authSuccess - successAutho
 18:47:59.074 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: successAutho
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser login and success auth using token&amp#27;[0m &amp#27;[90m# Starter.StepDefinitions.Profile.authSuccess()&amp#27;[0m
@@ -303,6 +909,173 @@ User get data profile(as-a-user-on-profil-page;user-get-data-profile)
 
 User get data profile
 ----------------------------------------------------------------------
+=======
+16:12:17.760 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Profile.getprofileendpoints - setgetprofileendpoints
+16:12:17.760 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: setgetprofileendpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser get profile endpoints&amp#27;[0m &amp#27;[90m# Starter.StepDefinitions.Profile.getprofileendpoints()&amp#27;[0m
+16:12:17.776 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Profile.kirimtoken - sendGetTokenEndpoints
+16:12:19.323 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: GetProfile.sendGetTokenEndpoints - setgetprofileendpoints
+16:12:19.323 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: setgetprofileendpoints
+16:12:20.766 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: sendGetTokenEndpoints
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser kirim token&amp#27;[0m            &amp#27;[90m# Starter.StepDefinitions.Profile.kirimtoken()&amp#27;[0m
+16:12:20.781 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Profile.succesgetresponcode200 - getprofileResponseCode200
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser get response code 200&amp#27;[0m  &amp#27;[90m# Starter.StepDefinitions.Profile.succesgetresponcode200()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.GetProfile.lambda$getprofileResponseCode200$0(GetProfile.java:21)
+	at net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.GetProfile.getprofileResponseCode200(GetProfile.java:21)
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.GetProfile$ByteBuddy$P5DAxGKL.getprofileResponseCode200$accessor$ov3VqFqj(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.GetProfile$ByteBuddy$P5DAxGKL.getprofileResponseCode200(Unknown Source)
+	at rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.Profile.succesgetresponcode200(Profile.java:26)
+	at âœ½.user get response code 200(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature:7)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser get valid data profile&amp#27;[0m  &amp#27;[90m# Starter.StepDefinitions.Profile.receivevaliddataprofile()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="User update data profile" classname="As a user on profil page" time="0.313">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+]]></failure>
+    <system-out><![CDATA[
+@profil
+Scenario: User update data profile      &amp#27;[90m# src/test/resources/api/Profile.feature:10&amp#27;[0m
+16:12:21.016 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature
+16:12:21.016 [pool-2-thread-1] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+16:12:21.031 [pool-2-thread-1] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+User update data profile(as-a-user-on-profil-page;user-update-data-profile)
+--------------------------------------------------------------------------------
+16:12:21.031 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Profile.setPutprofile - setPutProfileEndpoints
+16:12:21.031 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: setPutProfileEndpoints
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser put profile endpoints&amp#27;[0m      &amp#27;[90m# Starter.StepDefinitions.Profile.setPutprofile()&amp#27;[0m
+16:12:21.047 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Profile.inputupdatebody - sendInputUpdateBodyEndpoints
+16:12:21.047 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: PutProfile.sendInputUpdateBodyEndpoints - setPutProfileEndpoints
+16:12:21.047 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: setPutProfileEndpoints
+16:12:21.313 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: sendInputUpdateBodyEndpoints
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser input update body&amp#27;[0m           &amp#27;[90m# Starter.StepDefinitions.Profile.inputupdatebody()&amp#27;[0m
+16:12:21.313 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Profile.succesgetvalidresponcode200 - getValidResponseCode200
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser get valid response code 200&amp#27;[0m &amp#27;[90m# Starter.StepDefinitions.Profile.succesgetvalidresponcode200()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.PutProfile.lambda$getValidResponseCode200$0(PutProfile.java:24)
+	at net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.PutProfile.getValidResponseCode200(PutProfile.java:24)
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.PutProfile$ByteBuddy$6cMKLv6O.getValidResponseCode200$accessor$ltg45XFT(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at rest.api@1.0-SNAPSHOT/Starter.Profile.PutProfile$ByteBuddy$6cMKLv6O.getValidResponseCode200(Unknown Source)
+	at rest.api@1.0-SNAPSHOT/Starter.StepDefinitions.Profile.succesgetvalidresponcode200(Profile.java:43)
+	at âœ½.user get valid response code 200(file:///C:/Users/LENOVO-PC/OneDrive%20-%20IT-PLN/Dokumen/apenim/Diskusiaza-QE/REST%20API%20CAPSTONE/src/test/resources/api/Profile.feature:13)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser get update data profile&amp#27;[0m      &amp#27;[90m# Starter.StepDefinitions.Profile.getUpdateDataProf()&amp#27;[0m
+>>>>>>> 7aee39231bbf99226e40524e7859bdbf51aaba02
 ]]></system-out>
   </testcase>
 </testsuite>

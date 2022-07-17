@@ -1,3 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"User wanna see profile","As user i wanna look my profile page","SUCCESS","2022-07-16T17:52:14.7219795+07:00[Asia/Bangkok]","0.0","19.54"
-"User wanna see profile","As user i wanna update my profile","SUCCESS","2022-07-16T17:52:34.3156232+07:00[Asia/Bangkok]","0.0","23.13"
+"User wanna see profile","As user i wanna look my profile page","SUCCESS","2022-07-17T02:09:24.3445075+07:00[Asia/Jakarta]","0.0","21.24"
+"User wanna see profile","As user i wanna update my profile","SUCCESS","2022-07-17T02:09:45.6057197+07:00[Asia/Jakarta]","0.0","23.05"
+"User wanna see profile","As user i wanna delete my thread","SUCCESS","2022-07-17T02:10:08.6729228+07:00[Asia/Jakarta]","0.0","19.62"
+"User wanna see profile","As user i wanna edit my thread","ERROR","2022-07-17T02:10:28.3119174+07:00[Asia/Jakarta]","0.0","59.03"

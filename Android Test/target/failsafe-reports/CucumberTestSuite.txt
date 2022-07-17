@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56.514 sec - in CucumberTestSuite
+Tests run: 27, Failures: 0, Errors: 2, Skipped: 4, Time elapsed: 151.688 sec <<< FAILURE! - in CucumberTestSuite
+User tap profile bar3(As user i wanna edit my thread)  Time elapsed: 40.859 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[4] (tried for 30 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\LENOVO-PC\OneDrive..., appPackage: com.example.diskusiaza_mobile, automationName: UiAutomator2, connectHardwareKeyboard: false, databaseEnabled: false, desired: {app: C:\Users\LENOVO-PC\OneDrive..., automationName: UiAutomator2, connectHardwareKeyboard: false, noReset: false, platformName: android, platformVersion: 12, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 83, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e2c1d29e-5a74-4335-825a-adf5b3acbd50
+*** Element info: {Using=xpath, value=//android.widget.Button[4]}
+
+As user i wanna edit my thread  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[4] (tried for 30 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MUTHIA17', ip: '192.168.1.20', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\LENOVO-PC\OneDrive..., appPackage: com.example.diskusiaza_mobile, automationName: UiAutomator2, connectHardwareKeyboard: false, databaseEnabled: false, desired: {app: C:\Users\LENOVO-PC\OneDrive..., automationName: UiAutomator2, connectHardwareKeyboard: false, noReset: false, platformName: android, platformVersion: 12, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 83, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 2065, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e2c1d29e-5a74-4335-825a-adf5b3acbd50
+*** Element info: {Using=xpath, value=//android.widget.Button[4]}
+
