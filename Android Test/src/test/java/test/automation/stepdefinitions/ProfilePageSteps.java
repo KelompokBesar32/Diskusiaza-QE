@@ -1,5 +1,6 @@
 package test.automation.stepdefinitions;
 
+import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -52,8 +53,9 @@ public class ProfilePageSteps {
     }
     @And("user update data profile")
     public void updateData(){
+        Faker faker=new Faker();
         profile.tapEditNama();
-        profile.typeUpdateNama("Cantik");
+        profile.typeUpdateNama(faker.name().firstName());
     }
     @And("user tap simpan")
     public void tapSimpan(){
@@ -121,4 +123,53 @@ public class ProfilePageSteps {
     @Then("user success edit thread")
     public void editThreadSuccess(){
     }
+
+    //Bookmarks
+    @When("User tap profile bar4")
+    public void tapProfileBar4(){
+        profile.tapProfileBar();
+    }
+
+    @And("user tap Bookmarks")
+    public void tapButtonBookmarks() {
+        profile.tapBookmarks();
+    }
+
+    @And("user on bookmarks page")
+    public void succesOnBookmarksPage(){
+        profile.onBookmarkspage();
+    }
+
+    //Kebijakan Privasi
+    @When("User tap profile bar5")
+    public void tapProfileBar5(){
+        profile.tapProfileBar();
+    }
+
+    @And("user tap Kebijakan Privasi")
+    public void tapKebijakanPrivasi() {
+        profile.tapKebijakan();
+    }
+
+    @And("user on kebijakan privasi page")
+    public void succesOnKebijakanPage(){
+        profile.onKebijakanPage();
+    }
+
+    //Ruang
+    @When("User tap profile bar6")
+    public void tapProfileBar6(){
+        profile.tapProfileBar();
+    }
+
+    @And("user tap ruang")
+    public void tapButtonRuang() {
+        profile.tapRuang();
+    }
+
+    @And("user on ruang page")
+    public void succesOnRuangPage(){
+        profile.onRuangPage();
+    }
+
 }

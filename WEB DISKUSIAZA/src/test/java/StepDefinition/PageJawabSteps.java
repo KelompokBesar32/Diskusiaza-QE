@@ -35,11 +35,9 @@ public class PageJawabSteps {
 
     @And("user klik kirim button")
     public void kirimButton(){
-
     }
 
     @Then("user sukses menjawab pertanyaan")
     public void successMenjawabPertanyaan(){
-
     }
 }

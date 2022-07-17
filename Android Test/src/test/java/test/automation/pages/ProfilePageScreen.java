@@ -18,16 +18,42 @@ public class ProfilePageScreen extends BasePageObject {
     private By titikTiga(){return MobileBy.xpath("//android.widget.ScrollView//android.view.View[2]");}
     private By deleteThread(){return MobileBy.AccessibilityId("Delete");}
     private By EditThread(){return MobileBy.AccessibilityId("Edit");}
-    private By updatedata(){return MobileBy.AccessibilityId("");}
+    private By bookmarksButton(){return MobileBy.AccessibilityId("Bookmarks");}
     private By judul(){return MobileBy.xpath("//android.widget.EditText[1]");}
     private By isi(){return MobileBy.xpath("//android.widget.EditText[2]");}
     private By editKiriman(){return MobileBy.AccessibilityId("Edit kiriman");}
+    private By ruangButton(){return MobileBy.AccessibilityId("Ruang");}
+    private By kebijakanPrivButton(){return MobileBy.AccessibilityId("Kebijakan Privasi");}
+    private By onBookmarks(){return MobileBy.xpath("//android.widget.ImageView");}
+    private By onRuang(){return MobileBy.AccessibilityId("Ruang anda");}
+    private By onKebijakan(){return MobileBy.xpath("//android.widget.Button[2]");}
     @Step
     public boolean openPage() {
         return waitUntilPresence(loginIcon()).isDisplayed();
     }
     @Step
+    public boolean onRuangPage() {
+        return waitUntilPresence(onRuang()).isDisplayed();
+    }
+    @Step
+    public boolean onKebijakanPage() {
+        return waitUntilPresence(onKebijakan()).isDisplayed();
+    }
+    @Step
+    public boolean onBookmarkspage() {
+        return waitUntilPresence(onBookmarks()).isDisplayed();
+    }
+    @Step
+    public void tapRuang(){onClick(ruangButton());
+    }
+    @Step
+    public void tapKebijakan(){onClick(kebijakanPrivButton());
+    }
+    @Step
     public void tapTitikTiga(){onClick(titikTiga());
+    }
+    @Step
+    public void tapBookmarks(){onClick(bookmarksButton());
     }
     @Step
     public void kiriman(){onClick(editKiriman());}

@@ -31,3 +31,21 @@ Feature: User wanna see profile
     And user tap titik tiga2
     And user tap edit thread
     Then user success edit thread
+
+  Scenario: As user i wanna see my bookmarks
+    Given user login and go to homepage
+    When User tap profile bar4
+    And user tap Bookmarks
+    Then user on bookmarks page
+
+  Scenario: As user i wanna see kebijakan privasi aplikasi
+    Given user login and go to homepage
+    When User tap profile bar5
+    And user tap Kebijakan Privasi
+    Then user on kebijakan privasi page
+
+  Scenario: As user i wanna see my ruang
+    Given user login and go to homepage
+    When User tap profile bar6
+    And user tap ruang
+    Then user on ruang page

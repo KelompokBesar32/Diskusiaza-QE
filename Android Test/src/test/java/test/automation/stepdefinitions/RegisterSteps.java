@@ -26,10 +26,11 @@ public class RegisterSteps {
         regist.tapSignUp();
     }
 
-    @When("user input valid nama depan {}")
-    public void inputValidNamaDepan(String namadepan){
+    @When("user input valid nama depan")
+    public void inputValidNamaDepan(){
+        Faker faker=new Faker();
         regist.tapNamaDepan();
-        regist.typeNamaDepan(namadepan);
+        regist.typeNamaDepan(faker.name().firstName());
     }
 
     @And("user input valid nama belakang {}")

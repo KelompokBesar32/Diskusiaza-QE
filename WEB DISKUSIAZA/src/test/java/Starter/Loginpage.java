@@ -2,7 +2,6 @@ package Starter;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Step;
-
 import org.openqa.selenium.By;
 
 public class Loginpage extends PageObject {
@@ -17,8 +16,11 @@ public class Loginpage extends PageObject {
         private By loginButton(){
             return By.xpath("//div//form/button");
         }
-        private By homepage(){return By.id("mid");}
-        private By errorMassage(){return By.id("");}
+        private By homepage(){
+            return By.id("mid");}
+        private By errorMassage(){
+            return By.id("");}
+
         @Step
         public void openPage(){
             openAt("/login");
@@ -40,8 +42,6 @@ public class Loginpage extends PageObject {
         @Step
         public void validationOnHomepage(){$(homepage()).isDisplayed();
         }
-
-
     }
 
 

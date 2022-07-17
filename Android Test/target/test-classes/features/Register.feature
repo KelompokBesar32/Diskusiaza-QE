@@ -4,7 +4,7 @@ Feature: As a user on register page
   Scenario: User input valid data
     Given user open login page
     And user click sign up
-    When user input valid nama depan siti
+    When user input valid nama depan
     And user input valid nama belakang mutee
     And user input valid email
     And user input valid password susah
