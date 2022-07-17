@@ -2,14 +2,11 @@
 Feature: As a user on profil page
 
   Scenario: User get data profile
-    Given user get profile endpoints
-    When user kirim token
-    Then user get response code 200
+    Given user login and success auth using token
+    When user set get profile endpoints
+    And user send get profile endpoints
+    Then user get profile respon code 200
     And user get valid data profile
 
-  Scenario: User update data profile
-    Given user put profile endpoints
-    When user input update body
-    Then user get valid response code 200
-    And user get update data profile
+
 

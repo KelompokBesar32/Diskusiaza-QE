@@ -2,7 +2,7 @@
 Feature: As a user on category thread
 
   Scenario: User get thread category
-    Given user success auth using token2
+    Given user kategori success auth using token
     When user set get category thread endpoints
     And user send get category thread endpoints
     Then user get respon code 200
@@ -21,3 +21,11 @@ Feature: As a user on category thread
     When user send get thread by id endpoints
     Then user get response code3 200
     And user receive thread by id
+
+  Scenario: User get thread by kategori
+    Given user success auth using token 5
+    And user set get thread by kategori endpoints
+    When user send get thread by kategori endpoints
+    Then user get response code3 200
+    And user receive thread by id
+
