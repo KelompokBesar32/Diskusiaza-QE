@@ -13,8 +13,8 @@ public class ThreadById {
 
     public JSONObject setLoginToken3() {
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "hening@gmail.com");
-        requestBody.put("password", "aiueo");
+        requestBody.put("email", "ii@gmail.com");
+        requestBody.put("password", "123");
         return requestBody;
     }
     @Step
@@ -25,7 +25,7 @@ public class ThreadById {
     }
     @Step
     public String setGetThreadByIDEndpoints(){
-        return url + "t/therad/1";
+        return url + "t/therad/46";
     }
     @Step
     public void sendGetThreadByIDEndpoints(){
@@ -37,6 +37,6 @@ public class ThreadById {
     }
     @Step
     public void receiveMassageLikeSucces(){
-        restAssuredThat(response -> response.body("'data'.judul", equalTo("Bagaimana rasanya punya pacar ?")));
+        restAssuredThat(response -> response.body("'data'.judul", equalTo("Haloo edit tambah fotot")));
     }
 }

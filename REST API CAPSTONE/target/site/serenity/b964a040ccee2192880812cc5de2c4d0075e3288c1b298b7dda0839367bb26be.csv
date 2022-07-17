@@ -1,7 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-<<<<<<< HEAD
-"As a user on profil page","User get data profile","FAILURE","2022-07-16T16:12:17.3539739+07:00[Asia/Jakarta]","0.0","3.65"
-"As a user on profil page","User update data profile","FAILURE","2022-07-16T16:12:21.0318452+07:00[Asia/Jakarta]","0.0","0.3"
-=======
-"As a user on category thread","User get thread category","FAILURE","2022-07-16T23:23:38.1419481+07:00[Asia/Bangkok]","0.0","13.39"
->>>>>>> 2adcf08aaa7dd39f586a278f7f651358416d1dcf

@@ -21,3 +21,18 @@ Feature: As a user on category thread
     When user send get thread by id endpoints
     Then user get response code3 200
     And user receive thread by id
+
+  Scenario: User get thread by kategori
+    Given user success auth using token 5
+    And user set get thread by kategori endpoints
+    When user send get thread by kategori endpoints
+    Then user get response code4 200
+    And user receive thread by kategori
+
+  Scenario: User get trending thread
+    Given user success auth using token 6
+    And user set get thread trending endpoints
+    When user send get thread trending endpoints
+    Then user get response code5 200
+    And user receive thread trending
+

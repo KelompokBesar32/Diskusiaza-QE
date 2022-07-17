@@ -42,7 +42,6 @@ public class GetProfile {
     }
     @Step
     public void receiveValidDataProfile () {
-        restAssuredThat(response -> response.body("'data'.firstname", equalTo("Siti")));
         restAssuredThat(response -> response.body("'data'.lastname", equalTo("Nurlatipah")));
     }
     }

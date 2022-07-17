@@ -32,7 +32,7 @@ public class DeleteLikeThread {
     @Step
     public void inputthreadid1(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("therad_id",16);
+        requestBody.put("therad_id",46);
 
         SerenityRest.given().header("Content-Type","application/json").header("Authorization", "Bearer "+token).body(requestBody.toJSONString()).delete(DeleteLikeThreadEndpoints());
     }

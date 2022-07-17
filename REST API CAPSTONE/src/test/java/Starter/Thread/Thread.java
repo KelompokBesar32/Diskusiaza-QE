@@ -14,8 +14,8 @@ public class Thread {
 
     public JSONObject setLoginToken2() {
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "hening@gmail.com");
-        requestBody.put("password", "aiueo");
+        requestBody.put("email", "ii@gmail.com");
+        requestBody.put("password", "123");
         return requestBody;
     }
 
@@ -41,7 +41,7 @@ public class Thread {
         }
         @Step
         public void receiveMassageLikeSucces2 () {
-            restAssuredThat(response -> response.body("'data'.id[0]", equalTo(1)));
+            restAssuredThat(response -> response.body("'data'.id[0]", equalTo(46)));
         }
     }
 

@@ -1,7 +1,6 @@
 package Starter.StepDefinitions;
+import Starter.Thread.*;
 import Starter.Thread.Thread;
-import Starter.Thread.ThreadById;
-import Starter.Thread.ThreadCategory;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,6 +14,10 @@ public class ThreadSteps {
     ThreadById byId;
     @Steps
     ThreadCategory category;
+    @Steps
+    GetTrendingThread trending;
+    @Steps
+    GetThreadByKategori byKategori;
 
     //category
     @Given("user kategori success auth using token")
@@ -80,5 +83,49 @@ public class ThreadSteps {
     @And("user receive thread by id")
     public void receiveThreadById(){
         byId.receiveMassageLikeSucces();
+    }
+
+    //thread by categori
+    @Given("user success auth using token 5")
+    public void successauthh5(){
+        byKategori.successAuth5();
+    }
+    @When("user set get thread by kategori endpoints")
+    public void setGetThreadByCategory(){
+        byKategori.setGetThreadByCategoryEndpoints();
+    }
+    @And("user send get thread by kategori endpoints")
+    public void sendGetThreadByCategory(){
+        byKategori.sendGetThreadByCategoryEndpoints();
+    }
+    @Then("user get response code4 200")
+    public void getResponse4Code200() {
+        byKategori.getResponseCode200();
+    }
+    @And("user receive thread by kategori")
+    public void receiveThreadByCategory(){
+        byKategori.receiveThreadByCategory();
+    }
+
+    //trending thread
+    @Given("user success auth using token 6")
+    public void successauthh6(){
+        trending.successAuth6();
+    }
+    @When("user set get thread trending endpoints")
+    public void setGetThreadTrending(){
+        trending.setGetThreadTrendingEndpoints();
+    }
+    @And("user send get thread trending endpoints")
+    public void sendGetThreadTrending(){
+        trending.sendGetThreadTrendingEndpoints();
+    }
+    @Then("user get response code5 200")
+    public void getResponse5Code200() {
+        trending.getResponseCode200();
+    }
+    @And("user receive thread trending")
+    public void receiveThreadTrending(){
+        trending.receiveThreadTrending();
     }
 }

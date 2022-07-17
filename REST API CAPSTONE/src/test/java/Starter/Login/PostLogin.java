@@ -16,8 +16,8 @@ public class PostLogin {
     @Step("user login with valid email and valid password")
     public void loginusingvalidemailandpassword(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "hening@gmail.com");
-        requestBody.put("password", "aiueo");
+        requestBody.put("email", "ii@gmail.com");
+        requestBody.put("password", "123");
 
         SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString()).post(postloginendpoint());
     }
