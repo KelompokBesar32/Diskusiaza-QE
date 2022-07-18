@@ -19,7 +19,7 @@ public class RegisterPage extends PageObject {
     private By tahunLahir(){return By.xpath("//form/div[4]/div[3]//option[2]");}
     private By jenisKelamin(){return By.xpath("//form/div[5]/div[2]");}
     private By RegisterButton(){return By.xpath("//div/form/button");}
-    private By gotErrorMassage(){return By.className("");}
+
     @Step
     public void onRegisterPage(){openAt("/register");}
     @Step
@@ -49,7 +49,7 @@ public class RegisterPage extends PageObject {
     @Step
     public void clickTahun(){$(tahun()).click();}
     @Step
-    public void gotErrorMessage(){$(gotErrorMassage()).isDisplayed();}
+    public void failedRegist(){$(title()).isDisplayed();}
 
 
 

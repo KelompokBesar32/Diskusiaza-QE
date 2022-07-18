@@ -19,7 +19,8 @@ public class Loginpage extends PageObject {
         private By homepage(){
             return By.id("mid");}
         private By errorMassage(){
-            return By.id("");}
+            return By.xpath("//body/div[2]/div");}
+
 
         @Step
         public void openPage(){
@@ -42,6 +43,10 @@ public class Loginpage extends PageObject {
         @Step
         public void validationOnHomepage(){$(homepage()).isDisplayed();
         }
+        @Step
+        public void getErrorPage(){$(errorMassage()).isDisplayed();}
+        @Step
+        public void failToLogin(){$(loginButton()).isDisplayed();}
     }
 
 

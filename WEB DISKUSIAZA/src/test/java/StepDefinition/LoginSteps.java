@@ -49,7 +49,7 @@ public class LoginSteps {
 
     @Then("got massage2 {}")
     public void iFailedToLoginAndGetErrorMessage2(String message) {
-
+        login.getErrorPage();
     }
 
     //scenario 3 unsuccess invalid email
@@ -67,7 +67,7 @@ public class LoginSteps {
 
     @Then("got massage3 {}")
     public void iFailToLoginAndGetErrorMessage(String message) {
-
+        login.getErrorPage();
     }
 
     //scenario 4 unsuccess invalid email and password
@@ -86,6 +86,6 @@ public class LoginSteps {
 
     @Then("got massage4 {}")
     public void iGetErrorMessage(String message) {
-
+        login.getErrorPage();
     }
 }

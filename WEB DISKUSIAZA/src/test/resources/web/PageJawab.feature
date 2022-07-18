@@ -1,3 +1,4 @@
+@jawab
 Feature: user on page jawaban
 
   Scenario: User menjawab pertanyaan

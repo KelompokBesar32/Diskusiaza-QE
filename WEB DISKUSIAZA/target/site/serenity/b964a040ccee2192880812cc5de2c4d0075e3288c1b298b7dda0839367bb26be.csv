@@ -1,9 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-<<<<<<< HEAD
-"user on page jawaban","User menjawab pertanyaan","FAILURE","2022-07-17T20:12:27.8914097+07:00[Asia/Jakarta]","0.0","8.3"
-=======
-"User on landing page","User membuka page pertanyaan","FAILURE","2022-07-17T19:04:38.9388692+07:00[Asia/Bangkok]","0.0","33.53"
-"User on landing page","User membuka tulis jawaban","ERROR","2022-07-17T19:05:14.2560298+07:00[Asia/Bangkok]","0.0","26.15"
-"User on login page","user input invalid email and invalid password","ERROR","2022-07-17T19:12:00.5035219+07:00[Asia/Bangkok]","0.0","304.48"
-"user on page jawaban","User menjawab pertanyaan","FAILURE","2022-07-17T19:17:06.0171586+07:00[Asia/Bangkok]","0.0","32.66"
->>>>>>> 3eb7ed59fd558cd82a68549bb500382e6b35ceb5

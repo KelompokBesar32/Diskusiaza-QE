@@ -83,7 +83,7 @@ public class RegisterSteps {
 
     @Then("user got message2 {}")
     public void gotMessage3(String message){
-
+        regist.failedRegist();
     }
 
     //scenario 3 email kosong
@@ -132,7 +132,7 @@ public class RegisterSteps {
 
     @Then("user got message3 {}")
     public void gotMessage1(String message){
-
+        regist.failedRegist();
     }
 
     //scenario 4 nama depan kosong
@@ -182,7 +182,7 @@ public class RegisterSteps {
 
     @Then("user got message4 {}")
     public void gotMessage4(String message){
-
+        regist.failedRegist();
     }
 
     //scenario 5 password kosong
@@ -233,7 +233,7 @@ public class RegisterSteps {
 
     @Then("user got message5 {}")
     public void gotMessage5(String message){
-
+        regist.failedRegist();
     }
 
     //scenario 6 nama belakang kosong
@@ -283,7 +283,7 @@ public class RegisterSteps {
 
     @Then("user got message6 {}")
     public void gotMessage6(String message){
-
+        regist.failedRegist();
     }
 
     //scenario 7 jenis kelamin kosong
@@ -334,7 +334,7 @@ public class RegisterSteps {
 
     @Then("user got message7 {}")
     public void gotMessage7(String message){
-
+        regist.failedRegist();
     }
 
     //scenario 8 confirm password kosong
@@ -383,7 +383,7 @@ public class RegisterSteps {
 
     @Then("user got message8 {}")
     public void gotMessage8(String message){
-
+        regist.failedRegist();
     }
 
 

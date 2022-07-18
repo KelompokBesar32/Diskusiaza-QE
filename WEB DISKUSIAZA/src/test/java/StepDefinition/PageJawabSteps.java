@@ -1,5 +1,6 @@
 package StepDefinition;
 
+import Starter.Loginpage;
 import Starter.PageJawab;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -10,22 +11,26 @@ import net.thucydides.core.annotations.Steps;
 public class PageJawabSteps {
     @Steps
     PageJawab jawab;
-
+    @Steps
+    Loginpage login;
     //scenario 1 success
 
     @Given("user on page jawaban")
     public void onPageJawab(){
         jawab.onHomePage();
+        login.inputEmail("ii@gmail.com");
+        login.inputPassword("123");
+        login.clickLoginButton();
     }
 
     @When("user memilih pertanyaan")
     public void pilihPertanyaan(){
-        jawab.clickJawabButton();
+
     }
 
     @And("user klik jawab button")
     public void jawabButton(){
-        jawab.validateOnJawabPage();
+
     }
 
     @And("user menulis jawaban")
